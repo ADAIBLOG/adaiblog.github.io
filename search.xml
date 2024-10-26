@@ -13,14 +13,39 @@
       
       <categories>
           
-          <category> 杂项 </category>
+          <category> Steam </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 杂项 </tag>
+            <tag> Steam美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TeamSpeak</title>
+      <link href="/2022/03/01/TeamSpeak/"/>
+      <url>/2022/03/01/TeamSpeak/</url>
+      
+        <content type="html"><![CDATA[<h2 id="客户端下载"><a href="#客户端下载" class="headerlink" title="客户端下载"></a>客户端下载</h2><p><a class="btn" href="https://teamspeak.com/zh-CN/" title="TeamSpeak">官网下载</a><br><a class="btn" href="https://a1e.lanzouw.com/ic4Dq0zei64d" title="TeamSpeak">win32-BIT</a><br><a class="btn" href="https://cloud.189.cn/t/jiiUJrjiimim （访问码：cy2k）" title="TeamSpeak">win64-BIT</a><br><a class="btn" href="https://cloud.189.cn/t/N7bMb2aMjEv2 （访问码：btq7）" title="TeamSpeak">Linux64-BIT</a><br><a class="btn" href="https://cloud.189.cn/t/emaeqezmeuEf （访问码：k7hv）" title="TeamSpeak">Mac</a></p><h2 id="安装及使用"><a href="#安装及使用" class="headerlink" title="安装及使用"></a>安装及使用</h2><p>打开下载的安装包进行安装。</p><ol><li>点击Next<br><img src="/img/teamspeak/ts1.png" alt="安装1"></li><li>将侧边导航栏拉到最下面然后将下方勾选<br><img src="/img/teamspeak/ts2.png" alt="安装2"></li><li>选项1：安装为电脑所有人使用 选项2。仅为自己安装使用。<br><img src="/img/teamspeak/ts3.png" alt="安装3"></li><li>选择安装路径<br><img src="/img/teamspeak/ts4.png" alt="安装4"></li><li>选择要存储配置的位置 1： 建议保存在用户自己的文件中 2：保存在安装文件夹<br><img src="/img/teamspeak/ts5.png" alt="安装5"></li><li>是否安装Overwolf软件（这是一个插件，可不安装）<br><img src="/img/teamspeak/ts6.png" alt="安装6"></li><li>打开软件会有一个声明，侧边导航栏拉到最下面点击i accept即可<br><img src="/img/teamspeak/ts7.png" alt="配置1"></li><li>随后会出现一个账号登录，ts可以直接关闭免登录使用。也可以点击create accout创建一个账号<br><img src="/img/teamspeak/ts8.png" alt="配置2"></li><li>随后点击connections-&gt; connet连接服务器<br><img src="/img/teamspeak/ts9.png" alt="配置3"></li><li>输入ip地址和服务器密码<br><img src="/img/teamspeak/ts10.png" alt="配置4"><br>进入服务器即可使用</li></ol><h2 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h2><p>软件默认是英文语言和语音，可安装插件实现汉化语言和语音。</p><ol><li>进入服务器右键大厅点击Open File Browser<br><img src="/img/teamspeak/ts11.png" alt="汉化1"></li><li>下载汉化文件（或者文章上面直接下载汉化插件）<br><img src="/img/teamspeak/ts12.png" alt="汉化2"></li><li>下载完后开打文件，点击install选择yes<br><img src="/img/teamspeak/ts13.png" alt="汉化3"></li><li>重启之后软件就是中文显示。（语音包同理）<br><img src="/img/teamspeak/ts14.png" alt="汉化4"><br>或直接下载汉化文件<br>1：语音包汉化：<a class="btn" href="https://www.myteamspeak.com/addons/9c1ed6f5-15ac-458d-84fb-c0c2b025ef97" title="TeamSpeak">点击下载</a><br>2：客户端汉化：<a class="btn" href="https://github.com/jitingcn/TS3-Translation_zh-CN/releases/download/snapshot/Chinese_Translation_zh-CN.ts3_translation" title="TeamSpeak">点击下载</a></li></ol><h1 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h1><h2 id="快速进入服务器"><a href="#快速进入服务器" class="headerlink" title="快速进入服务器"></a>快速进入服务器</h2><p>如果自己只有一个服务器使用，那么手动点击连接会繁琐，接下来设置达到打开软件自动连接服务器的效果。</p><ol><li>首先进入自己使用的服务器，点击上方的书签管理器<br><img src="/img/teamspeak/ts15.png" alt="书签1"></li><li>进入之后点击下方的进阶选项（这里是点击之后才显示的基本选项），将启动连接服务器勾选即可<br><img src="/img/teamspeak/ts16.png" alt="书签2"></li></ol><h2 id="麦克风设置"><a href="#麦克风设置" class="headerlink" title="麦克风设置"></a>麦克风设置</h2><p>首先打开工具-&gt;设置-&gt;音频输入<br><img src="/img/teamspeak/ts17.png"></p><p>启动麦克风方式：</p><ol><li>按键通话：设置键位，按下启用麦克风，松开禁用麦克风</li><li>持续传输：自由麦，一直启动麦克风（不推荐）</li><li>语音检测：自由麦基础上添加了一个阈值，音量到达一定数值启用麦克风。（推荐）<br>ts默认是感应麦。但是如果背景噪音比较大麦克风也会一直触发，比较吵，所以需要将麦克风触发阈值调高，达到屏蔽底噪效果。</li></ol><p>语音检测模式：</p><ol><li>automatic：自适应设置感应值</li><li>volume Gate：手动调节阈值</li><li>Hybrid：无（暂时不确定和volume Gate区别。都是可以手动设置阈值）<br>我们模式选择volume Gate，点击开始测试，说话看下自己的底噪，将值拉到底噪之上即可。<br><img src="/img/teamspeak/ts18.png"></li></ol><h2 id="创建频道及设置"><a href="#创建频道及设置" class="headerlink" title="创建频道及设置"></a>创建频道及设置</h2><p><img src="/img/teamspeak/pindao1.png"><br>点击空白处或者当前频道右键创建频道<br><img src="/img/teamspeak/pindao2.png"><br><img src="/img/teamspeak/pindao3.png"></p><p>主要设置两项：<br>频道类型：频道存在时间<br>音质中品质：决定此频道玩家音质如何，建议拉高</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Teamspeak </tag>
             
         </tags>
       
