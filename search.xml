@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Steam展柜</title>
+      <link href="/2024/10/26/Steam%E5%B1%95%E6%9F%9C/"/>
+      <url>/2024/10/26/Steam%E5%B1%95%E6%9F%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>浏览器打开<a class="btn" href="https://link.zhihu.com/?target=https%3A//steamcommunity.com/sharedfiles/edititem/767/3/" title="">Steam艺术品上传</a>,选择非游戏特定，设置名称文件等内容后，按F12打开控制台（Console），并输入代码并点击保存即可。</p><h1 id="网站工具"><a href="#网站工具" class="headerlink" title="网站工具"></a>网站工具</h1><p><a class="btn" href="steam.design" title="">个人背景自动裁剪</a>、<a class="btn" href="https://gifcompressor.com/zh/" title="">Gif压缩</a></p><h1 id="上传截图"><a href="#上传截图" class="headerlink" title="上传截图"></a>上传截图</h1><p>因为steam只能上传艺术品，将此代码输入之后，上传的图片或gif就会存储到截图里面</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">document.getElementsByName(&quot;file_type&quot;)[0].value = 5;</span><br></pre></td></tr></table></figure><h1 id="长图片展柜"><a href="#长图片展柜" class="headerlink" title="长图片展柜"></a>长图片展柜</h1><h2 id="艺术展"><a href="#艺术展" class="headerlink" title="艺术展"></a>艺术展</h2><p>长图片以艺术品方式存储</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var num= document.getElementsByName(&quot;image_width&quot;)[0].value;</span><br><span class="line">document.getElementsByName(&quot;image_height&quot;)[0].value = num-(num-1);</span><br><span class="line">document.getElementsByName(&quot;image_width&quot;)[0].value= num*100;</span><br></pre></td></tr></table></figure><h2 id="截图展柜"><a href="#截图展柜" class="headerlink" title="截图展柜"></a>截图展柜</h2><p>长图片以截图方式存储</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">document.getElementsByName(&quot;file_type&quot;)[0].value= 5;</span><br><span class="line">var num= document.getElementsByName(&quot;image_width&quot;)[0].value;</span><br><span class="line">document.getElementsByName(&quot;image_height&quot;)[0].value = num-(num-1);</span><br><span class="line">document.getElementsByName(&quot;image_width&quot;)[0].value= num*100;</span><br></pre></td></tr></table></figure><h1 id="创意工坊展柜"><a href="#创意工坊展柜" class="headerlink" title="创意工坊展柜"></a>创意工坊展柜</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$J(&#x27;[name=consumer_app_id]&#x27;).val(480);$J(&#x27;[name=file_type]&#x27;).val(0);$J(&#x27;[name=visibility]&#x27;).val(0); </span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂项 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂项 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
