@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Windows</title>
+      <link href="/2024/10/31/Windows/"/>
+      <url>/2024/10/31/Windows/</url>
+      
+        <content type="html"><![CDATA[<details class="folding-tag" green><summary> 去广告 </summary>              <div class='content'>              <ol><li>搜索栏的广告<br>右键底部栏-&gt;搜索-&gt;显示搜索突出显示勾选掉<br>管理员身份运行cmd输入,并重启<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">reg add HKCU\Software\Policies\Microsoft\Windows\explorer /v HideRecommendedSection /t reg_dword /d 1 /f </span><br><span class="line">reg add HKCU\Software\Policies\Microsoft\Windows\explorer /v DisableSearchBoxSuggestions /t reg_dword /d 1 /f </span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windwos10 </tag>
+            
+            <tag> 系统优化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Debian系统</title>
       <link href="/2024/10/30/Debian%E7%B3%BB%E7%BB%9F/"/>
       <url>/2024/10/30/Debian%E7%B3%BB%E7%BB%9F/</url>
