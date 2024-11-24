@@ -1,3 +1,3 @@
-var posts=["posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/","posts/undefined/"];function toRandomPost(){
+var posts=["posts/apex.html","posts/App2.html","posts/app.html","posts/debian.html","posts/docker.html","posts/cm3vtfkin000fsguyddseakv7.html","posts/cm3vtfkio000gsguy4ra37ryi.html","posts/steam2.html","posts/teamspeak.html","posts/windwos.html","posts/cs2.html","posts/cs2cfg.html","posts/mumble.html","posts/web.html"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
