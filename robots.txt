@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://adai.fun/sitemap.xml
+Sitemap: https://adaiblog.github.io/sitemap.xml
