@@ -6,7 +6,7 @@
   <link href="http://adai.fun/atom.xml" rel="self"/>
   
   <link href="http://adai.fun/"/>
-  <updated>2024-11-30T12:19:14.700Z</updated>
+  <updated>2024-11-30T12:38:49.162Z</updated>
   <id>http://adai.fun/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://adai.fun/posts/anzhiyu.html"/>
     <id>http://adai.fun/posts/anzhiyu.html</id>
     <published>2024-11-30T10:51:41.000Z</published>
-    <updated>2024-11-30T12:19:14.700Z</updated>
+    <updated>2024-11-30T12:38:49.162Z</updated>
     
     <content type="html"><![CDATA[<h1 id="增加摘要功能"><a href="#增加摘要功能" class="headerlink" title="增加摘要功能"></a>增加摘要功能</h1><p><img src="/img/posts/anzhiyu/zhaiyao.png"><br>打开anzhiyu\source\css\page\homepage.styl找到</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#content-inner #recent-posts &gt; .recent-post-item &gt; .recent-post-info &gt; .content</span><br><span class="line">  transition: all 0.3s ease 0s;</span><br><span class="line">  display: -webkit-box;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  -webkit-box-orient: vertical;</span><br><span class="line">  -webkit-line-clamp: 2;</span><br><span class="line">  line-height: 1.4;</span><br><span class="line">  color: var(--anzhiyu-secondtext);</span><br><span class="line">  margin-top: 0.5rem;</span><br><span class="line">  font-size: 14px;</span><br><span class="line">  opacity 0</span><br><span class="line">  height 0</span><br></pre></td></tr></table></figure><p>改为以下内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#content-inner #recent-posts &gt; .recent-post-item &gt; .recent-post-info &gt; .content</span><br><span class="line">  display: -webkit-box;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  -webkit-box-orient: vertical;</span><br><span class="line">  -webkit-line-clamp: 2;</span><br><span class="line">  line-height: 1.4;</span><br><span class="line">  color: var(--anzhiyu-secondtext);</span><br><span class="line">  margin-top: 0.3rem;</span><br><span class="line">  font-size: 14px;</span><br><span class="line">  opacity 1;</span><br><span class="line">  height 35px;</span><br><span class="line">  padding:  0px 32px;</span><br></pre></td></tr></table></figure><h1 id="首页上方右侧改为轮播图"><a href="#首页上方右侧改为轮播图" class="headerlink" title="首页上方右侧改为轮播图"></a>首页上方右侧改为轮播图</h1><p><img src="/img/posts/anzhiyu/swiper.png"></p><p>打开主题_config.yml将swiper:enable修改为true</p><h1 id="移除随便逛逛"><a href="#移除随便逛逛" class="headerlink" title="移除随便逛逛"></a>移除随便逛逛</h1><h2 id="移除上方左侧随便逛逛按钮"><a href="#移除上方左侧随便逛逛按钮" class="headerlink" title="移除上方左侧随便逛逛按钮"></a>移除上方左侧随便逛逛按钮</h2><p><img src="/img/posts/anzhiyu/suibiangguangguang.png"><br>打开anzhiyu\layout\includes\top\top.pug，找到if home_top_config.enable，删除以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a#random-hover(href=&#x27;javascript:toRandomPost()&#x27;)</span><br><span class="line">  i.anzhiyufont.anzhiyu-icon-paper-plane</span><br><span class="line">  .bannerText 随便逛逛</span><br><span class="line">    i.anzhiyufont.anzhiyu-icon-arrow-right</span><br></pre></td></tr></table></figure><h2 id="移除右上角随便逛逛按钮"><a href="#移除右上角随便逛逛按钮" class="headerlink" title="移除右上角随便逛逛按钮"></a>移除右上角随便逛逛按钮</h2><p>打开anzhiyu\layout\includes\header\nav.pug找到#nav-right，删除以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">if theme.nav.travelling</span><br><span class="line">  .nav-button.only-home#travellings_button(title=&#x27;随机前往一个开往项目网站&#x27;)</span><br><span class="line">    a.site-page(onclick=&#x27;anzhiyu.totraveling()&#x27;, title=&#x27;随机前往一个开往项目网站&#x27;, href=&#x27;javascript:void(0);&#x27;, rel=&#x27;external nofollow&#x27;, data-pjax-state=&#x27;external&#x27;)</span><br><span class="line">      i.anzhiyufont.anzhiyu-icon-train</span><br><span class="line">.nav-button#randomPost_button</span><br><span class="line">  a.site-page(onclick=&#x27;toRandomPost()&#x27;, title=&#x27;随机前往一个文章&#x27;, href=&#x27;javascript:void(0);&#x27;)</span><br><span class="line">    i.anzhiyufont.anzhiyu-icon-dice</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -33,11 +33,9 @@
     <category term="网站" scheme="http://adai.fun/categories/%E7%BD%91%E7%AB%99/"/>
     
     
+    <category term="博客" scheme="http://adai.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
     <category term="AnZhiYu" scheme="http://adai.fun/tags/AnZhiYu/"/>
-    
-    <category term="AnZhiYu美化" scheme="http://adai.fun/tags/AnZhiYu%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="AnZhiYu功能修改" scheme="http://adai.fun/tags/AnZhiYu%E5%8A%9F%E8%83%BD%E4%BF%AE%E6%94%B9/"/>
     
   </entry>
   
