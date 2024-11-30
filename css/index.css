@@ -7445,10 +7445,10 @@ div#bannerGroup {
 }
 @media screen and (max-width: 768px) {
   #content-inner #recent-posts > .recent-post-item > .recent-post-info > .content {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    height: 0;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    height: 35px;
   }
 }
 @media screen and (min-width: 1201px) {
