@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/App2.html</loc>
+    
+    <lastmod>2024-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/web.html</loc>
+    
+    <lastmod>2024-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/steam2.html</loc>
     
     <lastmod>2024-12-01</lastmod>
@@ -92,25 +110,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/web.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/apex.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/App2.html</loc>
     
     <lastmod>2024-11-30</lastmod>
     
