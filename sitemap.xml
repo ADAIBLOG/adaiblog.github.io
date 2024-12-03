@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://adai.fun/posts/HyperOS.html</loc>
+    <loc>http://adai.fun/posts/markdown.html</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/steam.html</loc>
     
     <lastmod>2024-12-03</lastmod>
     
@@ -13,25 +22,7 @@
   <url>
     <loc>http://adai.fun/posts/steam2.html</loc>
     
-    <lastmod>2024-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/steam.html</loc>
-    
-    <lastmod>2024-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/App2.html</loc>
-    
-    <lastmod>2024-12-02</lastmod>
+    <lastmod>2024-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,16 +31,16 @@
   <url>
     <loc>http://adai.fun/posts/web.html</loc>
     
-    <lastmod>2024-12-02</lastmod>
+    <lastmod>2024-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://adai.fun/about/index.html</loc>
+    <loc>http://adai.fun/posts/App2.html</loc>
     
-    <lastmod>2024-11-30</lastmod>
+    <lastmod>2024-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -57,6 +48,24 @@
   
   <url>
     <loc>http://adai.fun/posts/anzhiyu.html</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/HyperOS.html</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/about/index.html</loc>
     
     <lastmod>2024-11-30</lastmod>
     
@@ -492,17 +501,24 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://adai.fun/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://adai.fun/tags/%E6%90%9E%E6%9C%BA%E6%94%BB%E7%95%A5/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://adai.fun/categories/%E5%AF%BC%E8%88%AA/</loc>
+    <loc>http://adai.fun/tags/MarkDown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://adai.fun/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -530,7 +546,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/categories/Steam/</loc>
+    <loc>http://adai.fun/categories/%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
