@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://adai.fun/posts/cm48hxq3n0001x8uyfpa5fx0z.html</loc>
+    <loc>http://adai.fun/posts/cm48j9o63001g34uy0o5r7ijf.html</loc>
     
     <lastmod>2024-12-03</lastmod>
     
@@ -280,20 +280,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/Linux/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/Debian/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -308,14 +294,14 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/Github/</loc>
+    <loc>http://adai.fun/tags/Linux/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/Github%E5%8A%A0%E9%80%9F/</loc>
+    <loc>http://adai.fun/tags/Debian/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -350,7 +336,56 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/tags/Github/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Github%E5%8A%A0%E9%80%9F/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/HyperOS/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/%E6%BE%8E%E6%B9%83OS/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/%E6%90%9E%E6%9C%BA%E6%94%BB%E7%95%A5/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/MarkDown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/tags/Steam%E4%BB%A4%E7%89%8C/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Steam/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -406,35 +441,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/Windwos10/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/tags/CS2/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/Mumble/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/Mumble%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -449,6 +456,34 @@
   
   <url>
     <loc>http://adai.fun/tags/CS2%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Windwos10/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Mumble/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Mumble%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -489,41 +524,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://adai.fun/tags/Steam/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/HyperOS/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E6%BE%8E%E6%B9%83OS/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E6%90%9E%E6%9C%BA%E6%94%BB%E7%95%A5/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/MarkDown%E8%AF%AD%E6%B3%95/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -534,7 +534,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/categories/%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>http://adai.fun/categories/%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -548,7 +548,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/categories/%E5%BA%94%E7%94%A8/</loc>
+    <loc>http://adai.fun/categories/%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
