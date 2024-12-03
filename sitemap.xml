@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/posts/HyperOS.html</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/blog.html</loc>
     
     <lastmod>2024-12-03</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>http://adai.fun/posts/App2.html</loc>
-    
-    <lastmod>2024-12-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/HyperOS.html</loc>
     
     <lastmod>2024-12-03</lastmod>
     
