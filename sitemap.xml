@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/NextCloud.html</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/windwos.html</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/docker.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -156,15 +174,6 @@
   
   <url>
     <loc>http://adai.fun/posts/cs2cfg.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/docker.html</loc>
     
     <lastmod>2024-11-30</lastmod>
     
@@ -542,6 +551,13 @@
   
   <url>
     <loc>http://adai.fun/tags/Aseprite/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Docker%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
