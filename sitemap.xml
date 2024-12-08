@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/logout.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/mumble.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/HyperOS.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/docker.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/debian.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/cs2cfg.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/anzhiyu.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/phonenumber.html</loc>
     
     <lastmod>2024-12-08</lastmod>
@@ -11,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/logout.html</loc>
+    <loc>http://adai.fun/posts/blog.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
@@ -38,24 +110,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/debian.html</loc>
-    
-    <lastmod>2024-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/docker.html</loc>
-    
-    <lastmod>2024-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/App2.html</loc>
     
     <lastmod>2024-12-06</lastmod>
@@ -65,25 +119,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/aseprite.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/NextCloud.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/HyperOS.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -110,25 +146,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/blog.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/apex.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/anzhiyu.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -192,24 +210,6 @@
   
   <url>
     <loc>http://adai.fun/posts/cs2.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/cs2cfg.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/mumble.html</loc>
     
     <lastmod>2024-11-30</lastmod>
     
@@ -365,13 +365,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/HA/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/tags/Github/</loc>
     <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -380,20 +373,6 @@
   
   <url>
     <loc>http://adai.fun/tags/Github%E5%8A%A0%E9%80%9F/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/HyperOS/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E6%BE%8E%E6%B9%83OS/</loc>
     <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -484,13 +463,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/CFG%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/tags/CS2%E6%8C%87%E4%BB%A4/</loc>
     <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -547,28 +519,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/tags/Aseprite/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/tags/Docker%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E8%B4%A6%E5%8F%B7%E6%B3%A8%E9%94%80/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
