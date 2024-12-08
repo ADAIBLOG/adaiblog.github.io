@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/GameSetting.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/windwos.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/logout.html</loc>
     
     <lastmod>2024-12-08</lastmod>
@@ -101,15 +119,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/windwos.html</loc>
-    
-    <lastmod>2024-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/App2.html</loc>
     
     <lastmod>2024-12-06</lastmod>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>http://adai.fun/posts/steam2.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/apex.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -201,15 +201,6 @@
   
   <url>
     <loc>http://adai.fun/posts/vercel.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/cs2.html</loc>
     
     <lastmod>2024-11-30</lastmod>
     
@@ -279,13 +270,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>http://adai.fun/tags/APEX/</loc>
-    <lastmod>2024-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>http://adai.fun/tags/%E6%B8%B8%E6%88%8F%E8%AE%BE%E7%BD%AE/</loc>
@@ -527,6 +511,13 @@
   
   <url>
     <loc>http://adai.fun/tags/%E6%B3%A8%E9%94%80/</loc>
+    <lastmod>2024-12-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/tags/Apex/</loc>
     <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
