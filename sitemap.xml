@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/up.html</loc>
+    
+    <lastmod>2024-12-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/App2.html</loc>
     
     <lastmod>2024-12-24</lastmod>
@@ -200,15 +209,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/up.html</loc>
-    
-    <lastmod>2024-12-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/about/index.html</loc>
     
     <lastmod>2024-11-30</lastmod>
@@ -274,7 +274,7 @@
 
   <url>
     <loc>http://adai.fun/</loc>
-    <lastmod>2024-12-24</lastmod>
+    <lastmod>2024-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
