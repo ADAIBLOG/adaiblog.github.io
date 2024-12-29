@@ -11,6 +11,33 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/essay/index.html</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/equipment/index.html</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/categories/index.html</loc>
+    
+    <lastmod>2024-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/anzhiyu.html</loc>
     
     <lastmod>2024-12-29</lastmod>
@@ -209,15 +236,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/about/index.html</loc>
-    
-    <lastmod>2024-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/google65201349868d9b28.html</loc>
     
     <lastmod>2024-11-24</lastmod>
@@ -230,33 +248,6 @@
     <loc>http://adai.fun/posts/app.html</loc>
     
     <lastmod>2024-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/equipment/index.html</loc>
-    
-    <lastmod>2024-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/essay/index.html</loc>
-    
-    <lastmod>2024-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/categories/index.html</loc>
-    
-    <lastmod>2024-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
