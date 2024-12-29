@@ -2819,7 +2819,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: JinBuTi;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -8622,7 +8622,7 @@ body:has(#console.show) #nav-music {
   color: var(--anzhiyu-lighttext);
 }
 #tag #tag-page-tags a {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: JinBuTi;
   font-size: 0.9em;
 }
 #tag #tag-page-tags a:hover {
@@ -8641,7 +8641,7 @@ span.categoryes-punctuation .icon-biaoqian {
   font-size: 13px;
 }
 .tagsPageCount {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: JinBuTi;
 }
 [data-theme="light"] #post .tag_share .post-meta__box__tags span.tagsPageCount {
   background-color: transparent;
@@ -8934,7 +8934,7 @@ h1.page-title + .tag-cloud-list {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: JinBuTi;
 }
 @media screen and (max-width: 768px) {
   #error-wrap .error-content .error-info {
@@ -17981,6 +17981,82 @@ kbd {
 }
 .hl-label.green {
   background-color: #5cb85c;
+}
+.link_card {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  margin: 10px 0;
+  color: var(--font-color) !important;
+  text-decoration: none !important;
+  background: var(--reward-pop);
+  border-radius: 10px;
+  padding: 12px;
+}
+.link_card:hover {
+  background: #4976f5;
+  color: #fff !important;
+}
+.link_card .link_icon,
+.link_card .link_content {
+  height: 4rem;
+}
+.link_card .link_icon img,
+.link_card .link_icon svg {
+  height: 4rem;
+  width: 4rem;
+}
+.link_card .link_content {
+  margin-left: 1rem;
+  width: calc(100% - 6rem);
+  overflow: hidden;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.link_card .link_content .link_title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.link_card .link_content .link_title,
+.link_card .link_content .link_desc {
+  word-break: break-all;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.link_card .link_content:not(:has(.link_desc)) .link_title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.link_card .link_content .link_desc {
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+}
+.link_card .link_content .link_desc,
+.link_card .link_content:has(.link_desc) .link_title {
+  white-space: nowrap;
 }
 audio,
 video {
