@@ -5,3 +5,27 @@
   border-bottom: none !important
 
 }
+#aside-content .card-widget {
+  background: none !important
+}
+#aside-content >.card-widget.card-info > .card-content {
+  min-height: 0px !important
+}
+#aside-content .card-widget {
+  margin-top: 10px !important
+}
+#recent-posts > .recent-post-item:not(:first-child) {
+  margin-top: 15px !important
+}
+#footer-wrap #anzhiyu-footer {
+  max-width: 800px !important
+}
+#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {
+  padding: 7px !important
+}
+div#poem_info {
+  font-size: 1rem !important
+}
+div#poem_sentence {
+  font-family: 'DingTalk-JinBuTi' !important
+}
