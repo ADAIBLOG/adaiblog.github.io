@@ -18156,15 +18156,15 @@ kbd {
   display: box;
   display: flex;
   margin: 10px 0;
-  color: var(--font-color) !important;
-  text-decoration: none !important;
+  color: var(--font-color);
+  text-decoration: none;
   background: var(--reward-pop);
-  border-radius: 10px;
-  padding: 12px;
+  border-radius: 10px !important;
+  padding: 10px !important;
 }
 .link_card:hover {
   background: #4976f5;
-  color: #fff !important;
+  color: #fff;
 }
 .link_card .link_icon,
 .link_card .link_content {
@@ -18223,6 +18223,9 @@ kbd {
 .link_card .link_content .link_desc,
 .link_card .link_content:has(.link_desc) .link_title {
   white-space: nowrap;
+}
+a.link_card {
+  border-bottom: none !important;
 }
 audio,
 video {
@@ -18733,8 +18736,8 @@ div.videos[col='4'] iframe {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  text-decoration: none !important;
-  color: var(--font-color) !important;
+  text-decoration: none;
+  color: var(--font-color);
   background: var(--card-bg);
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -18743,7 +18746,7 @@ div.videos[col='4'] iframe {
   -webkit-align-items: center;
   align-items: center;
   border: 1px solid #e0e3ed;
-  border-radius: 12px;
+  border-radius: 12px !important;
   padding: 1rem;
   overflow: hidden;
   margin: 0.5rem;
