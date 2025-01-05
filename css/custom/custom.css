@@ -26,14 +26,7 @@ div#poem_info {
 div#poem_sentence {
   font-family: 'DingTalk-JinBuTi' !important
 }
-/*底部按钮*/
-#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {
-   border-bottom: none !important
-}
-/*按钮片宽*/
-#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {
-  padding: 7px !important
-}
+
 /*雨燕卡圆角*/
 #article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not( .no-text-decoration ):hover {
   border-radius: 10px !important
