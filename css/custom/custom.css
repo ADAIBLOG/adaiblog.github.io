@@ -27,11 +27,6 @@ div#poem_sentence {
   font-family: 'DingTalk-JinBuTi' !important
 }
 
-/*雨燕卡圆角*/
-#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not( .no-text-decoration ):hover {
-  border-radius: 10px !important
-}
-
 
 
 
