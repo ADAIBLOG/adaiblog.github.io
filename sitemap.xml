@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/posts/web.html</loc>
+    
+    <lastmod>2025-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/anzhiyu.html</loc>
     
     <lastmod>2025-01-05</lastmod>
@@ -237,15 +246,6 @@
   
   <url>
     <loc>http://adai.fun/posts/adarkroom.html</loc>
-    
-    <lastmod>2024-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/web.html</loc>
     
     <lastmod>2024-12-23</lastmod>
     
