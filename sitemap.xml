@@ -74,6 +74,15 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/posts/NextCloud.html</loc>
+    
+    <lastmod>2025-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/obs.html</loc>
     
     <lastmod>2025-01-21</lastmod>
@@ -263,15 +272,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/NextCloud.html</loc>
-    
-    <lastmod>2024-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/GameSetting.html</loc>
     
     <lastmod>2024-12-23</lastmod>
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/winapp.html</loc>
+    <loc>http://adai.fun/posts/androidapp.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/androidapp.html</loc>
+    <loc>http://adai.fun/posts/winapp.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
