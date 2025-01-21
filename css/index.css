@@ -9391,7 +9391,6 @@ h1.page-title + .tag-cloud-list {
   text-align: left;
   font-weight: 700;
   color: var(--anzhiyu-white);
-  font-size: 20px;
   line-height: 1;
   margin-bottom: 5px;
   margin-top: 0;
@@ -9430,7 +9429,7 @@ h1.page-title + .tag-cloud-list {
   margin-right: 10px;
 }
 #aside-content .card-widget .card-info-social-icons {
-  margin: 0;
+  margin: 0 10px 10px 10px;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -9890,11 +9889,10 @@ h1.page-title + .tag-cloud-list {
   color: #f00;
 }
 .avatar-img {
-  width: 118px;
-  height: 118px;
-  right: 0;
-  top: 0;
-  border-radius: 500px;
+  width: 60px;
+  height: 60px;
+  right: 10px;
+  top: 11px;
   object-fit: cover;
   position: absolute;
   opacity: 1;
