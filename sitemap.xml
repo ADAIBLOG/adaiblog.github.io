@@ -11,6 +11,42 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/posts/winappcloud.html</loc>
+    
+    <lastmod>2025-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/androidappcloud.html</loc>
+    
+    <lastmod>2025-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/blog.html</loc>
+    
+    <lastmod>2025-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/HyperOS.html</loc>
+    
+    <lastmod>2025-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/teamspeak.html</loc>
     
     <lastmod>2025-01-21</lastmod>
@@ -57,15 +93,6 @@
   
   <url>
     <loc>http://adai.fun/posts/up.html</loc>
-    
-    <lastmod>2025-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/App2.html</loc>
     
     <lastmod>2025-01-21</lastmod>
     
@@ -236,15 +263,6 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/HyperOS.html</loc>
-    
-    <lastmod>2024-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://adai.fun/posts/aseprite.html</loc>
     
     <lastmod>2024-12-23</lastmod>
@@ -255,15 +273,6 @@
   
   <url>
     <loc>http://adai.fun/posts/adarkroom.html</loc>
-    
-    <lastmod>2024-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/blog.html</loc>
     
     <lastmod>2024-12-23</lastmod>
     
@@ -290,7 +299,16 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/app.html</loc>
+    <loc>http://adai.fun/posts/winapp.html</loc>
+    
+    <lastmod>2024-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/androidapp.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
