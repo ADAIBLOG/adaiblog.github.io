@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/posts/liveliy.html</loc>
+    
+    <lastmod>2025-01-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2025-01-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/winappcloud.html</loc>
     
     <lastmod>2025-01-22</lastmod>
@@ -39,15 +57,6 @@
   
   <url>
     <loc>http://adai.fun/posts/anzhiyu.html</loc>
-    
-    <lastmod>2025-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/aseprite.html</loc>
     
     <lastmod>2025-01-21</lastmod>
     
