@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://adai.fun/posts/androidappcloud.html</loc>
+    <loc>http://adai.fun/posts/winappcloud.html</loc>
     
-    <lastmod>2025-01-21</lastmod>
+    <lastmod>2025-01-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/winappcloud.html</loc>
+    <loc>http://adai.fun/posts/web.html</loc>
+    
+    <lastmod>2025-01-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/androidappcloud.html</loc>
     
     <lastmod>2025-01-21</lastmod>
     
@@ -129,15 +138,6 @@
   
   <url>
     <loc>http://adai.fun/posts/windwos.html</loc>
-    
-    <lastmod>2025-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/web.html</loc>
     
     <lastmod>2025-01-21</lastmod>
     
@@ -319,7 +319,7 @@
 
   <url>
     <loc>http://adai.fun/</loc>
-    <lastmod>2025-01-21</lastmod>
+    <lastmod>2025-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
