@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adai.fun/cover/index.html</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/web.html</loc>
     
     <lastmod>2025-01-25</lastmod>
@@ -57,6 +66,15 @@
   
   <url>
     <loc>http://adai.fun/posts/liveliy.html</loc>
+    
+    <lastmod>2025-01-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/teamspeak.html</loc>
     
     <lastmod>2025-01-22</lastmod>
     
@@ -129,15 +147,6 @@
   
   <url>
     <loc>http://adai.fun/posts/obs.html</loc>
-    
-    <lastmod>2025-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/teamspeak.html</loc>
     
     <lastmod>2025-01-21</lastmod>
     
@@ -317,7 +326,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/androidapp.html</loc>
+    <loc>http://adai.fun/posts/winapp.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -326,7 +335,7 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/posts/winapp.html</loc>
+    <loc>http://adai.fun/posts/androidapp.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
