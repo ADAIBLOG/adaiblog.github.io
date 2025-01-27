@@ -47,7 +47,7 @@
     <link href="http://adai.fun/posts/vscode.html"/>
     <id>http://adai.fun/posts/vscode.html</id>
     <published>2025-01-23T07:59:25.000Z</published>
-    <updated>2025-01-27T15:35:42.788Z</updated>
+    <updated>2025-01-27T15:38:31.709Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Visual-Studio-Code和Visual-Studio区别"><a href="#Visual-Studio-Code和Visual-Studio区别" class="headerlink" title="Visual Studio Code和Visual Studio区别"></a>Visual Studio Code和Visual Studio区别</h1><p>两款都是微软公司开发的集成开发环境（IDE）<br><a href="https://visualstudio.microsoft.com/zh-hans/downloads/">Visual Studio Code</a>：是一款轻量级的跨平台代码编辑器<br><a href="https://visualstudio.microsoft.com/zh-hans/downloads/">Visual Studio</a>：一款功能强大的IDE，专为开发各种类型的应用程序设计</p><h1 id="修改客户端语言"><a href="#修改客户端语言" class="headerlink" title="修改客户端语言"></a>修改客户端语言</h1><p>点击扩展-&gt;搜索需要的语言插件安装即可<br><img src="/img/posts/vscode/language.png"></p><h1 id="终端使用git-bash"><a href="#终端使用git-bash" class="headerlink" title="终端使用git bash"></a>终端使用git bash</h1><p>点击管理-&gt;设置-&gt;搜索<mark class="hl-label blue">windows shell</mark> -&gt;选择<mark class="hl-label blue">Git Bash</mark> <br><img src="/img/posts/vscode/gitbash.png"></p>]]></content>
     
