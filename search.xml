@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 知识 </category>
           
       </categories>
       
@@ -175,7 +175,7 @@
       
       <categories>
           
-          <category> 科普 </category>
+          <category> 知识 </category>
           
       </categories>
       
@@ -254,14 +254,14 @@
       
       <categories>
           
-          <category> 软件 </category>
+          <category> 应用 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 直播工具 </tag>
+            <tag> OBS </tag>
             
         </tags>
       
@@ -279,7 +279,7 @@
       
       <categories>
           
-          <category> 科普 </category>
+          <category> 知识 </category>
           
       </categories>
       
@@ -335,9 +335,7 @@
       
       <categories>
           
-          <category> 网站 </category>
-          
-          <category> 应用 </category>
+          <category> 教程 </category>
           
       </categories>
       
