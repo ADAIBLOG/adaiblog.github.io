@@ -20,10 +20,11 @@ description: 使用hexo和github page搭建个人静态博客
 <!-- endtab -->
 
 <!-- tab Linux -->
+安装node和git
+```
+sudo apt install git-core
 sudo apt install nodejs
-sudo apt install npm
-sudo apt install git
-sudo npm install hexo-cli -g
+```
 <!-- endtab -->
 
 <!-- tab Android -->
@@ -50,39 +51,39 @@ apt install git
 {% tabs test4 %}
 <!-- tab Windows -->
 首先创建一个文件夹，进入并右键选择{% label 'Open Git Bash here' blue %}输入
-安装hexo
-```
+安装hexo并初始化
+``` 
 npm install hexo-cli -g
-```
-#初始化hexo
-```
 hexo init blog
 npm install
 ``` 
 <!-- endtab -->
 
 <!-- tab Linux -->
-
-<!-- endtab -->
-
-<!-- tab Android -->
-下载终端模拟器：{% btn 'https://github.com/termux/termux-app/releases',Termux,anzhiyufont anzhiyu-icon-circle-arrow-right,larger %}
-获取访问权限
-
-```
-termux-setup-storage
-apt update
-```
 创建文件夹并进入
 ```
 mkdir blog
 cd blog
 ```
-
-安装Git和Node
+安装并初始化hexo
 ```
-apt install nodejs
-apt install git
+npm install hexo-cli -g
+hexo init blog
+npm install
+```
+<!-- endtab -->
+
+<!-- tab Android -->
+创建文件夹并进入
+```
+mkdir blog
+cd blog
+```
+安装并初始化hexo
+```
+npm install hexo-cli -g
+hexo init blog
+npm install
 ```
 <!-- endtab -->
 
@@ -99,22 +100,29 @@ apt install git
 # Hexo关联Github
 
 在{% label 'Git Bash' blue %}中输入
+安装deploy-git
 ```
-#安装deploy-git
 npm install hexo-deployer-git --save
-#GithubName: Github用户名
+```
+输入github用户名，邮箱
+```
 git config --global user.name "GithubName"
-#GithubEmail：Github绑定的邮箱
 git config --global user.email "GithubEmail"
 ```
 创建{% label 'SSH keys' blue %}
 ```
 ssh-keygen -t rsa -C "GithubEmail"
 ```
-输入之后一路回车，在C:\Users\adai\.ssh找到{% label 'id_rsa.pub' blue %}并复制其中的内容
+输入之后一路回车,
+{% label 'Windows' blue %}在C:\Users\adai/\.ssh找到{% label 'id_rsa.pub' blue %}并复制其中的内容
 {% note info simple %}\adai为windoss用户名，根据自身名称查找{% endnote %}
+{% label 'Android' blue %}:在termux文件夹中打开{% label '.ssh' blue %}文件夹
 点击Github个人头像找到{% label 'setting' blue %}->{% label 'SSH and GPG keys' blue %}->{% label 'New SSH keyb' blue %},将{% label 'id_rsa.pub' blue %}内容复制到Key中
 ![](/img/posts/hexo/ssh.jpg)
+验证ssh
+```
+ssh-keygen -T git@github.com
+```
 打开博客文件中的{% label '_config.yml' blue %}拉到最下面输入
 ```
 deploy:
@@ -200,7 +208,26 @@ IdentityFile ~/.ssh/id_rsa
 
 
 {% endtabs %}
-
+2. hexo d错误无法上传
+```
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+INFO  Copying files from extend dirs...
+error: 'source/_posts/' does not have a commit checked out
+fatal: adding files failed
+FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
+Error: Spawn failed
+    at ChildProcess.<anonymous> (/data/data/com.termux/files/home/adaiblog/node_modules/hexo-util/dist/spawn.js:47:31)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+```
+这个时候打开博客文件夹找到/source/_posts/.git删除.git文件夹以解除仓库状态，随后清理Hexo缓存和生成文件，并重新上传
+```
+hexo clean 
+hexo g
+hexo d
+```
 # 博客短链接地址
 打开_config.yml,找到permalink并修改
 ```
