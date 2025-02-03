@@ -1,0 +1,22 @@
+
+- class_name: 📺 影视剧
+  class_desc: #分类描述
+  link_list:
+    - name: 红楼梦 #名字
+      img: /img/collect/红楼梦.webp
+      score: 5 # 1-5星
+      tip: 电视剧 # 右上角文字
+      url: https://www.bilibili.com/bangumi/play/ep327843?bsource=bing_ogv
+- class_name: 📺 游戏
+  class_desc: #分类描述
+  link_list:
+    - name: Gorogoa #名字
+      img: /img/collect/gorogoa.jpg
+      score: 5 # 1-5星
+      tip: 解谜 # 右上角文字
+      url: https://store.steampowered.com/app/557600/Gorogoa/
+    - name: 仙剑奇侠传一 #名字
+      img: /img/collect/xianjianyi.jpg
+      score: 5 # 1-5星
+      tip: 角色扮演 # 右上角文字
+      url: https://store.steampowered.com/app/1546570/_/    

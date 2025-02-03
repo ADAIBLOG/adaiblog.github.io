@@ -1,0 +1,47 @@
+- class_name: 小伙伴
+  class_desc: 帮助过我的小伙伴
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list: 
+   - name: 小旦
+     link: https://satera.cn
+     avatar: https://satera.cn/img/logo.png
+     descr: SNTube Studio
+     siteshot: https://bu.dusays.com/2023/09/16/65052aa7c13c9.png
+   - name: Mo的记事簿
+     link: https://blog.xiowo.net/
+     avatar: https://blog.xiowo.net/img/avatar.png
+     descr: 万年鸽王，哈哈OvO
+     siteshot: https://bu.dusays.com/2024/11/09/672f779669ef8.jpg
+   - name: 葱苓语畔
+     link: https://blog.ciraos.top
+     avatar: https://blog.ciraos.top/avatar1.avif
+     descr: Do not worry, be happy.
+     siteshot: https://blog.criaos.top/siteshot.avif 
+
+- class_name: 技术大佬
+  class_desc: 
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+  - name: 安知鱼
+    link: https://blog.anheyu.com/
+    avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+    descr: 生活明朗，万物可爱
+  - name: 青桔气球
+    link: https://blog.qjqq.cn/
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1645253&spec=640
+    descr: 分享网络安全与科技生活
+  - name: Leonus
+    link: https://blog.leonus.cn/
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5
+    descr: 进一寸有进一寸的欢喜。   
+  - name: 梦爱吃鱼
+    link: https://blog.bsgun.cn/
+    avatar: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+    descr: 但愿日子清静抬头遇见的满是柔情
+  - name: 小旦
+    link: https://satera.cn
+    avatar: https://satera.cn/img/logo.png
+    descr: SNTube Studio
+    siteshot: https://bu.dusays.com/2023/09/16/65052aa7c13c9.png
