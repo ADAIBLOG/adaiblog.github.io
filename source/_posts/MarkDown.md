@@ -210,7 +210,7 @@ description: Markdown是一种轻量级标记语言，排版语法简洁，让�
 2. 引入式链接
 [阿呆的博客][1]
 
-[1]: https://adaiblog.github.io.com
+[1]: https://adaiblog.github.io
 <!-- endtab -->
 <!-- tab Markdown -->
 1. 链接
