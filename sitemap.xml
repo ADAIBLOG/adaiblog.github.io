@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://adai.fun/posts/web.html</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://adai.fun/posts/markdown.html</loc>
     
     <lastmod>2025-02-04</lastmod>
@@ -102,15 +111,6 @@
   
   <url>
     <loc>http://adai.fun/posts/VSCode.html</loc>
-    
-    <lastmod>2025-01-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/posts/web.html</loc>
     
     <lastmod>2025-01-27</lastmod>
     
