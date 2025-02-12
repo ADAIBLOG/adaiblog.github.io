@@ -17,7 +17,7 @@ const now = new Date();
 function cardRefreshTimes() {
     const e = document.getElementById("card-widget-schedule");
     if (e) {
-        asideDay = (now - asideTime) / 1e3 / 60 / 60 / 25;
+        asideDay = (now - asideTime) / 1e3 / 60 / 60 / 24;
         e.querySelector("#pBar_year").value = asideDay;
         e.querySelector("#p_span_year").innerHTML = (asideDay / 365 * 100).toFixed(1) + "%";
         e.querySelector(".schedule-r0 .schedule-d1 .aside-span2").innerHTML = `还剩<a> ${(365 - asideDay).toFixed(0)} </a>天`;
@@ -95,7 +95,7 @@ function cardTimes() {
         lunarMon = chineseLunar.format(lunarDate, "M");
         lunarDay = chineseLunar.format(lunarDate, "d");
 
-        const newYearDate = new Date("2025/01/28 00:00:00");
+        const newYearDate = new Date("2026/02/17 00:00:00");
         const daysUntilNewYear = Math.floor((newYearDate - now) / 1e3 / 60 / 60 / 24);
         asideTime = new Date(`${new Date().getFullYear()}/01/01 00:00:00`);
         asideDay = (now - asideTime) / 1e3 / 60 / 60 / 24;
