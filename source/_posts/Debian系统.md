@@ -1,5 +1,5 @@
 ---
-title: Debian系统的基础操作
+title: Linux系统：Debian
 tags:
   - Linux
   - Debian
@@ -10,8 +10,115 @@ categories:
 date: 2024-10-30 23:51:43
 id: debian
 description: Debian系统的基础操作
-aside: false
 ---
+记录一下从0开始安装debian服务器系统
+# 下载
+因为设备性能和用途原因这里我选择安装无桌面版本
+打开[debian](https://www.debian.org/index.zh-cn.html)官网，直接点击下载的ios是网络安装，速度比较慢并且无法离线安装，我们点击{% label 其他下载链接 blue %}，选择{% label '镜像站点' pink %}找到中国大陆选择其中一个，点击{% label 'current-live' red %}这个是当前最新版本。之后选择{% label 'AMD64' green %}->{% label 'iso-hybrid' orange %}里面有很多版本，这里我们选择{% label 'standard.ios' purple %}标准版下载即可
+{% gallery true,,2 %}
+![](/img/posts/debian/debiandownload.png)
+![](/img/posts/debian/debiandownload2.png)
+![](/img/posts/debian/debiandownload3.png)
+{% endgallery %}
+下载完成之后，开始制作U盘启动器。首先下载U盘启动器工具：[Rufus](https://github.com/pbatard/rufus/releases)，选择U盘设备并导入ios文件开始制作。
+<img src="/img/posts/debian/rufus.png" width="300">
+
+# 安装
+
+将优盘插入需要安装的设备上，开机按{% kbd Del %}进入bios将u盘设置第一启动项并重启。
+来到安装页面，选择{% label 'Start Installer' green %}开始安装
+<img src="/img/posts/debian/debianinstall.jpg" width="500">
+语言选择{% label 'English' green %}，地区选择{% label 'HongKong' orange %}，键盘映射选择{% label 'American English' pink %}
+{% gallery true,,2 %}
+![](/img/posts/debian/debianinstall2.jpg)
+![](/img/posts/debian/debianinstall3.jpg)
+![](/img/posts/debian/debianinstall4.jpg)
+{% endgallery %}
+主机名称{% label 'debian' green %}，Domain name{% label '不填跳过' red %}，设置{% label 'Root密码' pink %}，创建{% label '新用户' blue %}，创建{% label '新用户密码' orange %}
+{% gallery true,,2 %}
+![](/img/posts/debian/debianinstall5.jpg)
+![](/img/posts/debian/debianinstall6.jpg)
+![](/img/posts/debian/debianinstall7.jpg)
+![](/img/posts/debian/debianinstall8.jpg)
+![](/img/posts/debian/debianinstall9.jpg)
+{% endgallery %}
+磁盘安装方式{% label 'use entire disk' green %}，选择{% label '安装系统的硬盘' red %}，分区方式选择{% label '/home,/var,/tmp' pink %}，完成磁盘设置{% label 'Finish Partitioning' blue %}，进行格式化{% label 'yes' orange %}
+{% gallery true,,2 %}
+![](/img/posts/debian/debianinstall10.jpg)
+![](/img/posts/debian/debianinstall11.jpg)
+![](/img/posts/debian/debianinstall12.jpg)
+![](/img/posts/debian/debianinstall13.jpg)
+![](/img/posts/debian/debianinstall14.jpg)
+{% endgallery %}
+是否选择网络镜像，根据自己需求选择{% label 'No' blue %}或者{% label 'YES' red %}
+如果是YES选择{% label 'China' pink %}，点击163，tuna等国内镜像。
+网络代理{% label '不填' orange %}等待安装完成。之后拔掉U盘重启电脑。
+{% gallery true,,2 %}
+![](/img/posts/debian/debianinstall15.jpg)
+![](/img/posts/debian/debianinstall16.jpg)
+![](/img/posts/debian/debianinstall17.jpg)
+![](/img/posts/debian/debianinstall18.jpg)
+{% endgallery %}
+
+# 系统操作
+先更新一下debian系统和软件包
+```
+apt update
+apt upgrade
+```
+无法apt更新解决办法
+{% tabs test4 %}
+
+<!-- tab 错误1 -->
+错误提示
+```
+The repository 'cdrom://[Debian GNU/Linux Live 12.9.0 standard ] bookworm Release a Release file
+```
+解决办法
+进入apt源列表
+```
+nano /etc/apt/sources.list  
+```
+使用{% label '#' red %}将deb cdrom:[Official Debian GNU/Linux Live 12.9.0...] bookworm main注释掉
+添加新的地址（也可以是国内镜像源地址）
+```
+deb http://deb.debian.org/debian bookworm main contrib non-free
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free
+```
+{% kbd Ctrl %}+{% kbd X %}后按{% kbd Y %},再按{% kbd Enter %}进行保存
+<!-- endtab -->
+
+<!-- tab 错误2 -->
+检查是否能ping通8.8.8.8排除是否是检查网线/路由器/防火墙
+```
+ping 8.8.8.8
+```
+打开DNS配置文件并加添DNS地址
+```
+nano /etc/resolv.conf
+nameserver 8.8.8.8
+```
+{% kbd Ctrl %}+{% kbd X %}后按{% kbd Y %},再按{% kbd Enter %}进行保存
+
+<!-- endtab -->
+
+{% endtabs %}
+
+更新完成之后下载ssh让我们可以远程进行登录操作（如果有防火墙开启22端口）
+```
+apt instal openssh-server  //下载ssh
+service ssh restart //重启ssh服务
+```
+要想远程登录Root用户，需要对ssh配置文件进行修改
+```
+nano /etc/ssh/sshd_config 
+```
+将<a>#PermitRootLogin prohibit-password</a>改成{% label 'PermitRootLogin yes' red %}，<a>#PasswordAuthentication yes</a>前面的{% label '#' red %}取消
+{% kbd Ctrl %}+{% kbd X %}后按{% kbd Y %},再按{% kbd Enter %}进行保存,并重启SSH
+```
+service ssh restart 
+```
 
 # 操作语法
 {% folding  , 基本操作 %}
@@ -25,15 +132,8 @@ sudo apt --purge remove xxxx
 #删除文件
 rm 文件名
 ```
+{% endfolding %}
 
-{% endfolding %}
-{% folding  , 更新apt %}
-更新软件信息数据库
-```
-apt update
-apt upgrade
-```
-{% endfolding %}
 {% folding  , 创建用户 %}
 ```
 #创建用户
@@ -70,29 +170,8 @@ sudo mount -a
 
 
 # 软件安装
-{% folding  , 安装SSH %}
-
-安装open ssh
+{% folding  , 防火墙ufw  %}
 ```
-apt install openssh  
-```
-允许远程登陆root用户
-
-```
-nano /etc/ssh/sshd_config 
-```
-将{% span yellow, #PermitRootLogin prohibit-password %} 改成 PermitRootLogin yes，{% span red, #PasswordAuthentication yes %}前面的#取消，win+x输入Y回车保存
-```
-service ssh restart
-```
-
-{% endfolding %}
-
-{% folding , 安装UFW  %}
-
-
-```
-# 安装
 sudo apt install ufw
 #设置跟随系统启动
 sudo ufw enable
@@ -104,10 +183,7 @@ sudo ufw allow 端口号
 #删除端口号  
 sudo ufw delete allow 端口号   
 ```
-
-
 {% endfolding %}
-
 
 {% folding  , SMB局域网  %}
 ``` 

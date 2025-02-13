@@ -2,7 +2,7 @@
 title: 使用Hexo搭建属于静态博客
 date: 2024-11-13 23:02:39
 tags: [Hexo,博客,Github Page]
-categories: [教程]
+categories: [博客]
 cover: /img/posts/hexo/hexo.png
 top_img: /img/posts/hexo/hexo.png
 swiper_index: 3

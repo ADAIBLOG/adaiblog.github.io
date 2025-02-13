@@ -16,7 +16,6 @@ description: Aseprite是一款适用于Windows、Mac和Linux的动画精灵编�
 [官网售价](https://www.aseprite.org/#buy)：$19.99（送Steam Key）       
 [Steam售价（国区）](https://store.steampowered.com/app/431730/Aseprite/): ¥70  
 同时这款软件开发者在[Github](https://github.com/aseprite/aseprite)上进行了开源，供大家自行编译使用，编译软件受官方许可，制作出的美术资产可用于商用，但不能进行二次销售。如果资金充足可以从官网或者Steam购买支持开发者
-[已编译Aseprite](https://adaifun.lanzout.com/iP1R72h7z6ud)
 # 购买与编译有什么区别？
 购买：会直接获得Win，Mac，Linux安装包直接可以使用，并且有官方邮件支持，更新更方便。
 编译：不能直接使用，不同系统，不同版本需要自行下载源代码本地进行编译。
@@ -67,8 +66,8 @@ description: Aseprite是一款适用于Windows、Mac和Linux的动画精灵编�
       with:
         name: aseprite
         path: |
-          D:/a/aseprite/aseprite/build/bin/data
-          D:/a/aseprite/aseprite/build/bin/aseprite.exe
+            build/bin/aseprite.exe
+            build/bin/data
 ```
 ![](/img/posts/aseprite/aseprite11.png)
 进行保存
@@ -151,4 +150,4 @@ ninja: error: 'C:/deps/skia/out/Release-x64/skia.lib', needed by 'bin/aseprite.e
 [参考文档](https://github.com/aseprite/aseprite/blob/main/INSTALL.md)
 
 # 视频版
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113598043064298&bvid=BV1w4i9YQEFf&cid=27186628152&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe class="bilibili" src="//player.bilibili.com/player.html?isOutside=true&aid=113598043064298&bvid=BV1w4i9YQEFf&cid=27186628152&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

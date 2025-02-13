@@ -57,18 +57,10 @@ aside: false
       link: https://github.com/XMuli/SunnyPages/releases
       avatar: /img/posts/app/SunnyPages.png
       descr: 截图  
-    - name: lively
-      link: https://github.com/rocksdanister/lively/releases
-      avatar: /img/posts/app/lively.png
-      descr: 动态壁纸工具      
     - name: Ditto
       link: https://github.com/sabrogden/Ditto/releases
       avatar: /img/posts/app/ditto.png
       descr: 剪贴板 
-    - name: Bulk-Crap-Uninstaller
-      link: https://github.com/Klocman/Bulk-Crap-Uninstaller
-      avatar: /img/posts/app/Bulk-Crap-Uninstaller.ico
-      descr: 卸载工具
     - name: Tabby
       link: https://github.com/Eugeny/tabby/releases/tag/v1.0.221
       avatar: https://ts4.cn.mm.bing.net/th?id=ODLS.233ffc08-3ab3-4018-8ca6-1e10f8b59364&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
@@ -77,14 +69,58 @@ aside: false
       link: https://github.com/Sophia-Community/SophiApp/releases
       avatar: /img/posts/app/sophiapp.svg
       descr: 系统优化工具 
-    - name: AList
-      link: https://github.com/AlistGo/alist/releases
-      avatar: /img/posts/app/alist.svg
-      descr: 支持多存储的文件列表程序 
     - name: Pot
       link: https://github.com/pot-app/pot-desktop/releases
       avatar: /img/posts/app/pot.svg
       descr: 划词翻译软件
+    - name: rufus
+      link: https://github.com/pbatard/rufus/releases
+      avatar: /img/posts/app/rufus.png
+      descr: 格式化和创建可启动 USB 闪存驱动器的实用程序   
+    - name: scrcpy
+      link: https://github.com/Genymobile/scrcpy/releases
+      avatar: /img/posts/app/scrcpy.svg
+      descr: 显示和控制您的 Android 设备     
+    - name:  Flow.Launcher
+      link: https://github.com/Flow-Launcher/Flow.Launcher/releases
+      avatar: /img/posts/app/Launcher.png
+      descr: Windows应用程序启动器
+- class_name: 壁纸
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:   
+    - name: lively
+      link: https://github.com/rocksdanister/lively/releases
+      avatar: /img/posts/app/lively.png
+      descr: 动态壁纸 
+    - name: Sucrose
+      link: https://github.com/Taiizor/Sucrose/releases
+      avatar: /img/posts/app/Sucrose.png
+      descr: 动态壁纸           
+- class_name: 清理卸载工具
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:   
+    - name: Bulk-Crap-Uninstaller
+      link: https://github.com/Klocman/Bulk-Crap-Uninstaller
+      avatar: /img/posts/app/Bulk-Crap-Uninstaller.ico
+      descr: 卸载工具
+    - name: bleachbit
+      link: https://www.bleachbit.org/
+      avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.e55abe3e-1ce2-46cf-b325-55184273f87f&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 清理系统并释放磁盘空间
+- class_name: 云盘
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:
+    - name: AList
+      link: https://github.com/AlistGo/alist/releases
+      avatar: /img/posts/app/alist.svg
+      descr: 支持多存储的文件列表程序 
+    - name: AList Helper
+      link: https://github.com/Xmarmalade/alisthelper/releases
+      avatar: /img/posts/app/alist.svg
+      descr: 桌面版AList
 - class_name: 浏览器
   class_desc: 
   flink_style: anzhiyu
@@ -109,7 +145,7 @@ aside: false
       link: https://github.com/NickeManarin/ScreenToGif/releases
       avatar: /img/posts/app/screentogif.png
       descr: Gif录制 
-- class_name: 编辑器
+- class_name: 生产力工具
   class_desc: 
   flink_style: anzhiyu
   link_list:  
@@ -117,15 +153,63 @@ aside: false
       link: https://code.visualstudio.com
       avatar: https://ts1.cn.mm.bing.net/th?id=ODLS.3867ad76-c943-4bda-9222-881c31b08799&w=40&h=40&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 代码编辑器
+    - name: LibreOffice
+      link: https://www.libreoffice.org/
+      avatar: https://ts3.cn.mm.bing.net/th?id=ODLS.b3fb474c-8537-47a4-8f09-52f5a7cacd19&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 全能办公套件
+    - name: onlyoffice
+      link: https://www.onlyoffice.com/download-desktop.aspx
+      avatar: https://ts1.cn.mm.bing.net/th?id=ODLS.9ae0b8ae-8aaa-4fc1-b9c1-6674ee9b645f&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 协作办公套件，兼容 MS Office 格式
+    - name: LibreCAD
+      link: https://github.com/LibreCAD/LibreCAD/releases
+      avatar: https://ts4.cn.mm.bing.net/th?id=ODLS.7b33036c-67b1-4b39-9f8f-9640fff48b19&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 2D CAD 绘图工具    
+    - name: GIMP
+      link: https://gitlab.gnome.org/GNOME/gimp/-/releases
+      avatar: https://ts3.cn.mm.bing.net/th?id=OSAAS.CEDC9A0F9FCDB166ACA04B66F0F901DF&w=72&h=72&c=17&rs=1&o=6&pid=TechQna
+      descr: 图像编辑器
+    - name: Inkscape
+      link: https://gitlab.gnome.org/GNOME/gimp/-/releases
+      avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.05c34803-8497-4e5f-9e81-045cfba3fcb1&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 矢量图形设计工具 
+    - name: Aseprite
+      link: https://www.adai.fun/posts/aseprite.html
+      avatar: https://ts4.cn.mm.bing.net/th?id=ODLS.5699bbd1-3bdb-4714-9fa5-8e80d1f67dae&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 像素艺术工具
+- class_name: 笔记与知识管理
+  class_desc: 
+  flink_style: anzhiyu
+  link_list: 
     - name: Notepads
       link: https://github.com/0x7c13/Notepads/releases
       avatar: /img/posts/app/Notepads.png
-      descr: 代码编辑器
+      descr: 文本编辑器
     - name: Inkdown
       link: https://github.com/1943time/inkdown/releases
       avatar: /img/posts/app/Inkdown.png
       descr: Markdown编辑器
-- class_name: 生活娱乐
+    - name: joplin
+      link: https://github.com/laurent22/joplin/releases
+      avatar: https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png
+      descr: Markdown编辑器  
+    - name: Logseq
+      link: https://github.com/logseq/logseq/releases
+      avatar: https://user-images.githubusercontent.com/25513724/220608753-f33db466-af72-4611-b603-411440c15ed0.png?sanatize=true
+      descr: 用于知识管理和协作 
+    - name: 侠客日记
+      link: https://github.com/Yu-Core/SwashbucklerDiary/releases
+      avatar: /img/posts/app/侠客.png
+      descr: 本地日记APP 
+    - name: DesktopNotes
+      link: https://github.com/zzy-life/DesktopNotes/releases
+      avatar: /img/posts/app/DesktopNotes.png
+      descr: 500kb大小便签应用
+    - name: wenyan 
+      link: https://github.com/caol64/wenyan  
+      avatar: /img/posts/app/wenyan.webp
+      descr: Markdown文章排版美化工具
+- class_name: 媒体与娱乐
   class_desc: 
   flink_style: anzhiyu
   link_list:  
@@ -156,7 +240,11 @@ aside: false
     - name: MoeKoeMusic
       link: https://github.com/iAJue/MoeKoeMusic/releases
       avatar: /img/posts/app/MoeKoeMusic.png
-      descr: 酷狗音乐第三方客户端         
+      descr: 酷狗音乐第三方客户端  
+    - name: spotube
+      link: https://github.com/KRTirtho/spotube/releases
+      avatar: https://github.com/KRTirtho/spotube/raw/master/assets/spotube_banner.png
+      descr: 轻量级Spotify音乐客户端       
 - class_name: 下载器
   class_desc: 
   flink_style: anzhiyu
@@ -177,14 +265,18 @@ aside: false
       link: https://github.com/GopeedLab/gopeed/releases
       avatar: /img/posts/app/gopeed.png
       descr: 支持HTTP、BitTorrent、Magnet协议下载器 
-- class_name: 记录，追踪类
+    - name:  Lux
+      link: https://github.com/iawia002/lux/releases
+      avatar: https://avatars.githubusercontent.com/u/9134003?v=4
+      descr: 视频下载器    
+    - name: Fluent M3U8
+      link: https://github.com/zhiyiYo/Fluent-M3U8/releases
+      avatar: /img/posts/app/fluent.png
+      descr: m3u8 下载器      
+- class_name: 密码管理器
   class_desc: 
   flink_style: anzhiyu
   link_list:
-    - name: 侠客日记
-      link: https://github.com/Yu-Core/SwashbucklerDiary/releases
-      avatar: /img/posts/app/侠客.png
-      descr: 本地日记APP 
     - name: KeePass
       link: https://keepass.info/download.html
       avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.780feae5-f249-4f84-b8ec-95987ca87e3f&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
@@ -192,6 +284,10 @@ aside: false
     - name: KeePassXC
       link: https://github.com/keepassxreboot/keepassxc/releases
       avatar: https://ts4.cn.mm.bing.net/th?id=ODLS.1d1367ec-195a-4354-8ec2-478d3dc23810&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 密码管理器 
+    - name: Bitwarden
+      link: https://github.com/bitwarden/clients/releases
+      avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.f1640d3c-5a19-4148-b9ea-4a7b2dc1b628&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 密码管理器 
 - class_name: 阅读器
   class_desc: 
@@ -201,7 +297,7 @@ aside: false
       link: https://github.com/koodo-reader/koodo-reader/releases
       avatar: /img/posts/app/KoodoReader.png
       descr: 电子书阅读器
-- class_name: 游戏娱乐,工具
+- class_name: 游戏工具
   class_desc: 
   flink_style: anzhiyu
   link_list:
@@ -209,10 +305,14 @@ aside: false
       link: https://github.com/Scighost/Starward/releases
       avatar: /img/posts/app/Starward.ico
       descr: 米哈游启动器 
-    - name:  HMCL
+    - name: HMCL
       link: https://github.com/HMCL-dev/HMCL/releases
       avatar: /img/posts/app/hmcl.png
-      descr: 我的世界启动器      
+      descr: 我的世界启动器 
+    - name: DeepRant 
+      link: https://github.com/liseami/DeepRant/releases
+      avatar: /img/posts/app/deeprant.png
+      descr: 游戏快捷翻译工具         
     - name: Vnite
       link: https://github.com/ximu3/vnite/releases
       avatar: /img/posts/app/vnite.png
@@ -221,14 +321,6 @@ aside: false
       link: https://steampp.net/
       avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.7e88b171-5dbc-4915-80b6-dc6889b87653&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: Steam工具 
-    - name: Unciv
-      link: https://github.com/yairm210/Unciv/releases
-      avatar: /img/posts/app/Unciv.png
-      descr: 类文明6的建设类游戏  
-    - name: 破碎的像素地牢
-      link: https://github.com/00-Evan/shattered-pixel-dungeon/releases
-      avatar: /img/posts/app/shattered-pixel-dungeon.png
-      descr: Roguelike地下城探索游戏 
     - name: Mumble
       link: https://www.mumble.info/
       avatar: https://ts1.cn.mm.bing.net/th?id=ODLS.eedc9b8d-fe3c-4c2c-af39-0bcd6608d766&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
@@ -240,7 +332,23 @@ aside: false
     - name: Sunshine
       link: https://github.com/LizardByte/Sunshine/releases
       avatar: /img/posts/app/sunshine.png
-      descr:  Moonlight 的自托管游戏流主机      
+      descr: Moonlight 的自托管游戏流主机     
+- class_name: 游戏
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:
+    - name: XiuXianGame
+      link: https://github.com/setube/vue-XiuXianGame
+      avatar: /img/posts/app/XiuXianGame.ico
+      descr: 文字游戏修仙全靠刷 
+    - name: Unciv
+      link: https://github.com/yairm210/Unciv/releases
+      avatar: /img/posts/app/Unciv.png
+      descr: 类文明6的建设类游戏  
+    - name: 破碎的像素地牢
+      link: https://github.com/00-Evan/shattered-pixel-dungeon/releases
+      avatar: /img/posts/app/shattered-pixel-dungeon.png
+      descr: Roguelike地下城探索游戏  
 - class_name: 应用插件
   class_desc: 
   flink_style: anzhiyu
@@ -249,6 +357,14 @@ aside: false
       link: https://github.com/huiyadanli/RevokeMsgPatcher/releases
       avatar: /img/posts/app/RevokeMsgPatcher.png
       descr: 微信/QQ/TIM防撤回补丁  
+    - name: WindowsTabs
+      link: https://github.com/leafOfTree/WindowTabs/releases
+      avatar: /img/posts/app/windowtabs.png
+      descr: 给Windows窗口添加标签   
+    - name: rime-frost 
+      link: https://github.com/gaboolic/rime-frost
+      avatar: https://avatars.githubusercontent.com/u/3831173?v=4
+      descr: rime方案的开源词库
 - class_name: 浏览器插件
   class_desc: 
   flink_style: anzhiyu
@@ -264,7 +380,35 @@ aside: false
     - name: Motrix
       link: https://github.com/gautamkrishnar/motrix-webextension
       avatar: /img/posts/app/motrix.png
-      descr: Motrix接管浏览器下载  
+      descr: Motrix接管浏览器下载   
+- class_name:  NextCloud系列
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:
+    - name: NextCloud
+      link: https://github.com/nextcloud/desktop
+      avatar: /img/posts/app/NextCloud.png
+      descr: 网络硬盘系统   
+    - name: Talk
+      link: https://apps.nextcloud.com/apps/spreed
+      avatar: /img/posts/app/spreed.png
+      descr: Nextcloud的视频和音频会议应用程序   
+    - name: Notes
+      link: https://apps.nextcloud.com/apps/notes
+      avatar: /img/posts/app/NextcloudNotes.png
+      descr: Nextcloud的笔记应用    
+    - name: Cookbook 
+      link: https://apps.nextcloud.com/apps/cookbook
+      avatar: /img/posts/app/cookbook.png
+      descr: Nextcloud的菜谱应用      
+    - name: tables 
+      link: https://apps.nextcloud.com/apps/tables
+      avatar: /img/posts/app/tables.png
+      descr: Nextcloud的表格应用  
+    - name: 更多....
+      link: https://apps.nextcloud.com/
+      avatar: /img/posts/app/NextCloud.png
+      descr: 更多Nextcloud应用             
 - class_name: 其他
   class_desc: 
   flink_style: anzhiyu
@@ -272,7 +416,7 @@ aside: false
     - name: N2rayN
       link: https://github.com/2dust/v2rayN/releases
       avatar: /img/posts/app/v2rayNG.png
-      descr: 网络代理                                 
+      descr: 网络代理                                      
 {% endflink %}
 
 # 闭源软件
@@ -289,6 +433,14 @@ aside: false
       link: https://gooogleweb.com/index.html
       avatar: https://ts4.cn.mm.bing.net/th?id=ODLS.79d7c869-d108-4a09-965b-6f9cfe1c079d&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 谷歌浏览器 
+- class_name: 社交
+  class_desc: 
+  flink_style: anzhiyu
+  link_list:
+    - name: TIM
+      link: https://tim.qq.com/
+      avatar: https://ts1.cn.mm.bing.net/th?id=ODLS.2a2a53ef-a362-48b1-8fe5-ff79393bc828&w=50&h=50&qlt=91&pcl=fffffa&o=6&pid=1.2
+      descr: QQ
 - class_name: 下载器
   class_desc: 
   flink_style: anzhiyu
@@ -349,4 +501,8 @@ aside: false
       link: https://microsoftedge.microsoft.com/addons/detail/adguard-%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%99%A8/pdffkfellgipmhklpdmokmckkkfcopbh
       avatar: https://ts3.cn.mm.bing.net/th?id=ODLS.e4eace61-b80b-4adf-884f-4e8be97b489f&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 去广告
+    - name: codebox
+      link: https://github.com/027xiguapi/code-box
+      avatar: https://addons.mozilla.org/user-media/addon_icons/2856/2856860-64.png?modified=f3dfcb60
+      descr: 一键复制代码/下载文章   
 {% endflink %}

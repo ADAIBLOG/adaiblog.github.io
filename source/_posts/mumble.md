@@ -40,11 +40,11 @@ aside: false
 ![](/img/posts/mumble/mumble15.png)
 
 {% endfolding %}
-{% folding green , Linux服务器搭建 %}
+{% folding green , 服务器搭建 %}
 
-{% folding , 安装 %}
+{% folding , apt安装 %}
+不推荐使用root搭建服务，创建新用户
 ```
-#不推荐使用root搭建服务，创建新用户
 adduser mumble
 #添加sudo权限
 sudo adduser mumble sudo
@@ -52,22 +52,20 @@ sudo adduser mumble sudo
 su mumble
 #切换到mumble目录
 cd /home/mumble
-#安装
+```
+安装mumble-server
+```
 apt install mumble-server
 #启动服务，点击两次yes，之后设置superuser用户密码
 sudo dpkg-reconfigure mumble-server
-#开机自启动
+```
+开机自启动
+```
 sudo systemctl start mumble-server
-#开启端口
-sudo ufw allow 64738
 ```
-{% endfolding %}
-{% folding , 服务器配置文件 %}
+打开配置文件
 ```
-#打开配置文件
 sudo nano /etc/mumble-server.ini
-#设置完重启配置文件
-sudo service mumble-server restart
 ```
 {% span red, welcomtext %}：服务器欢迎语句
 {% span red, port %}：端口
@@ -76,12 +74,39 @@ sudo service mumble-server restart
 {% span red, users %}：服务器可加入人数
 {% span red, registerName %}:更改默认Root频道名称
 {% note warning simple %}部分配置被注释，请删除前面的 ；{% endnote %}
-
+设置完重启配置文件
+```
+sudo service mumble-server restart
+```
 {% endfolding %}
-{% folding , 开放外部端口 %}
+{% folding , docker-compose安装 %}
+Docker-compose.yml文件内容
+```
+services:
+    mumble-server:
+        image: mumblevoip/mumble-server:lastest
+        container_name: mumble-server
+        hostname: mumble-server
+        restart: on-failure
+        ports:
+            - 64738:64738
+            - 64738:64738/udp
+#       expose:
+#           - 6502
+```
+启动docker 
+```
+sudo docker compose up -d
+```
+使用docker-compose部署如何配置mumble服务器暂时还不会（尝试几次都没有生效，有时间在研究了）
+{% endfolding %}
+开放64738端口
+```
+sudo ufw allow 64738
+```
+开放外部端口
 1. 本地服务器：在路由器中找到端口转发添加端口
 2. 云服务器：进入服务器实例详情页面->配置安全组规则->配置规则->手动添加->选择协议类型，目标填写端口号
-{% endfolding %}
 {% endfolding %}
 
 {% folding blue  , 权限管理 %}

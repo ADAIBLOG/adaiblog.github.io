@@ -1,13 +1,42 @@
 ---
-title: AnZhiYu标签
+title: AnZhiYu
 date: 2025-01-31 18:16:57
-tags: [AnZhiYu,tag]
+tags: [AnZhiYu,tag,Front-matter]
 categories:
-  - 知识
+  - 博客
 cover: /img/posts/anzhiyu/anzhiyutag.webp
 top_img: /img/posts/anzhiyu/anzhiyutag.webp
 id: anzhiyutag
 --- 
+# Front-matter
+| 参数 | 作用 | 
+| :---| :---: |
+| title | 【必需】页面标题 | 
+| date | 【必需】页面创建日期 | 
+| updated | 【可选】文章更新日期 | 
+| tags | 【可选】文章标签 | 
+| categories | 【可选】文章分类 | 
+| description | 【可选】文章描述 | 
+| top_img | 【可选】文章顶部图片 | 
+| aside | 隐藏侧边栏 | 
+| hide | 隐藏文章 | 
+| indexing | 是否能被搜索栏搜索到  | 
+| cover | 【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空) | 
+| id | 自定义文章URL | 
+| comments | 【可选】显示文章评论模块(默认 true) | 
+| toc | 【可选】显示文章导航(默认为设置enable) | 
+| aside | 【可选】显示侧边栏 (默认 true) | 
+| swiper_index | 【可选】首页轮播图配置 index 索引，数字越小越靠前 | 
+| top_group_index | 【可选】首页右侧卡片组配置, 数字越小越靠前 | 
+| main_color | 【可选】文章主色，必须是16进制颜色且有6位，不可缩减，例如#ffffff 不可写成#fff | 
+| copyright | 【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置) | 
+| copyright_author | 【可选】文章版权模块的文章作者 | 
+| copyright_author_href | 【可选】文章版权模块的文章作者链接 | 
+| copyright_url | 【可选】文章版权模块的文章链接链接 | 
+| copyright_info | 【可选】文章版权模块的版权声明文字 | 
+| sitemap | 是否生成站点地图 | 
+
+
 {% note blue 'anzhiyufont anzhiyu-icon-bullhorn' simple %}{% label AnZhiYu主题 %}中大部分标签移植于[店长](https://akilar.top/)的[hexo-butterfly-tag-plugins-plus](https://www.npmjs.com/package/hexo-butterfly-tag-plugins-plus)，转载请注明来自[安知鱼](https://blog.anheyu.com/posts/d50a.html){% endnote %}
 
 # 段落文本 p
@@ -95,19 +124,19 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
+This is Tab 2
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3
 
 <!-- endtab -->
 
@@ -117,19 +146,19 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
+This is Tab 2
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3
 
 <!-- endtab -->
 
@@ -139,19 +168,19 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
+This is Tab 2
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3
 
 <!-- endtab -->
 
@@ -161,19 +190,19 @@ id: anzhiyutag
 
 <!-- tab 第一个Tab -->
 
-**tab 名字为第一个 Tab**
+tab 名字为第一个 Tab
 
 <!-- endtab -->
 
 <!-- tab @fab fa-apple-pay -->
 
-**只有图标 没有 Tab 名字**
+只有图标 没有 Tab 名字
 
 <!-- endtab -->
 
 <!-- tab 炸弹@fas fa-bomb -->
 
-**名字+icon**
+名字+icon
 
 <!-- endtab -->
 
@@ -186,19 +215,18 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
-
+This is Tab 2
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3
 
 <!-- endtab -->
 
@@ -210,19 +238,19 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
+This is Tab 2
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3
 
 <!-- endtab -->
 
@@ -234,19 +262,19 @@ id: anzhiyutag
 
 <!-- tab -->
 
-**This is Tab 1.**
+This is Tab 1
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 2.**
+This is Tab 2.
 
 <!-- endtab -->
 
 <!-- tab -->
 
-**This is Tab 3.**
+This is Tab 3.
 
 <!-- endtab -->
 
@@ -258,19 +286,19 @@ id: anzhiyutag
 
 <!-- tab 第一个Tab -->
 
-**tab 名字为第一个 Tab**
+tab 名字为第一个 Tab
 
 <!-- endtab -->
 
 <!-- tab @fab fa-apple-pay -->
 
-**只有图标 没有 Tab 名字**
+只有图标 没有 Tab 名字
 
 <!-- endtab -->
 
 <!-- tab 炸弹@fas fa-bomb -->
 
-**名字+icon**
+名字+icon
 
 <!-- endtab -->
 

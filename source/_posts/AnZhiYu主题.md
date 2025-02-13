@@ -1,9 +1,9 @@
 ---
 title: 安只鱼主题美化和功能添加
 date: 2024-11-30 18:51:41
-tags: [博客,AnZhiYu]
+tags: [AnZhiYu]
 categories:
-  - 教程
+  - 博客
 cover: /img/posts/anzhiyu/anzhiyu.png
 top_img: /img/posts/anzhiyu/anzhiyu.png
 id: anzhiyu
@@ -565,14 +565,14 @@ inject:
 ```
 在html中输入并修改src
 ```html
-<iframe class="bilibili" src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe class="bilibili" src="//player.bilibili.com/player.html?bid=xxxxx&cid=xxxxx&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ```
 如果想让视频默认不播放，在src链接（视频链接最后链接）添加&autoplay=0
 ```html
 # 默认播放
-<iframe class="bilibili" src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe class="bilibili" src="//player.bilibili.com/player.html?bid=xxxx&cid=xxxx&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 # 默认不播放
-<iframe class="bilibili" src="//player.bilibili.com/player.html?aid=81148317&cid=138878361&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
+<iframe class="bilibili" src="//player.bilibili.com/player.html?bid=xxxxx&cid=xxxxx&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" > </iframe>
 ```
 > 原文 [Hexo博客引用B站视频并自动适配](https://hongcyu.github.io/posts/hexo-bilibili.html) ，原作者：[hongCYu's Blog](https://hongcyu.github.io/),
 # 添加直达底部按钮

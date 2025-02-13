@@ -1,5 +1,5 @@
-- class_name: 小伙伴
-  class_desc: 帮助过我的小伙伴
+- class_name: 有趣的博主
+  class_desc: 
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list: 
@@ -18,7 +18,11 @@
      avatar: https://blog.ciraos.top/avatar1.avif
      descr: Do not worry, be happy.
      siteshot: https://blog.criaos.top/siteshot.avif 
-
+   - name: 有用经验
+     link: https://yyjingyan.com/
+     avatar: https://yyjingyan.com/logo(%E5%B7%B2%E5%A4%84%E7%90%86).png
+     descr: 有意思,新奇,小众,好玩的导航~
+     siteshot: 
 - class_name: 技术大佬
   class_desc: 
   flink_style: anzhiyu

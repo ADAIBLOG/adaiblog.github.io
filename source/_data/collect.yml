@@ -1,14 +1,32 @@
 
 - class_name: 📺 影视剧
-  class_desc: #分类描述
+  class_desc: 已看
   link_list:
     - name: 红楼梦 #名字
       img: /img/collect/红楼梦.webp
       score: 5 # 1-5星
-      tip: 电视剧 # 右上角文字
+      tip: 古装 / 剧情 # 右上角文字
       url: https://www.bilibili.com/bangumi/play/ep327843?bsource=bing_ogv
-- class_name: 📺 游戏
-  class_desc: #分类描述
+    - name: 不良执念清除师 #名字
+      img: /img/collect/不良执念清除师.jpg
+      score: 5 # 1-5星
+      tip: 喜剧 / 奇幻 # 右上角文字
+      url: https://www.iq.com/album/%E4%B8%8D%E8%89%AF%E6%89%A7%E5%BF%B5%E6%B8%85%E9%99%A4%E5%B8%88-2023-27nybrvgqat?lang=zh_cn
+- class_name: 📺 电影
+  class_desc: 已看
+  link_list:      
+    - name: 哪吒之魔童闹海 #名字
+      img: /img/collect/nezha2.jpg
+      score: 4 # 1-5星
+      tip: 动画  # 右上角文字
+      url: https://www.bilibili.com/bangumi/play/ss48416?theme=movie&spm_id_from=333.337.0.0
+    - name: 神探夏洛克 #名字
+      img: /img/collect/神探夏洛克.jpg
+      score: 5 # 1-5星
+      tip: 侦探剧  # 右上角文字
+      url: https://www.bilibili.com/bangumi/play/ep1420591
+- class_name: 🎮 游戏
+  class_desc: 已玩
   link_list:
     - name: Gorogoa #名字
       img: /img/collect/gorogoa.jpg
