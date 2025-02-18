@@ -263,18 +263,9 @@
   </url>
   
   <url>
-    <loc>http://adai.fun/link/index.html</loc>
+    <loc>http://adai.fun/tags/index.html</loc>
     
-    <lastmod>2025-01-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/equipment/index.html</loc>
-    
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -283,25 +274,16 @@
   <url>
     <loc>http://adai.fun/reward/index.html</loc>
     
-    <lastmod>2025-01-07</lastmod>
+    <lastmod>2025-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://adai.fun/collect/index.html</loc>
+    <loc>http://adai.fun/link/index.html</loc>
     
-    <lastmod>2025-01-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://adai.fun/categories/index.html</loc>
-    
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -310,7 +292,34 @@
   <url>
     <loc>http://adai.fun/google65201349868d9b28.html</loc>
     
-    <lastmod>2024-11-24</lastmod>
+    <lastmod>2025-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/equipment/index.html</loc>
+    
+    <lastmod>2025-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/collect/index.html</loc>
+    
+    <lastmod>2025-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/categories/index.html</loc>
+    
+    <lastmod>2025-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -334,19 +343,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://adai.fun/tags/index.html</loc>
-    
-    <lastmod>2024-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://adai.fun/</loc>
-    <lastmod>2025-02-16</lastmod>
+    <lastmod>2025-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
