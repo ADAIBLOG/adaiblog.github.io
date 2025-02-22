@@ -4,7 +4,16 @@
   <url>
     <loc>http://adai.fun/posts/anzhiyu.html</loc>
     
-    <lastmod>2025-02-21</lastmod>
+    <lastmod>2025-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://adai.fun/posts/cm7fyn8w30000gds637478j66.html</loc>
+    
+    <lastmod>2025-02-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
