@@ -3,4 +3,4 @@ Allow: /
 Disallow: /tags/
 Disallow: /categories/
 Disallow: /archives/
-Sitemap: https://afai.fun/sitemap.xml
+Sitemap: https://www.adai.fun/sitemap.xml
