@@ -5,8 +5,8 @@
     
     <entry>
       <title>宫保鸡丁</title>
-      <link href="/posts/cm7ptm7dm00001us6h47hc0yi.html"/>
-      <url>/posts/cm7ptm7dm00001us6h47hc0yi.html</url>
+      <link href="/posts/cm7sm6v9g002y3ms63g5eeci2.html"/>
+      <url>/posts/cm7sm6v9g002y3ms63g5eeci2.html</url>
       
         <content type="html"><![CDATA[<p>仅供参考，味道不是很还原，后续改进</p><h1 id="🍗-宫保鸡丁制作配方"><a href="#🍗-宫保鸡丁制作配方" class="headerlink" title="🍗 宫保鸡丁制作配方"></a>🍗 宫保鸡丁制作配方</h1><h2 id="🌶️-核心特点"><a href="#🌶️-核心特点" class="headerlink" title="🌶️ 核心特点"></a>🌶️ 核心特点</h2><ul><li>鸡肉滑嫩 | 花生酥脆 | 酸甜微辣 | 香气浓郁</li></ul><h2 id="🌟-食材清单"><a href="#🌟-食材清单" class="headerlink" title="🌟 食材清单"></a>🌟 食材清单</h2><table><thead><tr><th>类别</th><th>材料</th><th>备注</th></tr></thead><tbody><tr><td>​<strong>主料</strong>​</td><td>鸡腿肉</td><td>去皮切丁，比鸡胸更嫩</td></tr><tr><td>​<strong>辅料</strong>​</td><td>花生米</td><td>生炒更香，可用烤箱180℃烤10分钟替代</td></tr><tr><td>​<strong>配料</strong>​</td><td>葱段，辣椒，花椒</td><td>葱白切段</td></tr><tr><td></td><td>生抽</td><td></td></tr><tr><td></td><td>老抽</td><td>调色</td></tr><tr><td></td><td>白糖</td><td>关键平衡酸甜</td></tr><tr><td></td><td>香醋</td><td></td></tr><tr><td></td><td>油</td><td></td></tr><tr><td></td><td>盐少许</td><td></td></tr><tr><td></td><td>葱姜水</td><td>腌制鸡肉使用</td></tr><tr><td></td><td>玉米淀粉</td><td>给鸡肉锁水</td></tr></tbody></table><h2 id="🔪-四步黄金流程"><a href="#🔪-四步黄金流程" class="headerlink" title="🔪 四步黄金流程"></a>🔪 四步黄金流程</h2><h3 id="①-腌鸡肉：锁住水分"><a href="#①-腌鸡肉：锁住水分" class="headerlink" title="① 腌鸡肉：锁住水分"></a>① 腌鸡肉：锁住水分</h3><p>鸡丁 + 1勺生抽 + 1勺老抽 + 半勺玉米淀粉 + 少许盐 + 少许胡椒粉 + 葱姜水 → 抓匀加少许油腌制半小时<br>⚠️ 油形成保护膜，防止鸡肉脱水变柴！</p><h3 id="②-炸花生：酥脆不油腻"><a href="#②-炸花生：酥脆不油腻" class="headerlink" title="② 炸花生：酥脆不油腻"></a>② 炸花生：酥脆不油腻</h3><ol><li>将带皮花生米放入热水等待外皮褶皱之后加入凉水，外皮一捏就掉。<br>2.冷油下花生米，小火炸至微黄捞出（约2分钟），放凉备用<br>💡 油温过高会焦苦</li></ol><h3 id="③-爆香料汁：激发香气"><a href="#③-爆香料汁：激发香气" class="headerlink" title="③ 爆香料汁：激发香气"></a>③ 爆香料汁：激发香气</h3><p>1勺生抽 + 1勺醋 + 半勺盐 +糖 + 少许胡椒粉 + 少许老抽 + 1勺生粉 → 搅拌均匀</p><h3 id="④-炒制鸡丁：快准狠"><a href="#④-炒制鸡丁：快准狠" class="headerlink" title="④ 炒制鸡丁：快准狠"></a>④ 炒制鸡丁：快准狠</h3><ol><li>热锅冷油（油稍多），下入鸡丁大火滑炒至断生，盛出备用</li><li>另起油锅加入葱段，辣椒，花椒小火煸香  </li><li>放入炒好的鸡丁，倒入料汁，大火翻炒至料汁浓稠 </li><li>出锅前撒入花生米快速翻炒，即可出锅装盘<br>🔥 注意火候！避免糊掉产生苦味</li></ol>]]></content>
       
@@ -644,7 +644,7 @@
       <link href="/posts/vercel.html"/>
       <url>/posts/vercel.html</url>
       
-        <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#x72;&#101;&#103;&#x69;&#x73;&#x74;&#114;&#x61;&#116;&#x69;&#x6f;&#110;&#x40;&#118;&#101;&#114;&#x63;&#101;&#108;&#46;&#99;&#x6f;&#x6d;">&#x72;&#101;&#103;&#x69;&#x73;&#x74;&#114;&#x61;&#116;&#x69;&#x6f;&#110;&#x40;&#118;&#101;&#114;&#x63;&#101;&#108;&#46;&#99;&#x6f;&#x6d;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#114;&#101;&#x67;&#x69;&#x73;&#116;&#114;&#97;&#x74;&#x69;&#111;&#x6e;&#x40;&#118;&#x65;&#x72;&#99;&#x65;&#108;&#x2e;&#x63;&#111;&#109;">&#114;&#101;&#x67;&#x69;&#x73;&#116;&#114;&#97;&#x74;&#x69;&#111;&#x6e;&#x40;&#118;&#x65;&#x72;&#99;&#x65;&#108;&#x2e;&#x63;&#111;&#109;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
       
       
       <categories>
@@ -876,9 +876,9 @@
       
         <tags>
             
-            <tag> 软件推荐 </tag>
-            
             <tag> Windwos </tag>
+            
+            <tag> 软件推荐 </tag>
             
         </tags>
       
@@ -903,9 +903,9 @@
       
         <tags>
             
-            <tag> 软件推荐 </tag>
-            
             <tag> Windwos </tag>
+            
+            <tag> 软件推荐 </tag>
             
         </tags>
       
