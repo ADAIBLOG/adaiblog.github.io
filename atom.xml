@@ -43,8 +43,8 @@
   
   <entry>
     <title>自制奶茶</title>
-    <link href="https://www.adai.fun/posts/cm7tvvoj7003y9os6d59z04mr.html"/>
-    <id>https://www.adai.fun/posts/cm7tvvoj7003y9os6d59z04mr.html</id>
+    <link href="https://www.adai.fun/posts/cm7u779up003a38s68js7e5sw.html"/>
+    <id>https://www.adai.fun/posts/cm7u779up003a38s68js7e5sw.html</id>
     <published>2025-03-03T07:35:16.000Z</published>
     <updated>2025-03-04T07:57:11.549Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>宫保鸡丁</title>
-    <link href="https://www.adai.fun/posts/cm7tvvoiz00389os65obn2hz3.html"/>
-    <id>https://www.adai.fun/posts/cm7tvvoiz00389os65obn2hz3.html</id>
+    <link href="https://www.adai.fun/posts/cm7u779ul002n38s6c1v86wzd.html"/>
+    <id>https://www.adai.fun/posts/cm7u779ul002n38s6c1v86wzd.html</id>
     <published>2025-03-01T06:18:11.000Z</published>
     <updated>2025-03-04T07:55:26.745Z</updated>
     
@@ -107,9 +107,9 @@
     <category term="软件" scheme="https://www.adai.fun/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Linux" scheme="https://www.adai.fun/tags/Linux/"/>
-    
     <category term="网络" scheme="https://www.adai.fun/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="Linux" scheme="https://www.adai.fun/tags/Linux/"/>
     
   </entry>
   
@@ -233,9 +233,9 @@
     <category term="软件" scheme="https://www.adai.fun/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
-    
     <category term="生产力工具" scheme="https://www.adai.fun/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
     
   </entry>
   
@@ -414,9 +414,9 @@
     <category term="软件" scheme="https://www.adai.fun/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
-    
     <category term="生产力工具" scheme="https://www.adai.fun/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
     
   </entry>
   
@@ -537,16 +537,16 @@
     <category term="软件" scheme="https://www.adai.fun/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
-    
     <category term="生产力工具" scheme="https://www.adai.fun/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>加密文章</title>
-    <link href="https://www.adai.fun/posts/cm7tvvoiy00349os6207q143y.html"/>
-    <id>https://www.adai.fun/posts/cm7tvvoiy00349os6207q143y.html</id>
+    <link href="https://www.adai.fun/posts/cm7u779uj002d38s6f1f1cri9.html"/>
+    <id>https://www.adai.fun/posts/cm7u779uj002d38s6f1f1cri9.html</id>
     <published>2024-12-03T13:28:20.000Z</published>
     <updated>2025-02-16T15:24:51.471Z</updated>
     
@@ -675,11 +675,11 @@
     
     <category term="Linux" scheme="https://www.adai.fun/tags/Linux/"/>
     
+    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
+    
     <category term="Docker" scheme="https://www.adai.fun/tags/Docker/"/>
     
     <category term="语音软件" scheme="https://www.adai.fun/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6/"/>
-    
-    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
     
   </entry>
   
@@ -690,7 +690,7 @@
     <published>2024-11-25T06:10:45.000Z</published>
     <updated>2025-03-04T07:34:31.665Z</updated>
     
-    <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x72;&#x61;&#116;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#114;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x72;&#x61;&#116;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#114;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#114;&#101;&#103;&#105;&#x73;&#116;&#114;&#97;&#116;&#x69;&#x6f;&#x6e;&#x40;&#x76;&#x65;&#x72;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#114;&#101;&#103;&#105;&#x73;&#116;&#114;&#97;&#116;&#x69;&#x6f;&#x6e;&#x40;&#x76;&#x65;&#x72;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
     
     
       
@@ -747,9 +747,9 @@
     <category term="博客" scheme="https://www.adai.fun/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Github Page" scheme="https://www.adai.fun/tags/Github-Page/"/>
-    
     <category term="Hexo" scheme="https://www.adai.fun/tags/Hexo/"/>
+    
+    <category term="Github Page" scheme="https://www.adai.fun/tags/Github-Page/"/>
     
   </entry>
   
@@ -797,11 +797,11 @@
     
     <category term="Linux" scheme="https://www.adai.fun/tags/Linux/"/>
     
+    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
+    
     <category term="Docker" scheme="https://www.adai.fun/tags/Docker/"/>
     
     <category term="语音软件" scheme="https://www.adai.fun/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6/"/>
-    
-    <category term="Windows" scheme="https://www.adai.fun/tags/Windows/"/>
     
   </entry>
   
