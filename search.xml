@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何购买并组装一台电脑</title>
+      <link href="/posts/pc.html"/>
+      <url>/posts/pc.html</url>
+      
+        <content type="html"><![CDATA[<p>仅供参考!!!!!,还有很多不足后续改进。</p><h1 id="电脑硬件"><a href="#电脑硬件" class="headerlink" title="电脑硬件"></a>电脑硬件</h1><h2 id="1-中央处理器-CPU"><a href="#1-中央处理器-CPU" class="headerlink" title="1. 中央处理器 (CPU)"></a>1. 中央处理器 (CPU)</h2><ul><li><strong>功能</strong><br>▸ 计算机的”大脑”，执行运算指令<br>▸ 协调各硬件协同工作<br>▸ 决定系统整体性能等级</li><li><strong>主流型号</strong><br><strong>Intel 平台</strong><br>▸ 酷睿 i3&#x2F;i5&#x2F;i7&#x2F;i9 系列（第13代 Raptor Lake）<br>▸ 至强 Xeon（服务器级）<br><strong>AMD 平台</strong><br>▸ Ryzen 3&#x2F;5&#x2F;7&#x2F;9 系列（7000系 Zen4架构）<br>▸ Threadripper（工作站级）</li></ul><h2 id="2-主板-Motherboard"><a href="#2-主板-Motherboard" class="headerlink" title="2. 主板 (Motherboard)"></a>2. 主板 (Motherboard)</h2><ul><li><p><strong>功能</strong><br>▸ 硬件系统的物理载体<br>▸ 提供组件互联通道<br>▸ 集成声卡&#x2F;网卡等基础功能</p></li><li><p><strong>主流型号</strong><br><strong>Intel 平台</strong><br>▸ Z790（高端超频）<br>▸ B760（主流型号）<br><strong>AMD 平台</strong><br>▸ X670E（PCIe 5.0支持）<br>▸ B650（性价比选择）</p></li></ul><h2 id="3-内存-RAM"><a href="#3-内存-RAM" class="headerlink" title="3. 内存 (RAM)"></a>3. 内存 (RAM)</h2><ul><li><strong>功能</strong><br>▸ 临时存储运行中程序数据<br>▸ 影响多任务处理能力<br>▸ 数据交换的中转站</li><li><strong>型号</strong><br>▸ 台式机内存（DIMM）<br>▸ 笔记本内存（SO-DIMM）</li><li><strong>规格</strong><br>▸ DDR4 3200MHz（主流选择）<br>▸ DDR5 6000MHz（新一代标准）</li></ul><h2 id="4-存储设备"><a href="#4-存储设备" class="headerlink" title="4. 存储设备"></a>4. 存储设备</h2><h3 id="固态硬盘-SSD"><a href="#固态硬盘-SSD" class="headerlink" title="固态硬盘 (SSD)"></a>固态硬盘 (SSD)</h3><ul><li><p><strong>核心功能</strong><br>▸ 高速读写操作系统、应用程序及高频访问文件<br>▸ 通过低延迟响应显著提升系统整体性能  </p></li><li><p><strong>技术特性</strong>  </p><h4 id="存储颗粒类型对比"><a href="#存储颗粒类型对比" class="headerlink" title="存储颗粒类型对比"></a>存储颗粒类型对比</h4><table><thead><tr><th>颗粒类型</th><th>单单元存储bit数</th><th>P&#x2F;E擦写次数</th><th>读写速度</th><th>成本</th><th>典型应用场景</th></tr></thead><tbody><tr><td>SLC</td><td>1bit</td><td>50,000-100,000</td><td>最高</td><td>极高</td><td>工业级&#x2F;企业服务器</td></tr><tr><td>MLC</td><td>2bit</td><td>3,000-10,000</td><td>高</td><td>高</td><td>高端工作站&#x2F;专业设备</td></tr><tr><td>TLC</td><td>3bit</td><td>500-3,000</td><td>中等</td><td>低</td><td>消费级主流SSD</td></tr><tr><td>QLC</td><td>4bit</td><td>100-1,000</td><td>较低</td><td>最低</td><td>大容量存储盘&#x2F;轻度使用</td></tr></tbody></table><p>▸ 接口标准：SATA III（550MB&#x2F;s）、NVMe PCIe 4.0（7000+MB&#x2F;s）<br>▸ 无机械结构，抗震性强  </p></li><li><p><strong>典型场景</strong><br>▸ 系统启动盘&#x2F;游戏加载盘&#x2F;实时创作素材暂存</p></li></ul><h3 id="机械硬盘-HDD"><a href="#机械硬盘-HDD" class="headerlink" title="机械硬盘 (HDD)"></a>机械硬盘 (HDD)</h3><ul><li><p><strong>核心功能</strong><br>▸ 低成本大容量数据存储（单盘可达20TB+）<br>▸ 适合低频访问的归档数据（冷数据存储）  </p></li><li><p><strong>尺寸</strong><br>▸ 3.5寸机械硬盘:台式机&#x2F;服务器&#x2F;NAS<br>▸ 2.5寸机械硬盘:笔记本电脑&#x2F;移动硬盘</p></li><li><p><strong>磁记录技术</strong>  </p><table><thead><tr><th>类型</th><th>垂直记录 (CMR&#x2F;PMR)</th><th>叠瓦式 (SMR)</th></tr></thead><tbody><tr><td>原理</td><td>磁道独立排列</td><td>磁道如瓦片部分重叠</td></tr><tr><td>优势</td><td>随机写入性能稳定</td><td>单碟容量提升约25%</td></tr><tr><td>劣势</td><td>存储密度较低</td><td>数据覆写需重组相邻磁道</td></tr><tr><td>适用场景</td><td>频繁修改数据&#x2F;监控录像</td><td>顺序写入为主的归档备份</td></tr><tr><td>要性能选垂直（PMR），要容量选叠瓦（SMR）</td><td></td><td></td></tr></tbody></table></li><li><p><strong>典型场景</strong><br>▸ 家庭媒体库&#x2F;监控录像存储&#x2F;企业级数据备份</p></li></ul><h2 id="5-显卡-GPU"><a href="#5-显卡-GPU" class="headerlink" title="5. 显卡 (GPU)"></a>5. 显卡 (GPU)</h2><ul><li><p><strong>功能</strong><br>▸ 图形渲染与显示输出<br>▸ 加速AI计算与视频处理</p></li><li><p><strong>平台</strong><br>▸ NVIDIA<br>▸ AMD<br>除了单独的显卡硬件外，许多CPU也拥有核显用来输出画面。但性能稍弱。</p></li></ul><h2 id="6-电源-PSU"><a href="#6-电源-PSU" class="headerlink" title="6. 电源 (PSU)"></a>6. 电源 (PSU)</h2><ul><li><strong>功能</strong><br>▸ 电能转换与分配中心<br>▸ 系统稳定运行的保</li><li><strong>模组</strong><br>▸ 非模组:电源线不可拆卸<br>▸ 半模组:主板供电线和CPU供电线不可拆卸<br>▸ 全模组:电源线全部可拆卸</li><li><strong>电源额定功率</strong><br>550W,650W,750W根据电脑硬件选择合适电源功率。<br>这里的功率不是说插电就一直以这个功率运行，而是这个电源最大支持功率。</li><li><strong>电源转换率</strong><br>电脑电源的转换效率等级由 <strong>80 PLUS认证</strong> 划分，衡量电源将交流电（AC）转换为直流电（DC）时的能量利用率。效率越高，能量浪费越少，发热更低，长期使用更节能。高效率电源发热更低，减少风扇噪音，延长元器件寿命。</li></ul><h2 id="80-PLUS-认证等级（230V-电压）"><a href="#80-PLUS-认证等级（230V-电压）" class="headerlink" title="80 PLUS 认证等级（230V 电压）"></a>80 PLUS 认证等级（230V 电压）</h2><table><thead><tr><th>等级</th><th>20% 负载</th><th>50% 负载</th><th>100% 负载</th><th>特殊要求</th></tr></thead><tbody><tr><td>80 PLUS 白牌</td><td>82%</td><td>85%</td><td>82%</td><td>-</td></tr><tr><td>80 PLUS 铜牌</td><td>85%</td><td>88%</td><td>85%</td><td>-</td></tr><tr><td>80 PLUS 银牌</td><td>87%</td><td>90%</td><td>87%</td><td>-</td></tr><tr><td>80 PLUS 金牌</td><td>90%</td><td>92%</td><td>89%</td><td>-</td></tr><tr><td>80 PLUS 铂金牌</td><td>92%</td><td>94%</td><td>90%</td><td>-</td></tr><tr><td>80 PLUS 钛金牌</td><td>94%</td><td>96%</td><td>94%</td><td><strong>10% 负载时效率 ≥ 90%</strong></td></tr></tbody></table><h2 id="7-散热系统"><a href="#7-散热系统" class="headerlink" title="7. 散热系统"></a>7. 散热系统</h2><h3 id="型号分类"><a href="#型号分类" class="headerlink" title="型号分类"></a><strong>型号分类</strong></h3><h4 id="1-风冷散热"><a href="#1-风冷散热" class="headerlink" title="1. 风冷散热"></a>1. 风冷散热</h4><ul><li><strong>原理</strong>：通过风扇+散热鳍片组合，利用空气循环带走热量  </li><li><strong>核心规格扩展</strong>：  <table><thead><tr><th>规格类型</th><th>常见配置</th><th>特点与适用场景</th></tr></thead><tbody><tr><td><strong>散热塔结构</strong></td><td>单塔 &#x2F; 双塔</td><td>- 单塔：体积小，兼容性强（如利民AX120）<br>- 双塔：散热面积大，性能更强（如猫头鹰NH-D15）</td></tr><tr><td><strong>风扇数量</strong></td><td>单风扇 &#x2F; 双风扇</td><td>- 单风扇：噪音低，适合中端CPU<br>- 双风扇：风压更大，散热效率提升（需注意内存插槽遮挡问题）</td></tr><tr><td><strong>热管数量</strong></td><td>4热管 &#x2F; 6热管 &#x2F; 8热管</td><td>- 热管越多，导热能力越强（如6热管压制i7&#x2F;R7，8热管适配i9&#x2F;R9）</td></tr><tr><td><strong>风扇尺寸</strong></td><td>120mm &#x2F; 140mm</td><td>- 120mm：兼容性强，风量均衡<br>- 140mm：更大风量且噪音更低（需机箱支持）</td></tr><tr><td><strong>特殊设计</strong></td><td>回流焊工艺 &#x2F; 镀镍铜底</td><td>- 回流焊：提升热管与鳍片接触效率<br>- 镀镍铜底：防氧化，延长寿命</td></tr></tbody></table></li></ul><h4 id="2-水冷散热"><a href="#2-水冷散热" class="headerlink" title="2. 水冷散热"></a>2. 水冷散热</h4><ul><li><strong>原理</strong>：通过水泵驱动液体循环，由冷排+风扇散热  </li><li><strong>类型细分</strong>：  <ul><li><strong>一体式水冷（AIO）</strong>：安装简单，主流选择（如NZXT Kraken系列）  <ul><li>规格：120&#x2F;240&#x2F;360mm冷排（对应1&#x2F;2&#x2F;3风扇）</li></ul></li><li><strong>分体式水冷</strong>：自定义性强，散热极限高，但维护复杂、成本高</li></ul></li></ul><h3 id="风冷-vs-水冷对比"><a href="#风冷-vs-水冷对比" class="headerlink" title="风冷 vs 水冷对比"></a><strong>风冷 vs 水冷对比</strong></h3><table><thead><tr><th>特性</th><th>风冷散热</th><th>水冷散热</th></tr></thead><tbody><tr><td><strong>散热性能</strong></td><td>中高端风冷≈240mm水冷</td><td>360mm水冷性能更强，适合超频</td></tr><tr><td><strong>噪音</strong></td><td>高负载时风扇噪音明显</td><td>水泵声+风扇声，低转速更安静</td></tr><tr><td><strong>体积与兼容性</strong></td><td>可能遮挡内存&#x2F;机箱限高要求</td><td>冷排需匹配机箱风扇位</td></tr><tr><td><strong>维护成本</strong></td><td>仅需清灰，寿命长（5-10年）</td><td>一体式3-5年，分体式需定期换液</td></tr><tr><td><strong>价格</strong></td><td>￥100-600</td><td>一体式￥400-2000+，分体式￥3000+</td></tr><tr><td>）</td><td></td><td></td></tr></tbody></table><h2 id="8-显示器"><a href="#8-显示器" class="headerlink" title="8. 显示器"></a>8. 显示器</h2><ul><li><strong>功能</strong><br>▸ 视觉信息输出终端<br>▸ 影响使用体验的核心外设</li><li><strong>面板型号</strong><br>▸ IPS:色彩准、可视角度广（178°）、适合设计。轻微漏光、响应时间较长（4-8ms）、对比度一般（1000:1）。<br>▸ TN:响应最快（0.5-1ms）、刷新率高（360Hz+）、便宜。色彩差、可视角度差（侧看泛白）、对比度低（800:1）。<br>▸ VA:对比度高（3000:1+）、黑色纯净、适合影音。响应慢（10-20ms）、低端型号拖影严重、视角略逊IPS。<br>▸ OLED:无限对比度、色彩极致、响应极快（0.1ms）、超薄。烧屏风险、寿命较短、价格昂贵、峰值亮度受限。</li><li><strong>分辨率</strong><br>▸ 1080p（FHD）：入门游戏&#x2F;办公，主流选择<br>▸ 1440p（2K&#x2F;QHD）：游戏与创作平衡，推荐中高端显卡<br>▸ 4K（UHD）：影音&#x2F;专业设计，需强大GPU支持</li><li><strong>刷新率</strong><br>刷新率显示器每秒刷新多少张图片。，比如144hz就是显示器1秒显示144张图片。刷新率越高动画越细腻，但是局限。比如你的电脑性能玩游戏FPS(帧数)最高能达到60，那么你买144hz的显示器也无济于事。<br>▸ 60Hz：日常使用&#x2F;办公<br>▸ 120&#x2F;144&#x2F;165Hz：流畅游戏体验<br>▸ 240Hz+：电竞玩家首选</li></ul><h2 id="9-机箱-Case"><a href="#9-机箱-Case" class="headerlink" title="9. 机箱 (Case)"></a>9. 机箱 (Case)</h2><ul><li><strong>功能</strong><br>▸ 硬件防护与散热风道<br>▸ 扩展设备的物理载体</li><li><strong>机箱类型</strong><br>▸ 全塔（Full Tower）：支持E-ATX主板，多硬盘位，适合高端配置<br>▸ 中塔（Mid Tower）：ATX主板主流选择，兼容性强<br>▸ 小型（Mini-ITX）：紧凑便携，适合小机箱爱好者</li></ul><h2 id="系统协同示意图"><a href="#系统协同示意图" class="headerlink" title="系统协同示意图"></a>系统协同示意图</h2><h1 id="电脑装机教程（新手向）"><a href="#电脑装机教程（新手向）" class="headerlink" title="电脑装机教程（新手向）"></a>电脑装机教程（新手向）</h1><hr><h2 id="装机前准备"><a href="#装机前准备" class="headerlink" title="装机前准备"></a><strong>装机前准备</strong></h2><h3 id="1-工具与材料"><a href="#1-工具与材料" class="headerlink" title="1. 工具与材料"></a><strong>1. 工具与材料</strong></h3><ul><li><p><strong>工具</strong><br>🔧 十字螺丝刀（磁性头最佳）<br>⚡ 防静电手环（或定期触碰金属物体释放静电）<br>🎀 扎带（理线用）<br>🧴 导热硅脂（若散热器未预涂）  </p></li><li><p><strong>硬件清单</strong>  </p><table><thead><tr><th>必选组件</th><th>可选组件</th></tr></thead><tbody><tr><td>CPU</td><td>独立显卡（无核显必备）</td></tr><tr><td>主板</td><td>机箱风扇</td></tr><tr><td>内存</td><td>RGB灯效配件</td></tr><tr><td>硬盘（SSD&#x2F;HDD）</td><td>额外散热器</td></tr><tr><td>电源</td><td>光驱&#x2F;声卡等</td></tr><tr><td>机箱</td><td></td></tr><tr><td>CPU散热器</td><td></td></tr></tbody></table></li></ul><h3 id="2-注意事项"><a href="#2-注意事项" class="headerlink" title="2. 注意事项"></a><strong>2. 注意事项</strong></h3><ul><li>✅ <strong>防静电</strong>：全程避免衣物摩擦，优先使用防静电手环。  </li><li>✅ <strong>兼容性检查</strong>：  <ul><li>主板需支持CPU型号（如Intel LGA 1700或AMD AM5）  </li><li>内存类型匹配（DDR4&#x2F;DDR5）  </li><li>电源功率足够（建议≥500W，高配需更高）</li></ul></li><li>✅ <strong>说明书</strong>：主板和机箱说明书是关键参考！</li></ul><hr><h2 id="装机步骤"><a href="#装机步骤" class="headerlink" title="装机步骤"></a><strong>装机步骤</strong></h2><h3 id="1-安装CPU"><a href="#1-安装CPU" class="headerlink" title="1. 安装CPU"></a><strong>1. 安装CPU</strong></h3><ol><li><strong>打开插槽</strong>  <ul><li>轻抬主板CPU插槽的金属杆，取下保护盖。</li></ul></li><li><strong>对齐方向</strong>  <ul><li>将CPU左下角的金色三角标记与插槽三角标记对齐，轻放于插槽中（勿按压！）。</li></ul></li><li><strong>固定CPU</strong>  <ul><li>压下金属杆并锁紧，听到“咔嗒”声即完成。</li></ul></li></ol><hr><h3 id="2-安装CPU散热器"><a href="#2-安装CPU散热器" class="headerlink" title="2. 安装CPU散热器"></a><strong>2. 安装CPU散热器</strong></h3><ol><li><strong>涂抹硅脂</strong>  <ul><li>若散热器无预涂硅脂，在CPU中心挤黄豆大小硅脂（无需覆盖整个表面）。</li></ul></li><li><strong>固定散热器</strong>  <ul><li>对准主板孔位，用螺丝或卡扣固定散热器（需均匀施力）。</li></ul></li><li><strong>连接电源</strong>  <ul><li>将散热器风扇线插入主板标有<code>CPU_FAN</code>的接口。</li></ul></li></ol><hr><h3 id="3-安装内存条"><a href="#3-安装内存条" class="headerlink" title="3. 安装内存条"></a><strong>3. 安装内存条</strong></h3><ol><li><strong>打开卡扣</strong>  <ul><li>拨开内存插槽两侧的卡扣。</li></ul></li><li><strong>插入内存</strong>  <ul><li>对齐内存缺口与插槽，双手按压两端直至卡扣自动闭合。</li></ul></li><li><strong>双通道建议</strong>  <ul><li>两根内存优先插在2&#x2F;4槽（参考主板说明书）。</li></ul></li></ol><hr><h3 id="4-安装主板到机箱"><a href="#4-安装主板到机箱" class="headerlink" title="4. 安装主板到机箱"></a><strong>4. 安装主板到机箱</strong></h3><ol><li><strong>固定铜柱</strong>  <ul><li>确保机箱内铜柱位置与主板孔位匹配（多余铜柱需移除）。</li></ul></li><li><strong>安装I&#x2F;O挡板</strong>  <ul><li>将主板附带的金属挡板卡入机箱后部对应位置。</li></ul></li><li><strong>固定主板</strong>  <ul><li>主板对齐挡板放入机箱，用螺丝对角固定（避免主板变形）。</li></ul></li></ol><hr><h3 id="5-安装电源"><a href="#5-安装电源" class="headerlink" title="5. 安装电源"></a><strong>5. 安装电源</strong></h3><ol><li><strong>放置电源</strong>  <ul><li>电源风扇面朝下（底部通风机箱）或朝向机箱外侧。</li></ul></li><li><strong>固定电源</strong>  <ul><li>用4颗螺丝将电源固定在机箱电源仓。</li></ul></li><li><strong>连接供电线</strong>  <ul><li>插入24pin主板供电线（主供电接口）  </li><li>插入4+4pin或8pin CPU供电线（主板左上角）。</li></ul></li></ol><h3 id="6-安装硬盘"><a href="#6-安装硬盘" class="headerlink" title="6. 安装硬盘"></a><strong>6. 安装硬盘</strong></h3><h4 id="M-2-SSD安装"><a href="#M-2-SSD安装" class="headerlink" title="M.2 SSD安装"></a><strong>M.2 SSD安装</strong></h4><ol><li>拧开主板M.2插槽螺丝。  </li><li>倾斜30°插入SSD，压平后用螺丝固定。</li></ol><h4 id="SATA硬盘安装"><a href="#SATA硬盘安装" class="headerlink" title="SATA硬盘安装"></a><strong>SATA硬盘安装</strong></h4><ol><li>将硬盘固定在机箱硬盘架。  </li><li>连接SATA数据线（主板↔硬盘）和电源线（电源↔硬盘）。</li></ol><h3 id="7-安装显卡"><a href="#7-安装显卡" class="headerlink" title="7. 安装显卡"></a><strong>7. 安装显卡</strong></h3><ol><li><strong>打开PCIe插槽卡扣</strong>  <ul><li>找到主板PCIe x16插槽（通常为最靠近CPU的长插槽）。</li></ul></li><li><strong>插入显卡</strong>  <ul><li>显卡金手指对准插槽，垂直按压到底直至卡扣闭合。</li></ul></li><li><strong>固定与供电</strong>  <ul><li>用螺丝将显卡固定在机箱后部。  </li><li>连接电源的6+2pin或8pin供电线到显卡。</li></ul></li></ol><h3 id="8-连接机箱线材"><a href="#8-连接机箱线材" class="headerlink" title="8. 连接机箱线材"></a><strong>8. 连接机箱线材</strong></h3><ol><li><strong>前面板线</strong>  <ul><li><code>Power SW</code>（电源开关）  </li><li><code>Reset SW</code>（重启键）  </li><li><code>HDD LED</code>（硬盘指示灯）  </li><li><code>USB 3.0</code>&#x2F;<code>Type-C</code>线  </li><li><code>HD Audio</code>（音频接口）  </li><li><strong>接法参考主板说明书标注！</strong></li></ul></li><li><strong>风扇线</strong>  <ul><li>机箱风扇插到主板的<code>SYS_FAN</code>接口。</li></ul></li></ol><h2 id="通电前检查"><a href="#通电前检查" class="headerlink" title="通电前检查"></a><strong>通电前检查</strong></h2><ul><li>🔌 所有供电线（主板、CPU、显卡）是否插紧。  </li><li>❄️ CPU散热器、内存、显卡是否安装牢固。  </li><li>🧲 机箱内无多余螺丝或金属碎屑。</li></ul><h2 id="首次开机与系统安装"><a href="#首次开机与系统安装" class="headerlink" title="首次开机与系统安装"></a><strong>首次开机与系统安装</strong></h2><ol><li><strong>连接外设</strong>  <ul><li>显示器、键盘、鼠标接好，通电开机。</li></ul></li><li><strong>进入BIOS</strong>  <ul><li>开机时按<code>Del</code>&#x2F;<code>F2</code>键，检查硬件识别状态（CPU、内存、硬盘）。</li></ul></li><li><strong>安装系统</strong>  <ul><li>插入Windows系统U盘，重启选择U盘启动。  </li><li>按提示分区并安装系统（建议系统盘用SSD）。</li></ul></li></ol><h2 id="常见问题排查"><a href="#常见问题排查" class="headerlink" title="常见问题排查"></a><strong>常见问题排查</strong></h2><table><thead><tr><th>问题</th><th>解决方案</th></tr></thead><tbody><tr><td><strong>开机无反应</strong></td><td>检查电源开关线、主板供电线是否接对。</td></tr><tr><td><strong>CPU温度过高</strong></td><td>重新安装散热器，检查硅脂是否均匀。</td></tr><tr><td><strong>显示器无信号</strong></td><td>确认显示器线插在显卡（非主板），检查显卡供电。</td></tr></tbody></table><p><strong>完成！🎉 现在你可以享受亲手组装的电脑了！</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> DIY </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组装电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自制奶茶</title>
       <link href="/posts/cm7tvvoj7003y9os6d59z04mr.html"/>
       <url>/posts/cm7tvvoj7003y9os6d59z04mr.html</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> 食物 </category>
+          <category> 美食 </category>
           
       </categories>
       
@@ -38,7 +63,7 @@
       
       <categories>
           
-          <category> 食物 </category>
+          <category> 美食 </category>
           
       </categories>
       
@@ -46,8 +71,6 @@
         <tags>
             
             <tag> 川菜 </tag>
-            
-            <tag> 菜谱 </tag>
             
         </tags>
       
@@ -65,14 +88,16 @@
       
       <categories>
           
-          <category> 网络 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 去广告 </tag>
+            <tag> Linux </tag>
+            
+            <tag> 网络 </tag>
             
         </tags>
       
@@ -115,14 +140,14 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Alist </tag>
+            <tag> Windows </tag>
             
         </tags>
       
@@ -149,10 +174,6 @@
             
             <tag> AnZhiYu </tag>
             
-            <tag> tag </tag>
-            
-            <tag> Front-matter </tag>
-            
         </tags>
       
     </entry>
@@ -169,18 +190,14 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 软件推荐 </tag>
-            
-            <tag> KeepassXC </tag>
-            
-            <tag> Keepass </tag>
+            <tag> 密码管理器 </tag>
             
         </tags>
       
@@ -198,16 +215,16 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> VSCode </tag>
+            <tag> Windows </tag>
             
-            <tag> 应用设置 </tag>
+            <tag> 生产力工具 </tag>
             
         </tags>
       
@@ -225,14 +242,16 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Lively </tag>
+            <tag> Windows </tag>
+            
+            <tag> 壁纸 </tag>
             
         </tags>
       
@@ -250,18 +269,18 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Sunshine </tag>
+            <tag> Linux </tag>
             
-            <tag> 串流 </tag>
+            <tag> Windows </tag>
             
-            <tag> Moonlight </tag>
+            <tag> Android </tag>
             
         </tags>
       
@@ -334,12 +353,6 @@
       </categories>
       
       
-        <tags>
-            
-            <tag> 文字游戏 </tag>
-            
-        </tags>
-      
     </entry>
     
     
@@ -354,7 +367,7 @@
       
       <categories>
           
-          <category> 视频博主 </category>
+          <category> 网站 </category>
           
       </categories>
       
@@ -381,14 +394,16 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> OBS </tag>
+            <tag> Windows </tag>
+            
+            <tag> 生产力工具 </tag>
             
         </tags>
       
@@ -438,10 +453,6 @@
       
         <tags>
             
-            <tag> CS2 </tag>
-            
-            <tag> Apex </tag>
-            
             <tag> 游戏设置 </tag>
             
         </tags>
@@ -460,7 +471,7 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 网站 </category>
           
       </categories>
       
@@ -485,16 +496,16 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Docker部署项目 </tag>
+            <tag> Linux </tag>
             
-            <tag> NextCloud </tag>
+            <tag> Docker </tag>
             
         </tags>
       
@@ -512,14 +523,16 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Aseprite </tag>
+            <tag> Windows </tag>
+            
+            <tag> 生产力工具 </tag>
             
         </tags>
       
@@ -546,7 +559,7 @@
       
         <tags>
             
-            <tag> MarkDown语法 </tag>
+            <tag> MarkDown </tag>
             
         </tags>
       
@@ -571,7 +584,7 @@
       
         <tags>
             
-            <tag> 搞机攻略 </tag>
+            <tag> HyperOS </tag>
             
         </tags>
       
@@ -621,9 +634,7 @@
       
         <tags>
             
-            <tag> Github </tag>
-            
-            <tag> Github加速 </tag>
+            <tag> 网络 </tag>
             
         </tags>
       
@@ -641,14 +652,20 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
+            <tag> Linux </tag>
+            
+            <tag> Docker </tag>
+            
             <tag> 语音软件 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -661,25 +678,15 @@
       <link href="/posts/vercel.html"/>
       <url>/posts/vercel.html</url>
       
-        <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#x72;&#x65;&#103;&#105;&#115;&#x74;&#114;&#x61;&#x74;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#x72;&#x63;&#x65;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x72;&#x65;&#103;&#105;&#115;&#x74;&#114;&#x61;&#x74;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#x72;&#x63;&#x65;&#x6c;&#x2e;&#99;&#111;&#x6d;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>打开<a class="btn-anzhiyu outline purple" href="https://vercel.com/"   title="Vercel"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Vercel</span></a>，选择<mark class="hl-label blue">Continue with GitHub</mark> <br><img src="/img/posts/vercel/vercelzhuce.png"><br>登陆之后点击<mark class="hl-label blue">Add New</mark> -&gt;<mark class="hl-label blue">Project</mark> -&gt;点击<mark class="hl-label blue">Import</mark> 导入hexo博客<br><img src="/img/posts/vercel/verceldaoru.png"><br>导入之后即可获得一个Vercel域名<br><img src="/img/posts/vercel/cercelyuming.png"><br>但Velcel域名被墙了，需要绑定一个新的域名，选择<mark class="hl-label blue">仓</mark> -&gt;<mark class="hl-label blue">Settings</mark> -&gt;<mark class="hl-label blue">Domains</mark> -&gt;<mark class="hl-label blue">添加域名</mark> <br><img src="/img/posts/vercel/domains.png"><br><img src="/img/posts/vercel/domains2.png"><br>打开<a class="btn-anzhiyu outline purple" href="https://dc.console.aliyun.com/next/index?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.4.7bf72f3dr1deCG#/overview"   title="域名管理"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>域名管理</span></a>:<mark class="hl-label blue">域名列表</mark> -&gt;<mark class="hl-label blue">选择购买域名</mark> -&gt;<mark class="hl-label blue">域名解析</mark> 。创建如下规则</p><p><img src="/img/posts/vercel/yuming1.png"><br><img src="/img/posts/vercel/yuming2.png"></p><h1 id="提示无法需要验证"><a href="#提示无法需要验证" class="headerlink" title="提示无法需要验证"></a>提示无法需要验证</h1><p><img src="/img/posts/vercel/wufadenglu.png"><br>用GitHub绑定的邮箱给<a href="mailto:&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x72;&#x61;&#116;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#114;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#114;&#x65;&#x67;&#105;&#115;&#x74;&#x72;&#x61;&#116;&#105;&#111;&#x6e;&#x40;&#118;&#101;&#114;&#99;&#101;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>，主题：My account is blocked，内容如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">I’m sorry to bother you.</span><br><span class="line">My Github account has been blocked,</span><br><span class="line">The page prompts “My account requires further verification”</span><br><span class="line">I would like you to unblock it.</span><br><span class="line">My GitHub account name is XXXXXX</span><br></pre></td></tr></table></figure><blockquote><p>解决办法源自：<a href="https://www.tjsky.net/tutorial/971">https://www.tjsky.net/tutorial/971</a></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> 网站 </category>
+          <category> 博客 </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> Vercel </tag>
-            
-            <tag> 博客 </tag>
-            
-            <tag> Github Page </tag>
-            
-        </tags>
       
     </entry>
     
@@ -695,16 +702,14 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 网站 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Steam令牌 </tag>
-            
-            <tag> Steam展柜 </tag>
+            <tag> Steam </tag>
             
         </tags>
       
@@ -728,8 +733,6 @@
       
       
         <tags>
-            
-            <tag> 博客 </tag>
             
             <tag> Github Page </tag>
             
@@ -776,14 +779,20 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
+            <tag> Linux </tag>
+            
+            <tag> Docker </tag>
+            
             <tag> 语音软件 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -801,16 +810,16 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Docker </tag>
+            <tag> Linux </tag>
             
-            <tag> Docker Compose </tag>
+            <tag> Docker </tag>
             
         </tags>
       
@@ -835,9 +844,7 @@
       
         <tags>
             
-            <tag> Windwos10 </tag>
-            
-            <tag> 系统优化 </tag>
+            <tag> Windows </tag>
             
         </tags>
       
@@ -880,16 +887,14 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 软件推荐 </tag>
-            
-            <tag> Windwos </tag>
+            <tag> Windows </tag>
             
         </tags>
       
@@ -907,16 +912,14 @@
       
       <categories>
           
-          <category> 应用 </category>
+          <category> 软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 软件推荐 </tag>
-            
-            <tag> Windwos </tag>
+            <tag> Android </tag>
             
         </tags>
       
