@@ -375,15 +375,12 @@
     <link href="https://www.adai.fun/posts/adarkroom.html"/>
     <id>https://www.adai.fun/posts/adarkroom.html</id>
     <published>2024-12-22T18:31:39.000Z</published>
-    <updated>2025-03-05T08:12:16.021Z</updated>
+    <updated>2025-03-11T08:40:01.269Z</updated>
     
     <content type="html"><![CDATA[<p>进入<a href="https://github.com/doublespeakgames/adarkroom/releases">A Dark Room</a>的Github网页,下载Source code源码并解压。<br>下载<a href="https://git-scm.com/downloads/win">Git</a>，<a href="https://nodejs.org/zh-cn/download/prebuilt-installer">Node</a>，安装完成之后进入解压好的ADarkRoom文件夹右键选择<code>Open Git Bash here</code><br>安装npm包,并启动服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm start</span><br></pre></td></tr></table></figure><p>打开浏览器输入<a href="http://localhost:8080/">localhost:8080</a>,即可开始游玩<br><img src="/img/posts/adarkroom/shezhi.png"><br>下方可进行设置，最主要的几个分别是保存，灯光，声音，语言，大家根据自己需求设置</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;进入&lt;a href=&quot;https://github.com/doublespeakgames/adarkroom/releases&quot;&gt;A Dark Room&lt;/a&gt;的Github网页,下载Source code源码并解压。&lt;br&gt;下载&lt;a href=&quot;https://git</summary>
-      
+    <summary type="html">一款开源文字大冒险游戏</summary>
     
     
     
