@@ -6,7 +6,7 @@
   <link href="https://www.adai.fun/atom.xml" rel="self"/>
   
   <link href="https://www.adai.fun/"/>
-  <updated>2025-03-20T06:47:20.212Z</updated>
+  <updated>2025-03-26T15:48:29.930Z</updated>
   <id>https://www.adai.fun/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>手机快充协议</title>
+    <link href="https://www.adai.fun/posts/fcp.html"/>
+    <id>https://www.adai.fun/posts/fcp.html</id>
+    <published>2025-03-26T14:06:47.000Z</published>
+    <updated>2025-03-26T15:48:29.930Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、公有协议"><a href="#一、公有协议" class="headerlink" title="一、公有协议"></a>一、公有协议</h2><h3 id="USB-Power-Delivery-PD"><a href="#USB-Power-Delivery-PD" class="headerlink" title="USB Power Delivery (PD)"></a>USB Power Delivery (PD)</h3><ul><li><strong>开发者</strong>：USB-IF 协会（国际通用标准）  </li><li><strong>功率</strong>：  <ul><li>PD 3.0：最高 100W（20V&#x2F;5A）  </li><li>PD 3.1：扩展至 240W（48V&#x2F;5A），支持笔记本电脑等高功耗设备。</li></ul></li><li><strong>兼容性</strong>：  <ul><li>基于 USB-C 接口，广泛兼容手机、平板、笔记本等设备。  </li><li>苹果全系（iPhone 8 及以上）、安卓旗舰机（如小米、三星）均支持 PD 快充。</li></ul></li></ul><h3 id="高通-Quick-Charge-QC"><a href="#高通-Quick-Charge-QC" class="headerlink" title="高通 Quick Charge (QC)"></a>高通 Quick Charge (QC)</h3><ul><li><strong>开发者</strong>：高通（主要用于骁龙芯片设备）  </li><li><strong>功率</strong>：  <ul><li>QC 2.0&#x2F;3.0：高压快充（9V&#x2F;12V），兼容 Micro USB 接口。  </li><li>QC 4+ 及以上：兼容 USB PD，支持 20V&#x2F;5A（100W）。</li></ul></li><li><strong>兼容性</strong>：三星、小米、索尼等品牌的部分机型支持。</li></ul><h3 id="联发科-Pump-Express-PE"><a href="#联发科-Pump-Express-PE" class="headerlink" title="联发科 Pump Express (PE)"></a>联发科 Pump Express (PE)</h3><ul><li><strong>开发者</strong>：联发科  </li><li><strong>功率</strong>：最高 25W（PE 4.0 兼容 PD）。<br>   现逐渐被 PD 取代。</li></ul><h2 id="二、私有协议"><a href="#二、私有协议" class="headerlink" title="二、私有协议"></a>二、私有协议</h2><h3 id="SuperCharge-FCP-SCP"><a href="#SuperCharge-FCP-SCP" class="headerlink" title="SuperCharge (FCP&#x2F;SCP)"></a>SuperCharge (FCP&#x2F;SCP)</h3><ul><li><strong>开发者</strong>：华为</li><li><strong>FCP</strong>：高压快充（9V&#x2F;2A，18W）。  </li><li><strong>SCP</strong>：低压大电流（5A&#x2F;8A），功率可达 88W。</li></ul><h3 id="VOOC-SuperVOOC"><a href="#VOOC-SuperVOOC" class="headerlink" title="VOOC&#x2F;SuperVOOC"></a>VOOC&#x2F;SuperVOOC</h3><ul><li><strong>开发者</strong>：OPPO</li><li><strong>VOOC</strong>：5V&#x2F;4A（20W），代表机型 OPPO Find 系列。  </li><li><strong>SuperVOOC</strong>：10V&#x2F;6.5A（65W）。</li></ul><h3 id="FlashCharge"><a href="#FlashCharge" class="headerlink" title="FlashCharge"></a>FlashCharge</h3><ul><li><strong>开发者</strong>：vivo</li><li><strong>功率</strong>：120W（20V&#x2F;6A），代表机型 iQOO 系列。</li></ul><h3 id="小米-HyperCharge"><a href="#小米-HyperCharge" class="headerlink" title="小米 HyperCharge"></a>小米 HyperCharge</h3><ul><li><strong>开发者</strong>：小米</li><li><strong>功率</strong>：120W（20V&#x2F;6A），需专用充电器。</li></ul><h3 id="AFC"><a href="#AFC" class="headerlink" title="AFC"></a>AFC</h3><ul><li><strong>开发者</strong>：三星</li><li><strong>功率</strong>：25W（9V&#x2F;2.77A），兼容 PD 协议。</li></ul><h2 id="三、快充问题"><a href="#三、快充问题" class="headerlink" title="三、快充问题"></a>三、快充问题</h2><h3 id="公有协议与私有协议有什么区别？"><a href="#公有协议与私有协议有什么区别？" class="headerlink" title="公有协议与私有协议有什么区别？"></a>公有协议与私有协议有什么区别？</h3><p>答：公有协议兼容性广，私有协议速度更快但需要原装配件。</p><h3 id="如何知道设备是否支持公有协议？"><a href="#如何知道设备是否支持公有协议？" class="headerlink" title="如何知道设备是否支持公有协议？"></a>如何知道设备是否支持公有协议？</h3><p>答：查看设备说明书&#x2F;官网参数是否表明支持<strong>USB PD</strong>，<strong>QC</strong>，<strong>PPS</strong>（可调电压子集，兼容 PD）等字样。或者直接询问客服支持哪一些公有协议。</p><h3 id="快充需要充电器头和线都需要支持快充协议吗？"><a href="#快充需要充电器头和线都需要支持快充协议吗？" class="headerlink" title="快充需要充电器头和线都需要支持快充协议吗？"></a>快充需要充电器头和线都需要支持快充协议吗？</h3><p>答：充电器、线缆、设备均需支持协议和功率要求。<strong>充电头</strong>提供电力输出，并协商协议，<strong>充电线</strong>传输电力与协议信号，<strong>设备</strong>接收电力并触发快充。</p><h3 id="苹果没有快充协议吗？"><a href="#苹果没有快充协议吗？" class="headerlink" title="苹果没有快充协议吗？"></a>苹果没有快充协议吗？</h3><p>答：苹果没有私有协议完全兼容PD协议，iphone15系列前快充MFi认证线 + PD 充电器，15系列后PD充电线 + PD 充电器需要注意充电线的电流承载能力。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一、公有协议&quot;&gt;&lt;a href=&quot;#一、公有协议&quot; class=&quot;headerlink&quot; title=&quot;一、公有协议&quot;&gt;&lt;/a&gt;一、公有协议&lt;/h2&gt;&lt;h3 id=&quot;USB-Power-Delivery-PD&quot;&gt;&lt;a href=&quot;#USB-Power-Delive</summary>
+      
+    
+    
+    
+    <category term="知识" scheme="https://www.adai.fun/categories/%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="协议" scheme="https://www.adai.fun/tags/%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>搭建Minecraft服务器</title>
@@ -65,7 +89,7 @@
     <link href="https://www.adai.fun/posts/usb.html"/>
     <id>https://www.adai.fun/posts/usb.html</id>
     <published>2025-03-16T05:33:23.000Z</published>
-    <updated>2025-03-17T07:51:08.560Z</updated>
+    <updated>2025-03-26T15:49:34.002Z</updated>
     
     <content type="html"><![CDATA[<a href="https://zhuanlan.zhihu.com/p/447595295" target="_blank" title="秒懂所有USB接口类型" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src="https://pica.zhimg.com/v2-1ee24987afb4d39fb49a3f8c878f2dbb_l.jpg?source=172ae18b" class="no-lightbox"></div><div class="link_content"><div class="link_title">秒懂所有USB接口类型</div></div></a><div class="note info simple"><p>引用参考文章部分图片，侵删。</p></div><p>USB分为<a href="#Type-A">Type-A</a>，<a href="#Tyoe-B">Tyoe-B</a>，<a href="#Type-C">Type-C</a></p><h1 id="Type-A"><a href="#Type-A" class="headerlink" title="Type-A"></a>Type-A</h1><a href="https://zhuanlan.zhihu.com/p/620205244" target="_blank" title="不同颜色的USB口" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src="https://pic1.zhimg.com/v2-c001184880a3144164f2de8920b8f591_l.jpg?source=172ae18b" class="no-lightbox"></div><div class="link_content"><div class="link_title">不同颜色的USB口</div></div></a><h2 id="USB2-0"><a href="#USB2-0" class="headerlink" title="USB2.0"></a>USB2.0</h2><p><img src="/img/posts/usb/typeausb2.jpg"><br><strong>舌片颜色</strong>:黑色<br><strong>触点</strong>: 4针（2×2排列）单排金属触点<br><strong>传输速度</strong>: 480Mbps&#x2F;8&#x3D;<em><strong>60MB&#x2F;s</strong></em>(理论最大值)<br><strong>供电能力</strong>: 5V&#x2F;0.5A（最大2.5W）<br><strong>兼容性</strong>: 向下兼容USB 1.0&#x2F;1.1设备</p><h2 id="USB3-2"><a href="#USB3-2" class="headerlink" title="USB3.2"></a>USB3.2</h2><p>根据USB-IF在2019年命名规则调整<br><strong>usb3.0</strong> -&gt; <code>USB 3.2 Gen 1x1</code><br><strong>USB 3.1 Gen 2</strong> -&gt; <code>USB 3.2 Gen 2x1</code><br><img src="/img/posts/usb/typeausb3.jpg"><br><strong>舌片颜色</strong>:</p><table><thead><tr><th align="center">USB 3.2 Gen 1x1</th><th align="center">USB 3.2 Gen 2x2</th></tr></thead><tbody><tr><td align="center">深蓝色</td><td align="center">浅蓝色</td></tr></tbody></table><p><strong>触点</strong>: 9针（4针基础 + 5针高速）双排金属触点（前4后5）<br><strong>兼容性</strong>: 向下兼容USB 2.0、USB 1.1设备<br><strong>传输速度</strong>: </p><table><thead><tr><th align="center">USB 3.2 Gen 1x1</th><th align="center">USB 3.2 Gen 2x2</th></tr></thead><tbody><tr><td align="center">5Gbps&#x2F;8&#x3D;<em><strong>625MB&#x2F;s</strong></em>(理论最大值)</td><td align="center">10Gbps&#x2F;8&#x3D;<em><strong>1250MB&#x2F;s</strong></em>(理论最大值)</td></tr></tbody></table><p><strong>供电能力</strong>: </p><table><thead><tr><th align="center">USB 3.2 Gen 1x1</th><th align="center">USB 3.2 Gen 2x2</th></tr></thead><tbody><tr><td align="center">5V&#x2F;0.9A(最大4.5W)</td><td align="center">5V&#x2F;1.5A(最大7.5w)</td></tr></tbody></table><p><strong>编码方式与效率</strong></p><table><thead><tr><th align="center"></th><th align="center">USB 3.2 Gen 1x1</th><th align="center">USB 3.2 Gen 2x2</th></tr></thead><tbody><tr><td align="center">编码方式</td><td align="center">8b&#x2F;10b</td><td align="center">128b&#x2F;132b</td></tr><tr><td align="center">有效带宽利用率</td><td align="center">80%</td><td align="center">约97%</td></tr></tbody></table><h2 id="外设是使用2-0接口还是3-2接口"><a href="#外设是使用2-0接口还是3-2接口" class="headerlink" title="外设是使用2.0接口还是3.2接口?"></a>外设是使用2.0接口还是3.2接口?</h2><h3 id="2-0"><a href="#2-0" class="headerlink" title="2.0"></a><em><strong>2.0</strong></em></h3><p><code>鼠标/键盘</code><br>传输数据量极小（按键信号、移动坐标等），通常仅需 1–10 Kbps。USB 2.0 的 480 Mbps 带宽完全冗余，用 USB 3.2 无性能增益。<br><code>耳机/音响</code><br>标准立体声音频（16-bit&#x2F;44.1kHz）仅需 1.4 Mbps。<br>即使高解析音频（24-bit&#x2F;192kHz）也只需9.2Mbps，远低于 USB 2.0 上限。</p><h3 id="3-2"><a href="#3-2" class="headerlink" title="3.2"></a><em><strong>3.2</strong></em></h3><p><code>高端电竞外设</code><br>游戏鼠标,键盘回报率≥1000Hz，USB 3.2 可降低延迟波动。<br>多设备并联（如键盘+鼠标+耳机）时，USB 3.2 的总线带宽更宽裕。<br><code>专业音频设备</code><br>录音室级 USB 声卡（如 Focusrite Scarlett 18i20）需多通道高码率传输。<br>USB 3.2 的全双工通信能减少音频延迟（如 ASIO 低延迟模式）。</p><div class="note info simple"><p>闲置的USB3.0接口，插入了2.0设备的USB3.0接口，都不会对2.4GHz造成干扰。只有当USB3.0接口在使用USB3.0协议传输数据的时候，发出干扰会对2.4GHz无线信号的鼠标键盘造成暂时失灵。</p></div><h2 id="如何让3-2接口把设备识别成2-0"><a href="#如何让3-2接口把设备识别成2-0" class="headerlink" title="如何让3.2接口把设备识别成2.0?"></a>如何让3.2接口把设备识别成2.0?</h2><p>只要插进去速度够慢(或者插一半)先让前面4个触电接触完成识别就被认为是2.0设备。</p>]]></content>
     
@@ -80,7 +104,7 @@
     <category term="知识" scheme="https://www.adai.fun/categories/%E7%9F%A5%E8%AF%86/"/>
     
     
-    <category term="接口" scheme="https://www.adai.fun/tags/%E6%8E%A5%E5%8F%A3/"/>
+    <category term="协议" scheme="https://www.adai.fun/tags/%E5%8D%8F%E8%AE%AE/"/>
     
   </entry>
   
