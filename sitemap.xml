@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/reward/index.html</loc>
+    
+    <lastmod>2025-03-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/usb.html</loc>
+    
+    <lastmod>2025-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/findmymobile.html</loc>
     
     <lastmod>2025-03-27</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/fcp.html</loc>
-    
-    <lastmod>2025-03-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/usb.html</loc>
     
     <lastmod>2025-03-26</lastmod>
     
@@ -380,15 +389,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/reward/index.html</loc>
-    
-    <lastmod>2025-02-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/google65201349868d9b28.html</loc>
     
     <lastmod>2025-02-16</lastmod>
@@ -445,7 +445,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-03-27</lastmod>
+    <lastmod>2025-03-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
