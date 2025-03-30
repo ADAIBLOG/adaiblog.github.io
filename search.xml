@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>开源、闭源与代码可见</title>
+      <link href="/posts/code.html"/>
+      <url>/posts/code.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为非码农的我来说，第一次从开源软件了解到Github。，从而错误的将Github里所有项目都默认视为开源，免费。但随着不断的了解我意识到这是错误的，所以写下这篇文章对新的认知总结，其中可能也会存在错误。积极欢迎各位指出问题。</p><h2 id="认识开源、闭源与代码可见"><a href="#认识开源、闭源与代码可见" class="headerlink" title="认识开源、闭源与代码可见"></a>认识开源、闭源与代码可见</h2><h3 id="开源（Open-Source）"><a href="#开源（Open-Source）" class="headerlink" title="开源（Open Source）"></a>开源（Open Source）</h3><p>代码不仅公开，还通过<strong>OSI认证的开源许可证</strong>（如 <a href="https://opensource.org/license/mit/">MIT</a>、GPL（<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>、<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPLv2</a>)、<a href="https://www.apache.org/licenses/LICENSE-2.0">Apache</a>）明确赋予用户四大自由：  </p><ul><li><strong>使用自由</strong>：可免费用于任何目的（包括商业）。  </li><li><strong>修改自由</strong>：可根据需求调整代码。  </li><li><strong>分发自由</strong>：可分享原始代码或修改后的版本。</li><li><strong>衍生作品自由</strong>：允许基于原代码开发新项目（需遵守许可证规则）。</li></ul><table><thead><tr><th><strong>特性</strong></th><th><strong>MIT</strong></th><th><strong>GPL</strong></th><th><strong>Apache 2.0</strong></th></tr></thead><tbody><tr><td><strong>自由度</strong></td><td>最宽松，几乎无限制</td><td>强约束（Copyleft）</td><td>较宽松，但有专利保护条款</td></tr><tr><td><strong>衍生作品要求</strong></td><td>无需开源</td><td><strong>必须开源</strong>（同 GPL 协议）</td><td>无需开源</td></tr><tr><td><strong>专利授权</strong></td><td>无明确条款</td><td>隐含专利授权</td><td><strong>明确专利授权</strong></td></tr><tr><td><strong>版权声明保留</strong></td><td>✅ 必须保留原协议和版权声明</td><td>✅ 必须保留协议和版权声明</td><td>✅ 必须保留协议、版权和修改声明</td></tr></tbody></table><h3 id="代码公开（Source-Available）"><a href="#代码公开（Source-Available）" class="headerlink" title="代码公开（Source Available）"></a>代码公开（Source Available）</h3><p>仅表示代码可以被任何人查看（如 GitHub 的公开仓库），但<strong>未明确授予用户使用、修改或分发的法律权利</strong>。  </p><ul><li>示例：某公司公开了旧版软件的代码，但声明“仅供学习参考，禁止商业使用”。</li></ul><h3 id="闭源（Closed-Source-Software）"><a href="#闭源（Closed-Source-Software）" class="headerlink" title="闭源（Closed-Source Software）"></a>闭源（Closed-Source Software）</h3><p>  也称为<strong>专有软件（Proprietary Software）</strong>，<strong>源代码不向公众开放</strong>，且用户的使用、修改、分发等权利受到严格限制的软件。</p><h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><ul><li><strong>协议决定性质</strong>：开源或闭源是软件的法律性质，由协议（许可证或 EULA）定义。  </li><li><strong>代码公开是技术状态</strong>：独立于法律授权，仅说明代码是否可见。  </li><li><strong>关键区别</strong>：  <ul><li><strong>开源</strong> &#x3D; 代码公开 + 许可证赋予自由。  </li><li><strong>闭源</strong> &#x3D; 代码可能公开&#x2F;私有 + 限制性协议。  </li><li><strong>代码公开</strong> &#x3D; 纯技术可见性（无法律授权）。</li></ul></li></ul><h2 id="在Github上进行区分"><a href="#在Github上进行区分" class="headerlink" title="在Github上进行区分"></a>在Github上进行区分</h2><h3 id="开源-代码公开-VS-闭源"><a href="#开源-代码公开-VS-闭源" class="headerlink" title="开源&#x2F;代码公开 VS 闭源"></a>开源&#x2F;代码公开 VS 闭源</h3><ul><li><strong>公开仓库（Public Repository）</strong>：代码对所有人可见</li><li><strong>私有仓库（Private Repository）</strong>：代码仅对特定用户可见，通常是闭源的（用户无权限访问）。</li></ul><h3 id="开源-VS-代码公开"><a href="#开源-VS-代码公开" class="headerlink" title="开源 VS 代码公开"></a>开源 VS 代码公开</h3><ul><li><strong>检查根目录的 <code>LICENSE</code> 文件</strong>：大多数开源项目会在仓库根目录包含一个 <code>LICENSE</code>、<code>LICENSE.md</code> 或 <code>LICENSE.txt</code> 文件，明确声明授权条款。</li><li><strong>GitHub 自动检测</strong>：在仓库主页的右侧边栏，查看 <strong>“About” 栏</strong>，如果有许可证信息（如 MIT、GPL-3.0、Apache-2.0 等），则为开源项目。</li><li><strong>无许可证文件</strong>：即使代码公开，若没有明确许可证，则默认受版权保护（视为闭源或“仅代码可见”）。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>找回丢失的手机</title>
       <link href="/posts/findmymobile.html"/>
       <url>/posts/findmymobile.html</url>
@@ -784,6 +809,8 @@
             
             <tag> 网络 </tag>
             
+            <tag> Github </tag>
+            
         </tags>
       
     </entry>
@@ -886,7 +913,7 @@
             
             <tag> Hexo </tag>
             
-            <tag> Github Page </tag>
+            <tag> Github </tag>
             
         </tags>
       
