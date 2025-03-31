@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Base64编码后的有效域名列表，支持通配符
     const encodedDomainList = [
-        'Ki5hZGFpLmZ1bg==', // 对应 '*.musnow.top'
+        'YWRhaS5mdW4=', // 对应 '*.musnow.top'
         'YWRhaWJsb2cuZ2l0aHViLmlv' // 对应 'musnows.github.io'
 
     ];
