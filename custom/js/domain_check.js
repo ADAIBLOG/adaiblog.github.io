@@ -1,30 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Base64编码后的主站域名
-    const encodedMainDomain = "YWRhaS5mdW4="; // 对应 "blog.musnow.top"
-
-    // Base64编码后的有效域名列表，支持通配符
+    const encodedMainDomain = "YWRhaS5mdW4="; // adai.fun
     const encodedDomainList = [
-        'Ki5hZGFpLmZ1bg==', // 对应 '*.musnow.top'
-        'YWRhaWJsb2cuZ2l0aHViLmlv', // 对应 'musnows.github.io'
-        'YWRhaS5mdW4='
-
+        'Ki5hZGFpLmZ1bg==',      // *.adai.fun
+        'YWRhaWJsb2cuZ2l0aHViLmlv', // adaiblog.github.io
+        'YWRhaS5mdW4='           // adai.fun
     ];
 
-    // 对Base64编码后的域名和URL进行解码
     function decodeBase64(encodedStr) {
         return atob(encodedStr);
     }
 
-    // 解码后的主站域名
     const mainDomain = decodeBase64(encodedMainDomain);
-
-    // 解码后的域名列表
     const domainList = encodedDomainList.map(decodeBase64);
 
-    // 判断域名是否在列表中
     function isDomainInList(domain, domainList) {
-        // 将通配符域名转换为正则表达式
         const convertToRegex = (wildcard) => {
+            // 修正正则表达式，允许主域名和子域名匹配
             return new RegExp('^' + wildcard.replace(/\./g, '\\.').replace(/\*/g, '.*') + '$');
         };
 
@@ -33,6 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
             return regex.test(domain);
         });
     }
+
+    // ...（其余代码不变）
 
     function addInfoBanner(preFix, url, urlText, postFix) {
         // 创建横幅提醒
