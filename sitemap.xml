@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/posts/HyperOS.html</loc>
+    
+    <lastmod>2025-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/web.html</loc>
     
     <lastmod>2025-03-31</lastmod>
@@ -95,15 +104,6 @@
     <loc>https://www.adai.fun/posts/fcp.html</loc>
     
     <lastmod>2025-03-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/HyperOS.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -463,7 +463,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-03-31</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
