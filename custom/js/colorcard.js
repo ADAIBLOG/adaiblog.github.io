@@ -1,100 +1,99 @@
-/* color-cards.css */
-.hrxo-color-card-grid {
-  display: grid;
-  gap: 16px;
-  padding: 16px;
-  width: 100%;
-  /* 默认移动端：每行1个 */
-  grid-template-columns: repeat(1, 1fr);
-}
+// color-cards.js
+document.addEventListener('DOMContentLoaded', function() {
+  const contentContainers = document.querySelectorAll('.hrxo-color-card-grid');
+  
+  contentContainers.forEach(container => {
+    const html = container.innerHTML;
+    const regex = /\{colorcard\s+(.*?)\}/g;
+    
+    const newHtml = html.replace(regex, (match, params) => {
+      const cardData = parseColorCardParams(params);
+      return generateColorCardHTML(cardData);
+    });
+    
+    container.innerHTML = newHtml;
+  });
+});
 
-.hrxo-color-card {
-  position: relative;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  min-height: 160px;
-  min-width: 280px; /* 增加卡片最小宽度 */
-  overflow: hidden;
-  color: white;
-  transition: all 0.3s ease;
-}
-
-/* 小屏幕手机横屏/小平板：宽度≥480px时每行2个 */
-@media (min-width: 480px) {
-  .hrxo-color-card-grid {
-    grid-template-columns: repeat(2, 1fr);
+function parseColorCardParams(params) {
+  const data = {
+    name: '颜色',
+    color: '#000000',
+    hex: '',
+    rgb: '',
+    cmyk: null
+  };
+  
+  const paramRegex = /(\w+)=["'](.*?)["']/g;
+  let match;
+  
+  while ((match = paramRegex.exec(params)) !== null) {
+    const key = match[1].toLowerCase();
+    const value = match[2];
+    
+    switch(key) {
+      case 'name': 
+        data.name = value; 
+        break;
+      case 'color':
+      case 'hex': 
+        data.color = value.startsWith('#') ? value : `#${value}`;
+        data.hex = data.color.toUpperCase();
+        break;
+      case 'rgb': 
+        data.rgb = value.replace(/rgb\(|\)/g, ''); 
+        break;
+      case 'cmyk': 
+        data.cmyk = value.replace(/cmyk\(|\)/g, '');
+        break;
+    }
   }
+  
+  if (!data.rgb) {
+    data.rgb = convertHexToRgb(data.color);
+  }
+  
+  return data;
 }
 
-/* 平板：宽度≥768px时每行2个 */
-@media (min-width: 768px) {
-  .hrxo-color-card-grid {
-    gap: 24px;  /* 增大间距 */
-    padding: 24px;
-  }
-  .hrxo-color-card {
-    min-width: 300px; /* 增大卡片宽度 */
-    padding: 2rem;   /* 增大内边距 */
-  }
+function generateColorCardHTML(data) {
+  const hasCMYK = data.cmyk !== null;
+  return `
+    <div class="hrxo-color-card" style="--card-bg:${data.color}">
+      <div class="hrxo-color-card-overlay"></div>
+      <div class="hrxo-color-card-header">${data.name}</div>
+      <div class="hrxo-color-card-values ${hasCMYK ? 'has-cmyk' : ''}">
+        <div class="hrxo-color-item">
+          <div class="hrxo-color-card-label">HEX</div>
+          <div class="hrxo-color-card-data">${data.hex}</div>
+        </div>
+        <div class="hrxo-color-item">
+          <div class="hrxo-color-card-label">RGB</div>
+          <div class="hrxo-color-card-data">${data.rgb}</div>
+        </div>
+        ${hasCMYK ? `
+        <div class="hrxo-color-item">
+          <div class="hrxo-color-card-label">CMYK</div>
+          <div class="hrxo-color-card-data">${data.cmyk}</div>
+        </div>` : ''}
+      </div>
+    </div>
+  `;
 }
 
-/* 小桌面：宽度≥1024px时每行2个（保持2列让卡片更宽） */
-@media (min-width: 1024px) {
-  .hrxo-color-card-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
-    margin: 0 auto;
+function convertHexToRgb(hex) {
+  hex = hex.replace('#', '');
+  
+  let r, g, b;
+  if (hex.length === 3) {
+    r = parseInt(hex[0] + hex[0], 16);
+    g = parseInt(hex[1] + hex[1], 16);
+    b = parseInt(hex[2] + hex[2], 16);
+  } else {
+    r = parseInt(hex.substring(0, 2), 16);
+    g = parseInt(hex.substring(2, 4), 16);
+    b = parseInt(hex.substring(4, 6), 16);
   }
-  .hrxo-color-card {
-    min-width: 320px;
-  }
-}
-
-/* 大桌面：宽度≥1280px时每行3个 */
-@media (min-width: 1280px) {
-  .hrxo-color-card-grid {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1400px;
-  }
-  .hrxo-color-card {
-    min-width: 340px;
-  }
-}
-
-/* 超宽屏：宽度≥1600px时每行4个 */
-@media (min-width: 1600px) {
-  .hrxo-color-card-grid {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1600px;
-  }
-  .hrxo-color-card {
-    min-width: 360px;
-  }
-}
-
-/* 卡片内容样式调整 */
-.hrxo-color-card-header {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 1.6rem;  /* 增大字体 */
-  font-weight: 600;
-  margin-bottom: 1.2rem;
-}
-
-.hrxo-color-card-values {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px);
-  padding: 1.2rem;  /* 增大内边距 */
-  border-radius: 10px;  /* 增大圆角 */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;  /* 增大间距 */
-}
-
-.hrxo-color-card-label {
-  font-size: 0.85rem;  /* 增大字体 */
-}
-
-.hrxo-color-card-data {
-  font-size: 1rem;  /* 增大字体 */
+  
+  return `${r}, ${g}, ${b}`;
 }
