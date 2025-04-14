@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.adai.fun/posts/colorcard.html</loc>
+    <loc>https://www.adai.fun/posts/web.html</loc>
     
     <lastmod>2025-04-14</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/web.html</loc>
+    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
     
-    <lastmod>2025-04-13</lastmod>
+    <lastmod>2025-04-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -86,15 +86,6 @@
     <loc>https://www.adai.fun/tags/index.html</loc>
     
     <lastmod>2025-04-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
-    
-    <lastmod>2025-04-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
