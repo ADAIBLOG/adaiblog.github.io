@@ -1,0 +1,97 @@
+/* color-cards.css */
+.hrxo-color-card-grid {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  width: 100%;
+  /* 默认移动端：每行1个 */
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.hrxo-color-card {
+  position: relative;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  min-height: 160px;
+  overflow: hidden;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* 小屏幕手机横屏/小平板：宽度≥480px时每行2个 */
+@media (min-width: 480px) {
+  .hrxo-color-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 平板：宽度≥768px时每行2个（保持与480px一致） */
+@media (min-width: 768px) {
+  .hrxo-color-card-grid {
+    gap: 20px;
+    padding: 24px;
+  }
+}
+
+/* 小桌面：宽度≥1024px时每行3个 */
+@media (min-width: 1024px) {
+  .hrxo-color-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* 大桌面：宽度≥1280px时每行4个 */
+@media (min-width: 1280px) {
+  .hrxo-color-card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 超宽屏：宽度≥1600px时每行5个（不再使用6个） */
+@media (min-width: 1600px) {
+  .hrxo-color-card-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* 卡片内容样式 */
+.hrxo-color-card-header {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.hrxo-color-card-values {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.hrxo-color-card-label {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.hrxo-color-card-data {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.hrxo-color-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.1), transparent 60%);
+}
