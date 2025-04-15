@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.adai.fun/posts/web.html</loc>
+    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
     
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
+    <loc>https://www.adai.fun/posts/web.html</loc>
     
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/cm9gxznoh006npjs6cr4o6wux.html</loc>
+    <loc>https://www.adai.fun/posts/cm9iapy5l004lnps6bi3t6vk5.html</loc>
     
     <lastmod>2025-03-11</lastmod>
     
@@ -481,7 +481,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
