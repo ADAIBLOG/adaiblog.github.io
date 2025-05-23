@@ -1,0 +1,34 @@
+/*
+ 侧边栏组件间距
+*/
+#aside-content >.card-widget.card-info > .card-content {
+  min-height: 0px !important
+}
+#aside-content .card-widget {
+  margin-top: 10px !important
+}
+#recent-posts > .recent-post-item:not(:first-child) {
+  margin-top: 15px !important
+}
+#footer-wrap #anzhiyu-footer {
+  max-width: 800px !important
+}
+
+/*
+ 修改诗词作者字体大小
+*/
+div#poem_info {
+  font-size: 1rem !important
+}
+/*
+修改字体，换成自己已经安装的字体
+*/
+div#poem_sentence {
+  font-family: 'DingTalk-JinBuTi' !important
+}
+input{
+  margin: 0px 0px 5px 0px;
+}
+
+
+

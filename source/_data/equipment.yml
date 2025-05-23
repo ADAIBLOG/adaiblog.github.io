@@ -1,0 +1,35 @@
+- class_name: 好物
+  description: 物品推荐
+  tip: 分享更好用的物品
+  top_background: /img/posts/wupin.png
+  good_things:
+    - title: 电脑外设
+      description: 日常中在使用的外设
+      equipment_list:
+        - name: 卓伟XL2430
+          specification: 
+          description: TN屏幕144Hz，色彩偏白，过于老的显示器了，已经停产。
+          image: /img/equipment/zhuowei.png
+          link: https://zowiegear.benq.com.cn/zh-cn/monitor.html
+        - name: 键盘
+          specification: 雷蛇猎魂光蛛竞技版87键盘
+          description: 雷蛇线性光轴，响应1ms，也已经停产
+          image: /img/equipment/leishe.png
+          link: https://cn.razerzone.com/gaming-keyboards/razer-huntsman-tournament-edition
+        - name: 迈从Ace60 Pro KTEK磁轴
+          specification: 价格：199元
+          description: 磁轴键盘，0.02mm精度，0.125ms延迟，32K扫描率
+          image: /img/equipment/ace60.png
+          link: https://maicong.cn/product/Ace%2060/84          
+        - name: 烈空 X1 大师版
+          specification: 价格：369元
+          description: 重量:51g±3g，电池容量：500ms<br>
+                       传感器：PAW3950Ultra<br>
+                       轮询率：8000Hz<br>
+          image: /img/equipment/x1-ultimate.webp
+          link: https://vxe.com/shop/purchase/x1-ultimate
+        - name: 臻火-渡 
+          specification: 价格：75元
+          description: 尺寸：490mmx420mmx5mm <br> 类零垫，中性偏滑。
+          image: /img/equipment/du.png
+          link: https://v.douyin.com/iDBCqN

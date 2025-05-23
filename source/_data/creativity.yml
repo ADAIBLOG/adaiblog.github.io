@@ -1,0 +1,30 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Apex
+      color: "#ffffff"
+      icon: /img/posts/lunbo/apex.png
+    - name: Pubg
+      color: "#fff"
+      icon: /img/posts/lunbo/pubg.png
+    - name: 跑跑卡丁车
+      color: "#57b6e6"
+      icon: /img/posts/lunbo/paopao.png    
+    - name: CS2
+      color: "#FFAB02"
+      icon: /img/posts/lunbo/cs2.jpg
+    - name: QQ堂
+      color: "#ffffff"
+      icon: /img/posts/lunbo/qqtang.jpg
+    - name: 仙剑1
+      color: "#e7bdbd"
+      icon: /img/posts/lunbo/xianjian1.jpg
+    - name: CF
+      color: "#000000"
+      icon: /img/posts/lunbo/cf.webp
+    - name: 元气骑士
+      color: "#013163"
+      icon: /img/posts/lunbo/yuanqiqishi.jpg
+    - name: 洛克王国
+      color: "#ffffff"
+      icon: /img/posts/lunbo/luoke.jpg
+
