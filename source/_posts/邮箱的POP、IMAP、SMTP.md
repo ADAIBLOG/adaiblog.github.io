@@ -28,7 +28,7 @@ POP 加密: SSL/TLS
 SMAP 加密: STARTTLS
 身份验证方法: OAuth2/新式身份验证
 
-## 天翼
+## 189邮箱
 ### 启用POP、IMAP访问权限
 选择“ 设置  > [IMAP/POP3/SMTP服务](https://webmail30.189.cn/w2/template/mailbox.html#setting/imap)”
 ### 独立密码
@@ -47,8 +47,6 @@ POP 加密: SSL
 SMAP 加密: SSL
 
 ## 网易邮箱
-
-## 天翼
 ### 启用POP、IMAP访问权限
 选择“ [打开邮箱](https://email.163.com/) > 设置  > IMAP/POP3/SMTP”
 ### 独立密码
