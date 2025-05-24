@@ -46,7 +46,7 @@ POP 加密: SSL
 端口: 465
 SMAP 加密: SSL
 
-## 网易邮箱
+## 163邮箱
 ### 启用POP、IMAP访问权限
 选择“ [打开邮箱](https://email.163.com/) > 设置  > IMAP/POP3/SMTP”
 ### 独立密码
