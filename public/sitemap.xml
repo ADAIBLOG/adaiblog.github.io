@@ -2,27 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.adai.fun/posts/cmb0st6dc006lc4s6eg5fg8bb.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/cmb0st6d0003nc4s63wt9anrq.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/why.html</loc>
     
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/email.html</loc>
+    
+    <lastmod>2025-05-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/lirchebianhao.html</loc>
+    
+    <lastmod>2025-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/blog.html</loc>
+    
+    <lastmod>2025-05-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -371,15 +380,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/blog.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/github.html</loc>
     
     <lastmod>2025-05-21</lastmod>
@@ -508,7 +508,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
