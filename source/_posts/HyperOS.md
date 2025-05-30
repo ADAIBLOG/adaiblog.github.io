@@ -88,7 +88,7 @@ main_color: "#000000"
 系统服务组件：com.miui.securityadd
 系统跟踪：com.android.traceur
 系统质量服务：com.miui.daemon
-系统质量监测：com.miui/misightservice
+系统质量监测：com.miui.misightservice
 小爱翻译：com.xiaomi.aiasst.vision
 小爱建议：com.xiaomi.aireco
 小爱离线引擎：com.xiaoai.xaee
