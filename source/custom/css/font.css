@@ -4,7 +4,8 @@
      /*  url('/custom/font/DingTalk-JinBuTi.woff2') format('woff2'),  
          url('/custon/font/DingTalk-JinBuTi.woff') format('woff'),     
          url('/custom/font/DingTalk-JinBuTi.ttf') format('truetype');     */
-         url('/custom/font/LXGWWenKai.ttf') format('truetype');  
+         
+         url('/custom/font/LXGWZhenKaiGB-Regular.ttf') format('truetype');  
     font-weight: normal;
     font-style: normal;
 }
