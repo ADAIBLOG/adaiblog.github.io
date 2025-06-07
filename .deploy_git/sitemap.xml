@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/posts/fonts.html</loc>
+    
+    <lastmod>2025-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2025-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/VSCode.html</loc>
+    
+    <lastmod>2025-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/mumble.html</loc>
+    
+    <lastmod>2025-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/money.html</loc>
+    
+    <lastmod>2025-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/web.html</loc>
     
     <lastmod>2025-06-06</lastmod>
@@ -119,15 +164,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/money.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/project.html</loc>
     
     <lastmod>2025-05-21</lastmod>
@@ -218,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/cmb0st6db006ic4s6hgcs87xa.html</loc>
+    <loc>https://www.adai.fun/posts/cmbmi7bk80055e4s648acft3a.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -326,15 +362,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/VSCode.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/vercel.html</loc>
     
     <lastmod>2025-05-21</lastmod>
@@ -372,15 +399,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/NextCloud.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/mumble.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -435,15 +453,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/debian.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/aseprite.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
