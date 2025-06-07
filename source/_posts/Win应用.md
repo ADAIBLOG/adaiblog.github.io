@@ -5,6 +5,7 @@ tags:
   - Windows
 categories:
   - 软件
+  - 开源
 date: 2024-10-27 00:47:00
 updated: 2024-11-20 00:00:00
 top_group_index: 3

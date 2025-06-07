@@ -6,6 +6,7 @@ tags:
   - Windows
 categories:
   - 软件
+  - 开源
 cover: /img/posts/vscode/vscode.png
 id: VSCode
 description: 关于vscode使用技巧和插件

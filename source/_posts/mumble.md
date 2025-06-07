@@ -9,6 +9,7 @@ tags:
 categories:
   - 服务器
   - 软件
+  - 开源
 cover: /img/posts/mumble/mumble.png
 swiper_index: 6
 abbrlink: 37213

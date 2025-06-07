@@ -6,6 +6,7 @@ tags:
   - Windows
 categories:
   - 软件
+  - 开源
 cover: /img/posts/aseprite/aseprite.png
 id: aseprite
 swiper_index: 4
