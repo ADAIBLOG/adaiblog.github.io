@@ -1,9 +1,14 @@
 ---
 title: 佳能TS系列打印机
 date: 2025-06-11 10:10:34
+cover: /img/posts/jianeng/jianeng.jpg
+main_color: "#ebd7bf"
+id: fashitiandian
 tags:
+  - 佳能打印机
+categories:
+  - 指南
 ---
-![](/img/posts/jianeng/jianeng.jpg)
 ## WiFi模式
 1. 下载佳能应用
 iOS: 苹果商城搜索[Canno PRINT](https://apps.apple.com/cn/app/canon-print/id664425773)
