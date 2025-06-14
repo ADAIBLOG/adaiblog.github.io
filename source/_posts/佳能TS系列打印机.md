@@ -3,7 +3,7 @@ title: 佳能TS系列打印机
 date: 2025-06-11 10:10:34
 cover: /img/posts/jianeng/jianeng.jpg
 main_color: "#ebd7bf"
-id: fashitiandian
+id: jianeng
 tags:
   - 佳能打印机
 categories:
