@@ -164,18 +164,6 @@ document.getElementById('safe-email').innerHTML = generateSafeEmail('adaiblog', 
       link: https://www.bleachbit.org/
       avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.e55abe3e-1ce2-46cf-b325-55184273f87f&w=50&h=50&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 清理系统并释放磁盘空间
-- class_name: 云盘
-  class_desc: 
-  flink_style: anzhiyu
-  link_list:
-    - name: AList
-      link: https://github.com/AlistGo/alist/releases
-      avatar: /img/posts/app/alist.svg
-      descr: 支持多个云盘登陆访问
-    - name: AList Helper
-      link: https://github.com/Xmarmalade/alisthelper/releases
-      avatar: /img/posts/app/alist.svg
-      descr: 桌面版AList
 - class_name: 浏览器
   class_desc: 
   flink_style: anzhiyu
