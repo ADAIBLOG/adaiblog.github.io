@@ -10,6 +10,7 @@ description: 使用alist挂载多个云盘使用
 id: alist
 main_color: "#3c5784"
 ---
+{% note danger simple %}Alist已被出售给其他公司，请谨慎使用!{% endnote %}
 使用Alist Helper图像化Alist和Rclone挂载云盘到本地使用。
 # AList 是什么？
 AList 是一款开源的文件列表程序，支持将 20+种存储服务（如阿里云盘、百度网盘、OneDrive、Google Drive、本地存储等）统一挂载到同一个Web界面中，实现多平台文件集中管理和分享。其特点包括：
