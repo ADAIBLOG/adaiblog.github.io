@@ -65,12 +65,13 @@
     descr: 悠远的天空，在苍穹的尽头 
     avatar: https://blog.owwo.fun/img/avatar.jpg
     
-- class_name: 小伙伴
+- class_name: 网络小伙伴
   class_desc: 
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list: 
-  - name: 陆小启Kairo
-    link: https://blog.luxq.space
-    avatar: https://s21.ax1x.com/2025/02/23/pElRBdO.jpg
-    descr: 往者不谏，来者可追
+  - name: FlyDay
+    link: https://www.flyday.top/
+    avatar: https://i.postimg.cc/m2xYvQBX/z2-SZXq-Xl-Ux-Ooz-QB.png
+    descr: Tech Exploration, Life Reflections, Social Insights
+    

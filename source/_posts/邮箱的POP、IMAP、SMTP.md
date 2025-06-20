@@ -12,6 +12,8 @@ main_color: "#ff4341"
 ## Outlook
 ### 启用POP、IMAP访问权限
 选择“ 设置  > 邮件 > [转发和 IMAP](https://go.microsoft.com/fwlink/?linkid=875424)”
+### 应用密码
+[创建应用密码](https://account.live.com/proofs/AppPassword)
 ### IMAP 
 服务器: outlook.office365.com
 端口: 993
