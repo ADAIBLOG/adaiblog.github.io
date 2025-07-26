@@ -1,0 +1,597 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Linux系统：Debian | 阿呆的博客</title><meta name="keywords" content="Linux"><meta name="author" content="阿呆"><meta name="copyright" content="阿呆"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#18171d"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Linux系统：Debian"><meta name="application-name" content="Linux系统：Debian"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#18171d"><meta property="og:type" content="article"><meta property="og:title" content="Linux系统：Debian"><meta property="og:url" content="https://www.adai.fun/posts/debian.html"><meta property="og:site_name" content="阿呆的博客"><meta property="og:description" content="Debian系统的基础操作"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://www.adai.fun/img/posts/debian/debian.png"><meta property="article:author" content="阿呆"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://www.adai.fun/img/posts/debian/debian.png"><meta name="description" content="Debian系统的基础操作"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://www.adai.fun/posts/debian.html"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="q3O-oXp0HqjlNmTQV6dyggATm1jPJlwNbt2uHEvOjG8"/><meta name="baidu-site-verification" content="codeva-Gyrmhrczb1"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-9290198692800874',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-NCXTYTWYNM"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-NCXTYTWYNM');
+</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: {"enable":true,"title":"与数百名博主无限进步","addFriendPlaceholder":"昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"},
+  peoplecanvas: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: undefined,
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: 'https://twikoo.adai.fun',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":1},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: {"mode":"api","api":"https://img2color-go.vercel.app/api?img=","cover_change":true},
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 阿呆","link":"链接: ","source":"来源: 阿呆的博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  shortcutKey: undefined,
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '阿呆的博客',
+  title: 'Linux系统：Debian',
+  postAI: '',
+  pageFillDescription: '下载, 安装, 系统操作, 更新系统和软件包, 开启远程ssh访问, 操作语法, 清理屏幕, 安装应用, 卸载应用, 删除文件, 创建用户, 用户成为sudo用户, 删除用户, 在目录x2Fmnt下面创建一个文件夹, 查询添加的磁盘找到所需磁盘, 格式化硬盘为ext4格式后面路径未查询到新硬盘的路径请自行修改, 挂载, 取消挂载, 设置开机自动挂载, 生效, 软件安装, 安装ufw, 设置跟随系统启动, 检查ufw状态, 添加删除规则, 安装smb, 查看samba版本, 配置samba文件按i进入编辑, 创建用户user可任意填写名称只要与上方配置文件保持一致即可, 创建samba文件夹, 开启端口, 重启samba服务, 如果不使用了关闭samba记录一下从开始安装服务器系统下载因为设备性能和用途原因这里我选择安装无桌面版本打开官网直接点击下载的是网络安装速度比较慢并且无法离线安装我们点击其他下载链接选择镜像站点找到中国大陆选择其中一个点击这个是当前最新版本之后选择里面有很多版本这里我们选择标准版下载即可加载更多下载完成之后开始制作盘启动器首先下载盘启动器工具选择盘设备并导入文件开始制作安装将优盘插入需要安装的设备上开机按进入将盘设置第一启动项并重启来到安装页面选择开始安装语言选择地区选择键盘映射选择加载更多主机名称不填跳过设置密码创建新用户创建新用户密码加载更多磁盘安装方式选择安装系统的硬盘分区方式选择完成磁盘设置进行格式化加载更多是否选择网络镜像根据自己需求选择或者如果是选择点击等国内镜像网络代理不填等待安装完成之后拔掉盘重启电脑加载更多系统操作更新系统和软件包无法更新解决办法检查是否能通排除是否是检查网线路由器防火墙打开配置文件并加添地址后按再按进行保存如果还是不可以检查网络接口状态自动获取接口名称开启远程访问可以下载远程进行登录操作如果有防火墙开启端口下载重启服务要想远程登录用户需要对配置文件进行修改将改成前面的取消后按再按进行保存并重启操作语法基本操作清理屏幕安装应用卸载应用删除文件文件名创建用户创建用户用户名用户成为用户删除用户用户名用户名挂在硬盘在目录下面创建一个文件夹查询添加的磁盘找到所需磁盘格式化硬盘为格式后面路径未查询到新硬盘的路径请自行修改挂载取消挂载设置开机自动挂载生效软件安装防火墙安装设置跟随系统启动检查状态添加删除规则端口号端口号局域网安装查看版本配置文件按进入编辑编辑分享文件夹名称介绍分享文件路径默认是开启共享的如不需要在中将前面加一个注释掉填写文件目录输入用户名随后进行创建按保存创建用户可任意填写名称只要与上方配置文件保持一致即可创建文件夹开启端口如果连接提示禁止访问修改文件夹访问权限重启服务如果不使用了关闭链接打开此电脑地址栏输入地址比如随后输入账号密码即可访问安装编辑器',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-05-21 23:38:51',
+  postMainColor: '#a7002f',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/custom/css/bilibili.css"><link rel="stylesheet" href="/custom/css/font.css"><link rel="stylesheet" href="/custom/css/custom.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/poem/poem.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css"><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="阿呆的博客" type="application/atom+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="/img/adai.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">阿呆的博客</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 工具</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://cover.adai.fun/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 文章封面</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://app.codeimage.dev/"><i class="anzhiyufont anzhiyu-icon-language faa-tada" style="font-size: 0.9em;"></i><span> 代码美化</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://watermark.adai.fun/"><i class="anzhiyufont anzhiyu-icon-thumbtack faa-tada" style="font-size: 0.9em;"></i><span> 图片水印</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/atom.xml"><i class="anzhiyufont anzhiyu-icon-rss faa-tada" style="font-size: 0.9em;"></i><span> RSS订阅</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/collect/"><i class="anzhiyufont anzhiyu-icon-cube faa-tada" style="font-size: 0.9em;"></i><span> 藏宝阁</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-inbox faa-tada" style="font-size: 0.9em;"></i><span> 好物</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/reward/"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill faa-tada" style="font-size: 0.9em;"></i><span> 赞助名单</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/todo/"><i class="anzhiyufont anzhiyu-icon-bolt faa-tada" style="font-size: 0.9em;"></i><span> 待办</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="/%5Cimg%5Cwechat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/%5Cimg%5Cwechat.png"/></a><div class="post-qr-code-desc">微信</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AnZhiYu/" style="font-size: 1.05rem;">AnZhiYu<sup>2</sup></a><a href="/tags/Android/" style="font-size: 1.05rem;">Android<sup>2</sup></a><a href="/tags/Docker/" style="font-size: 1.05rem;">Docker<sup>5</sup></a><a href="/tags/Github/" style="font-size: 1.05rem;">Github<sup>3</sup></a><a href="/tags/Hexo/" style="font-size: 1.05rem;">Hexo<sup>1</sup></a><a href="/tags/HyperOS/" style="font-size: 1.05rem;">HyperOS<sup>2</sup></a><a href="/tags/Linux/" style="font-size: 1.05rem;">Linux<sup>7</sup></a><a href="/tags/MarkDown/" style="font-size: 1.05rem;">MarkDown<sup>1</sup></a><a href="/tags/Rss/" style="font-size: 1.05rem;">Rss<sup>1</sup></a><a href="/tags/Steam/" style="font-size: 1.05rem;">Steam<sup>1</sup></a><a href="/tags/Windows/" style="font-size: 1.05rem;">Windows<sup>9</sup></a><a href="/tags/up%E4%B8%BB/" style="font-size: 1.05rem;">up主<sup>1</sup></a><a href="/tags/%E4%BD%B3%E8%83%BD%E6%89%93%E5%8D%B0%E6%9C%BA/" style="font-size: 1.05rem;">佳能打印机<sup>1</sup></a><a href="/tags/%E5%83%8F%E7%B4%A0/" style="font-size: 1.05rem;">像素<sup>1</sup></a><a href="/tags/%E5%88%A9%E6%B6%A6%E7%8E%87/" style="font-size: 1.05rem;">利润率<sup>1</sup></a><a href="/tags/%E5%89%AA%E8%BE%91/" style="font-size: 1.05rem;">剪辑<sup>1</sup></a><a href="/tags/%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88/" style="font-size: 1.05rem;">十万个为什么<sup>1</sup></a><a href="/tags/%E5%8D%8F%E8%AE%AE/" style="font-size: 1.05rem;">协议<sup>2</sup></a><a href="/tags/%E5%9B%BD%E5%AD%A6/" style="font-size: 1.05rem;">国学<sup>2</sup></a><a href="/tags/%E5%A3%81%E7%BA%B8/" style="font-size: 1.05rem;">壁纸<sup>1</sup></a><a href="/tags/%E5%AD%97%E4%BD%93/" style="font-size: 1.05rem;">字体<sup>1</sup></a><a href="/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8/" style="font-size: 1.05rem;">密码管理器<sup>1</sup></a><a href="/tags/%E5%B7%9D%E8%8F%9C/" style="font-size: 1.05rem;">川菜<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%85%B3%E9%9D%A2%E6%9D%BF/" style="font-size: 1.05rem;">开关面板<sup>1</sup></a><a href="/tags/%E5%BD%B1%E7%89%87/" style="font-size: 1.05rem;">影片<sup>1</sup></a><a href="/tags/%E6%89%8B%E6%9C%BA%E5%8D%A1/" style="font-size: 1.05rem;">手机卡<sup>1</sup></a><a href="/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 1.05rem;">接口<sup>1</sup></a><a href="/tags/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/" style="font-size: 1.05rem;">本地部署<sup>1</sup></a><a href="/tags/%E6%9F%A5%E6%89%BE%E8%AE%BE%E5%A4%87/" style="font-size: 1.05rem;">查找设备<sup>1</sup></a><a href="/tags/%E6%B3%A8%E9%94%80-%E5%B7%A5%E5%95%86/" style="font-size: 1.05rem;">注销,工商<sup>1</sup></a><a href="/tags/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.05rem;">游戏服务器<sup>1</sup></a><a href="/tags/%E6%B8%B8%E6%88%8F%E8%AE%BE%E7%BD%AE/" style="font-size: 1.05rem;">游戏设置<sup>1</sup></a><a href="/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/" style="font-size: 1.05rem;">生产力工具<sup>3</sup></a><a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 1.05rem;">生活<sup>2</sup></a><a href="/tags/%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C/" style="font-size: 1.05rem;">社会保障<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%BB%9C/" style="font-size: 1.05rem;">网络<sup>2</sup></a><a href="/tags/%E8%8A%82%E6%97%A5/" style="font-size: 1.05rem;">节日<sup>1</sup></a><a href="/tags/%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.05rem;">语音服务器<sup>2</sup></a><a href="/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6/" style="font-size: 1.05rem;">语音软件<sup>2</sup></a><a href="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/" style="font-size: 1.05rem;">路由器<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/07/"><span class="card-archive-list-date">七月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/06/"><span class="card-archive-list-date">六月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/05/"><span class="card-archive-list-date">五月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/04/"><span class="card-archive-list-date">四月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/03/"><span class="card-archive-list-date">三月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">11</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/02/"><span class="card-archive-list-date">二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">6</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">11</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%B3%BB%E7%BB%9F/" itemprop="url">系统</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Linux/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Linux</span></a></span></div></div><h1 class="post-title" itemprop="name headline">Linux系统：Debian</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2024-10-30T15:51:43.000Z" title="发表于 2024-10-30 23:51:43">2024-10-30</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-05-21T15:38:51.495Z" title="更新于 2025-05-21 23:38:51">2025-05-21</time></span></div><div class="meta-secondline"></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="/img/posts/debian/debian.png"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://www.adai.fun/posts/debian.html"><header><a class="post-meta-categories" href="/categories/%E7%B3%BB%E7%BB%9F/" itemprop="url">系统</a><a href="/tags/Linux/" tabindex="-1" itemprop="url">Linux</a><h1 id="CrawlerTitle" itemprop="name headline">Linux系统：Debian</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">阿呆</span><time itemprop="dateCreated datePublished" datetime="2024-10-30T15:51:43.000Z" title="发表于 2024-10-30 23:51:43">2024-10-30</time><time itemprop="dateCreated datePublished" datetime="2025-05-21T15:38:51.495Z" title="更新于 2025-05-21 23:38:51">2025-05-21</time></header><p>记录一下从0开始安装debian服务器系统</p>
+<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>因为设备性能和用途原因这里我选择安装无桌面版本<br>打开<a target="_blank" rel="noopener" href="https://www.debian.org/index.zh-cn.html">debian</a>官网，直接点击下载的ios是网络安装，速度比较慢并且无法离线安装，我们点击<mark class="hl-label blue">其他下载链接</mark> ，选择<mark class="hl-label pink">镜像站点</mark> 找到中国大陆选择其中一个，点击<mark class="hl-label red">current-live</mark> 这个是当前最新版本。之后选择<mark class="hl-label green">AMD64</mark> -&gt;<mark class="hl-label orange">iso-hybrid</mark> 里面有很多版本，这里我们选择<mark class="hl-label purple">standard.ios</mark> 标准版下载即可</p>
+<div class="gallery">
+  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">
+    <span class="gallery-data">[{"url":"/img/posts/debian/debiandownload.png","alt":""},{"url":"/img/posts/debian/debiandownload2.png","alt":""},{"url":"/img/posts/debian/debiandownload3.png","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>加载更多</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<p>下载完成之后，开始制作U盘启动器。首先下载U盘启动器工具：<a target="_blank" rel="noopener" href="https://github.com/pbatard/rufus/releases">Rufus</a>，选择U盘设备并导入ios文件开始制作。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/debian/rufus.png" width="300"></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>将优盘插入需要安装的设备上，开机按<kbd>Del</kbd>进入bios将u盘设置第一启动项并重启。<br>来到安装页面，选择<mark class="hl-label green">Start Installer</mark> 开始安装<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/debian/debianinstall.jpg" width="500"><br>语言选择<mark class="hl-label green">English</mark> ，地区选择<mark class="hl-label orange">HongKong</mark> ，键盘映射选择<mark class="hl-label pink">American English</mark> </p>
+<div class="gallery">
+  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">
+    <span class="gallery-data">[{"url":"/img/posts/debian/debianinstall2.jpg","alt":""},{"url":"/img/posts/debian/debianinstall3.jpg","alt":""},{"url":"/img/posts/debian/debianinstall4.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>加载更多</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<p>主机名称<mark class="hl-label green">debian</mark> ，Domain name<mark class="hl-label red">不填跳过</mark> ，设置<mark class="hl-label pink">Root密码</mark> ，创建<mark class="hl-label blue">新用户</mark> ，创建<mark class="hl-label orange">新用户密码</mark> </p>
+<div class="gallery">
+  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">
+    <span class="gallery-data">[{"url":"/img/posts/debian/debianinstall5.jpg","alt":""},{"url":"/img/posts/debian/debianinstall6.jpg","alt":""},{"url":"/img/posts/debian/debianinstall7.jpg","alt":""},{"url":"/img/posts/debian/debianinstall8.jpg","alt":""},{"url":"/img/posts/debian/debianinstall9.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>加载更多</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<p>磁盘安装方式<mark class="hl-label green">use entire disk</mark> ，选择<mark class="hl-label red">安装系统的硬盘</mark> ，分区方式选择<mark class="hl-label pink">/home,/var,/tmp</mark> ，完成磁盘设置<mark class="hl-label blue">Finish Partitioning</mark> ，进行格式化<mark class="hl-label orange">yes</mark> </p>
+<div class="gallery">
+  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">
+    <span class="gallery-data">[{"url":"/img/posts/debian/debianinstall10.jpg","alt":""},{"url":"/img/posts/debian/debianinstall11.jpg","alt":""},{"url":"/img/posts/debian/debianinstall12.jpg","alt":""},{"url":"/img/posts/debian/debianinstall13.jpg","alt":""},{"url":"/img/posts/debian/debianinstall14.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>加载更多</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<p>是否选择网络镜像，根据自己需求选择<mark class="hl-label blue">No</mark> 或者<mark class="hl-label red">YES</mark> <br>如果是YES选择<mark class="hl-label pink">China</mark> ，点击163，tuna等国内镜像。<br>网络代理<mark class="hl-label orange">不填</mark> 等待安装完成。之后拔掉U盘重启电脑。</p>
+<div class="gallery">
+  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">
+    <span class="gallery-data">[{"url":"/img/posts/debian/debianinstall15.jpg","alt":""},{"url":"/img/posts/debian/debianinstall16.jpg","alt":""},{"url":"/img/posts/debian/debianinstall17.jpg","alt":""},{"url":"/img/posts/debian/debianinstall18.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>加载更多</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+
+<h1 id="系统操作"><a href="#系统操作" class="headerlink" title="系统操作"></a>系统操作</h1><h3 id="更新系统和软件包"><a href="#更新系统和软件包" class="headerlink" title="更新系统和软件包"></a>更新系统和软件包</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt update </span><br><span class="line">apt upgrade</span><br></pre></td></tr></table></figure>
+<p>无法apt更新解决办法</p>
+<p>检查是否能ping通8.8.8.8排除是否是检查网线&#x2F;路由器&#x2F;防火墙</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ping 8.8.8.8</span><br></pre></td></tr></table></figure>
+<p>打开DNS配置文件并加添DNS地址</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/resolv.conf</span><br><span class="line">nameserver 8.8.8.8</span><br></pre></td></tr></table></figure>
+<kbd>Ctrl</kbd>+<kbd>X</kbd>后按<kbd>Y</kbd>,再按<kbd>Enter</kbd>进行保存
+<p>如果还是不可以检查网络接口状态</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ip a</span><br><span class="line"># DHCP 自动获取</span><br><span class="line">dhclient 接口名称</span><br></pre></td></tr></table></figure>
+<h3 id="开启远程ssh访问"><a href="#开启远程ssh访问" class="headerlink" title="开启远程ssh访问"></a>开启远程ssh访问</h3><p>可以下载ssh远程进行登录操作（如果有防火墙开启22端口）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt instal openssh-server  //下载ssh</span><br><span class="line">service ssh restart //重启ssh服务</span><br></pre></td></tr></table></figure>
+<p>要想远程登录Root用户，需要对ssh配置文件进行修改</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/ssh/sshd_config </span><br></pre></td></tr></table></figure>
+<p>将<a>#PermitRootLogin prohibit-password</a>改成<mark class="hl-label red">PermitRootLogin yes</mark> ，<a>#PasswordAuthentication yes</a>前面的<mark class="hl-label red">#</mark> 取消</p>
+<kbd>Ctrl</kbd>+<kbd>X</kbd>后按<kbd>Y</kbd>,再按<kbd>Enter</kbd>进行保存,并重启SSH
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service ssh restart </span><br></pre></td></tr></table></figure>
+
+<h2 id="操作语法"><a href="#操作语法" class="headerlink" title="操作语法"></a>操作语法</h2><details class="folding-tag" ><summary> 基本操作 </summary>
+              <div class='content'>
+              <h3 id="清理屏幕"><a href="#清理屏幕" class="headerlink" title="清理屏幕"></a>清理屏幕</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure><h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install xx</span><br></pre></td></tr></table></figure><h3 id="卸载应用"><a href="#卸载应用" class="headerlink" title="卸载应用"></a>卸载应用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt --purge remove xxxx</span><br></pre></td></tr></table></figure><h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm 文件名</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" ><summary> 创建用户 </summary>
+              <div class='content'>
+              <h3 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo adduser 用户名</span><br></pre></td></tr></table></figure><h3 id="用户成为sudo用户"><a href="#用户成为sudo用户" class="headerlink" title="用户成为sudo用户"></a>用户成为sudo用户</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo adduser xxx sudo</span><br></pre></td></tr></table></figure><h3 id="删除用户"><a href="#删除用户" class="headerlink" title="删除用户"></a>删除用户</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo deluser --remove-home 用户名</span><br><span class="line">sudo userdel 用户名</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" ><summary> 挂在硬盘 </summary>
+              <div class='content'>
+              <h2 id="在目录-mnt下面创建一个文件夹"><a href="#在目录-mnt下面创建一个文件夹" class="headerlink" title="在目录&#x2F;mnt下面创建一个文件夹"></a>在目录&#x2F;mnt下面创建一个文件夹</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir yingpan</span><br></pre></td></tr></table></figure><h2 id="查询添加的磁盘-找到所需磁盘"><a href="#查询添加的磁盘-找到所需磁盘" class="headerlink" title="查询添加的磁盘,找到所需磁盘"></a>查询添加的磁盘,找到所需磁盘</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo fdisk -l</span><br></pre></td></tr></table></figure><h2 id="格式化硬盘为ext4格式，后面路径未查询到新硬盘的路径请自行修改"><a href="#格式化硬盘为ext4格式，后面路径未查询到新硬盘的路径请自行修改" class="headerlink" title="格式化硬盘为ext4格式，后面路径未查询到新硬盘的路径请自行修改"></a>格式化硬盘为ext4格式，后面路径未查询到新硬盘的路径请自行修改</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkfs -t ext4 /dev/sda1</span><br></pre></td></tr></table></figure><h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount  /dev/sda1 /mnt/yingpan</span><br></pre></td></tr></table></figure><h2 id="取消挂载"><a href="#取消挂载" class="headerlink" title="取消挂载"></a>取消挂载</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">umount /dev/sda1</span><br></pre></td></tr></table></figure><h2 id="设置开机自动挂载"><a href="#设置开机自动挂载" class="headerlink" title="设置开机自动挂载"></a>设置开机自动挂载</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/fstab</span><br><span class="line">/dev/sda1   /mnt/yingoan   ext4     defaults</span><br></pre></td></tr></table></figure><h2 id="生效"><a href="#生效" class="headerlink" title="生效"></a>生效</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -a</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+
+<h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><details class="folding-tag" ><summary> 防火墙ufw </summary>
+              <div class='content'>
+              <h3 id="安装ufw"><a href="#安装ufw" class="headerlink" title="安装ufw"></a>安装ufw</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ufw</span><br></pre></td></tr></table></figure><h2 id="设置跟随系统启动"><a href="#设置跟随系统启动" class="headerlink" title="设置跟随系统启动"></a>设置跟随系统启动</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw enable</span><br><span class="line">sudo ufw default deny</span><br></pre></td></tr></table></figure><h2 id="检查ufw状态"><a href="#检查ufw状态" class="headerlink" title="检查ufw状态"></a>检查ufw状态</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw status </span><br></pre></td></tr></table></figure><h2 id="添加删除规则"><a href="#添加删除规则" class="headerlink" title="添加删除规则"></a>添加删除规则</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw allow 端口号 </span><br><span class="line">sudo ufw delete allow 端口号   </span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" ><summary> SMB局域网 </summary>
+              <div class='content'>
+              <h2 id="安装smb"><a href="#安装smb" class="headerlink" title="安装smb"></a>安装smb</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install samba</span><br></pre></td></tr></table></figure><h2 id="查看samba版本"><a href="#查看samba版本" class="headerlink" title="查看samba版本"></a>查看samba版本</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">samba --version</span><br></pre></td></tr></table></figure><h2 id="配置samba文件，按i进入编辑"><a href="#配置samba文件，按i进入编辑" class="headerlink" title="配置samba文件，按i进入编辑"></a>配置samba文件，按i进入编辑</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/samba/smb.conf</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[编辑分享文件夹名称]</span><br><span class="line">   comment = 介绍</span><br><span class="line">   browseable = yes</span><br><span class="line">   path = 分享文件路径</span><br><span class="line">   create mask = 0777</span><br><span class="line">   directory mask = 0777</span><br><span class="line">   valid users = user</span><br><span class="line">   public = yes</span><br><span class="line">   available = yes</span><br><span class="line">   writable = yes</span><br></pre></td></tr></table></figure><div class="note info modern"><p>info 默认是开启home共享的，如不需要，在&#x2F;etc&#x2F;samba&#x2F;smb.conf中将[homes]前面加一个#注释掉</p></div>path填写文件目录，valid users输入用户名随后进行创建，ctrl+x按Y保存<h2 id="创建用户，user可任意填写名称只要与上方配置文件保持一致即可"><a href="#创建用户，user可任意填写名称只要与上方配置文件保持一致即可" class="headerlink" title="创建用户，user可任意填写名称只要与上方配置文件保持一致即可"></a>创建用户，user可任意填写名称只要与上方配置文件保持一致即可</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo smbpasswd -a user</span><br></pre></td></tr></table></figure><h2 id="创建samba文件夹"><a href="#创建samba文件夹" class="headerlink" title="创建samba文件夹"></a>创建samba文件夹</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /samba/share</span><br></pre></td></tr></table></figure><h2 id="开启端口"><a href="#开启端口" class="headerlink" title="开启端口"></a>开启端口</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw allow 445</span><br></pre></td></tr></table></figure><p>##如果连接提示禁止访问，修改文件夹访问权限</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod -R 777 /samba</span><br></pre></td></tr></table></figure><h2 id="重启samba服务"><a href="#重启samba服务" class="headerlink" title="重启samba服务"></a>重启samba服务</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service smbd restart</span><br></pre></td></tr></table></figure><h2 id="如果不使用了关闭samba"><a href="#如果不使用了关闭samba" class="headerlink" title="如果不使用了关闭samba"></a>如果不使用了关闭samba</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service smbd stop</span><br></pre></td></tr></table></figure><p>Windows链接SMB：打开此电脑，地址栏输入<mark class="hl-label green">\\ip地址</mark> （比如：\\192.168.50.85）随后输入账号密码，即可访问</p><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/windows/smb1.png"></p>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 安装vim编辑器 </summary>
+              <div class='content'>
+              <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install vim</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/adai.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/adai.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">阿呆</div><div class="post-copyright__author_desc">生活如此多娇</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://www.adai.fun/posts/debian.html">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://www.adai.fun/posts/debian.html')">Linux系统：Debian</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="/%5Cimg%5Cwechat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/%5Cimg%5Cwechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://www.adai.fun/posts/debian.html"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.adai.fun" target="_blank">阿呆的博客</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__category-list"><a class="post-meta__box__categoryes" href="/categories/%E7%B3%BB%E7%BB%9F/"><span class="categoryes-punctuation"> <i class="anzhiyufont anzhiyu-icon-inbox"></i></span>系统<span class="categoryesPageCount">3</span></a></div><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Linux/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Linux<span class="tagsPageCount">7</span></a></div></div><div class="post_share"><div class="social-share" data-image="/img/posts/shiwushuxing.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/winapp.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/app/windowsapp.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">超好用的Windows应用</div></div></a></div><div class="next-post pull-right"><a href="/posts/windwos.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/windows/windows.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Windows系统设置和优化</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/posts/adguardhome.html" title="家庭网络级解决方案:AdguardHome"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/adguard/adguardhome.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-02-26</div><div class="title">家庭网络级解决方案:AdguardHome</div></div></a></div><div><a href="/posts/docker.html" title="从0学习使用Docker"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/docker/docker.png" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-11-01</div><div class="title">从0学习使用Docker</div></div></a></div><div><a href="/posts/mincraft.html" title="搭建Minecraft服务器"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/mincraft.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-03-20</div><div class="title">搭建Minecraft服务器</div></div></a></div><div><a href="/posts/teamspeak.html" title="赛事级语音聊天软件Teamspeak部署使用"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/teamspeak/teamspeak.png" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-11-25</div><div class="title">赛事级语音聊天软件Teamspeak部署使用</div></div></a></div><div><a href="/posts/mumble.html" title="语音开黑软件Mumble的部署与使用"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/mumble/mumble.png" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-11-08</div><div class="title">语音开黑软件Mumble的部署与使用</div></div></a></div><div><a href="/posts/Streaming.html" title="使用Sunshine，Moonlight实现设备之间的串流"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/posts/chuanliu/chuanliu.png" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2025-01-17</div><div class="title">使用Sunshine，Moonlight实现设备之间的串流</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)" style="display: none">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD"><span class="toc-number">1.</span> <span class="toc-text">下载</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C"><span class="toc-number">3.</span> <span class="toc-text">系统操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%8C%85"><span class="toc-number">3.0.1.</span> <span class="toc-text">更新系统和软件包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E5%90%AF%E8%BF%9C%E7%A8%8Bssh%E8%AE%BF%E9%97%AE"><span class="toc-number">3.0.2.</span> <span class="toc-text">开启远程ssh访问</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%93%8D%E4%BD%9C%E8%AF%AD%E6%B3%95"><span class="toc-number">3.1.</span> <span class="toc-text">操作语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%85%E7%90%86%E5%B1%8F%E5%B9%95"><span class="toc-number">3.1.1.</span> <span class="toc-text">清理屏幕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8"><span class="toc-number">3.1.2.</span> <span class="toc-text">安装应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8"><span class="toc-number">3.1.3.</span> <span class="toc-text">卸载应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6"><span class="toc-number">3.1.4.</span> <span class="toc-text">删除文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7"><span class="toc-number">3.1.5.</span> <span class="toc-text">创建用户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E6%88%90%E4%B8%BAsudo%E7%94%A8%E6%88%B7"><span class="toc-number">3.1.6.</span> <span class="toc-text">用户成为sudo用户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7"><span class="toc-number">3.1.7.</span> <span class="toc-text">删除用户</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8%E7%9B%AE%E5%BD%95-mnt%E4%B8%8B%E9%9D%A2%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">3.2.</span> <span class="toc-text">在目录&#x2F;mnt下面创建一个文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E8%AF%A2%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%A3%81%E7%9B%98-%E6%89%BE%E5%88%B0%E6%89%80%E9%9C%80%E7%A3%81%E7%9B%98"><span class="toc-number">3.3.</span> <span class="toc-text">查询添加的磁盘,找到所需磁盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%A1%AC%E7%9B%98%E4%B8%BAext4%E6%A0%BC%E5%BC%8F%EF%BC%8C%E5%90%8E%E9%9D%A2%E8%B7%AF%E5%BE%84%E6%9C%AA%E6%9F%A5%E8%AF%A2%E5%88%B0%E6%96%B0%E7%A1%AC%E7%9B%98%E7%9A%84%E8%B7%AF%E5%BE%84%E8%AF%B7%E8%87%AA%E8%A1%8C%E4%BF%AE%E6%94%B9"><span class="toc-number">3.4.</span> <span class="toc-text">格式化硬盘为ext4格式，后面路径未查询到新硬盘的路径请自行修改</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%82%E8%BD%BD"><span class="toc-number">3.5.</span> <span class="toc-text">挂载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%96%E6%B6%88%E6%8C%82%E8%BD%BD"><span class="toc-number">3.6.</span> <span class="toc-text">取消挂载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD"><span class="toc-number">3.7.</span> <span class="toc-text">设置开机自动挂载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%9F%E6%95%88"><span class="toc-number">3.8.</span> <span class="toc-text">生效</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">3.9.</span> <span class="toc-text">软件安装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85ufw"><span class="toc-number">3.9.1.</span> <span class="toc-text">安装ufw</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E8%B7%9F%E9%9A%8F%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8"><span class="toc-number">3.10.</span> <span class="toc-text">设置跟随系统启动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A3%80%E6%9F%A5ufw%E7%8A%B6%E6%80%81"><span class="toc-number">3.11.</span> <span class="toc-text">检查ufw状态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%A0%E9%99%A4%E8%A7%84%E5%88%99"><span class="toc-number">3.12.</span> <span class="toc-text">添加删除规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85smb"><span class="toc-number">3.13.</span> <span class="toc-text">安装smb</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bsamba%E7%89%88%E6%9C%AC"><span class="toc-number">3.14.</span> <span class="toc-text">查看samba版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEsamba%E6%96%87%E4%BB%B6%EF%BC%8C%E6%8C%89i%E8%BF%9B%E5%85%A5%E7%BC%96%E8%BE%91"><span class="toc-number">3.15.</span> <span class="toc-text">配置samba文件，按i进入编辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%EF%BC%8Cuser%E5%8F%AF%E4%BB%BB%E6%84%8F%E5%A1%AB%E5%86%99%E5%90%8D%E7%A7%B0%E5%8F%AA%E8%A6%81%E4%B8%8E%E4%B8%8A%E6%96%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BF%9D%E6%8C%81%E4%B8%80%E8%87%B4%E5%8D%B3%E5%8F%AF"><span class="toc-number">3.16.</span> <span class="toc-text">创建用户，user可任意填写名称只要与上方配置文件保持一致即可</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAsamba%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">3.17.</span> <span class="toc-text">创建samba文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%90%AF%E7%AB%AF%E5%8F%A3"><span class="toc-number">3.18.</span> <span class="toc-text">开启端口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E5%90%AFsamba%E6%9C%8D%E5%8A%A1"><span class="toc-number">3.19.</span> <span class="toc-text">重启samba服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%BA%86%E5%85%B3%E9%97%ADsamba"><span class="toc-number">3.20.</span> <span class="toc-text">如果不使用了关闭samba</span></a></li></ol></li></ol></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 阿呆</div><div id="workboard"><div id="runtimeTextTip"></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">62</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">48</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">16</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 工具</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://cover.adai.fun/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 文章封面</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://app.codeimage.dev/"><i class="anzhiyufont anzhiyu-icon-language faa-tada" style="font-size: 0.9em;"></i><span> 代码美化</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://watermark.adai.fun/"><i class="anzhiyufont anzhiyu-icon-thumbtack faa-tada" style="font-size: 0.9em;"></i><span> 图片水印</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/atom.xml"><i class="anzhiyufont anzhiyu-icon-rss faa-tada" style="font-size: 0.9em;"></i><span> RSS订阅</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/collect/"><i class="anzhiyufont anzhiyu-icon-cube faa-tada" style="font-size: 0.9em;"></i><span> 藏宝阁</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-inbox faa-tada" style="font-size: 0.9em;"></i><span> 好物</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/reward/"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill faa-tada" style="font-size: 0.9em;"></i><span> 赞助名单</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/todo/"><i class="anzhiyufont anzhiyu-icon-bolt faa-tada" style="font-size: 0.9em;"></i><span> 待办</span></a></li></ul></div></div></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="anzhiyu.scrollToDest(document.body.scrollHeight, 500)"><i class="anzhiyufont anzhiyu-icon-arrow-down"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="9387336205" server="tencent" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/9387336205&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("10/26/2024 00:00:00"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "";
+        img.title = "";
+        img.alt = "";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.cbd.int/mermaid@10.2.4/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  anzhiyu.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.adai.fun',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.adai.fun',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://twikoo.adai.fun',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script src="/custom/js/jingxiang.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: true,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', 'G-NCXTYTWYNM', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
