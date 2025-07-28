@@ -1,1 +1,121 @@
-const _0x589fd7=_0x59f5;(function(_0xbfc68d,_0x113ea3){const _0x41c88d=_0x59f5,_0x3cda7e=_0xbfc68d();while(!![]){try{const _0x354b7e=parseInt(_0x41c88d(0xfa))/0x1+-parseInt(_0x41c88d(0x103))/0x2+parseInt(_0x41c88d(0xef))/0x3+parseInt(_0x41c88d(0xfe))/0x4*(-parseInt(_0x41c88d(0x10f))/0x5)+parseInt(_0x41c88d(0xfb))/0x6+-parseInt(_0x41c88d(0x117))/0x7+-parseInt(_0x41c88d(0xff))/0x8;if(_0x354b7e===_0x113ea3)break;else _0x3cda7e['push'](_0x3cda7e['shift']());}catch(_0x41f34a){_0x3cda7e['push'](_0x3cda7e['shift']());}}}(_0x5189,0x40297));const CONFIG={'MAIN_DOMAIN':_0x589fd7(0xed),'ALLOW_DOMAINS':[_0x589fd7(0xf2),'adaiblog.github.io',_0x589fd7(0x106)],'BANNER':{'LOCAL_MSG':[_0x589fd7(0xf7),''],'MIRROR_MSG':[_0x589fd7(0xfc),_0x589fd7(0x121)],'ILLEGAL_MSG':[_0x589fd7(0x10c),''],'LINK_TEXT':'主站','BG_COLOR':_0x589fd7(0x119),'TEXT_COLOR':_0x589fd7(0x111)}};(function(){const _0x1da178=_0x589fd7;try{if(window[_0x1da178(0x11c)]===undefined)throw new Error();}catch(_0x1aaaf5){document[_0x1da178(0xf9)][_0x1da178(0x10b)]='<h1>请通过浏览器访问本页面</h1>',window['stop']();return;}document[_0x1da178(0x108)](_0x1da178(0xf1),function(){const _0x158b37=_0x1da178,_0x465d98=window['location']['hostname'];function _0x4f413f(_0x1502c0){const _0x4931d8=_0x59f5;return CONFIG[_0x4931d8(0x11a)][_0x4931d8(0xf3)](_0x55083e=>{const _0xaa2363=_0x4931d8,_0x374d21=new RegExp('^'+_0x55083e[_0xaa2363(0xf0)](/\./g,'\x5c.')[_0xaa2363(0xf0)](/\*/g,'.*')+'$');return _0x374d21[_0xaa2363(0xf4)](_0x1502c0);});}function _0x4595e7(){const _0x1d90b2=_0x59f5;if(_0x465d98===_0x1d90b2(0x106))return![];const _0x345802=new Error()[_0x1d90b2(0x104)];return _0x345802[_0x1d90b2(0x116)](_0x1d90b2(0xf5))||_0x345802[_0x1d90b2(0x105)]>0x400;}function _0x24f166(_0x536131){const _0x376802=_0x59f5;if(localStorage[_0x376802(0x109)](_0x376802(0x10a)))return;const _0xafdfff=document[_0x376802(0x113)](_0x376802(0xf6));_0xafdfff['style']['cssText']='\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20'+CONFIG[_0x376802(0x10d)]['BG_COLOR']+_0x376802(0x110)+CONFIG['BANNER'][_0x376802(0x10e)]+';\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20sans-serif;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20gap:\x208px;\x0a\x0a\x20\x20\x20\x20\x20\x20';const _0xff892b=document['createElement']('a');_0xff892b[_0x376802(0x123)]=_0x376802(0x100)+CONFIG[_0x376802(0x11b)],_0xff892b[_0x376802(0x118)]=_0x376802(0xf8),_0xff892b['style'][_0x376802(0x11e)]=_0x376802(0x115)+CONFIG['BANNER'][_0x376802(0x10e)]+_0x376802(0x114),_0xff892b['textContent']=CONFIG['BANNER'][_0x376802(0x124)];const _0x42faa9=document['createElement']('button');_0x42faa9['innerHTML']='×',_0x42faa9[_0x376802(0xfd)][_0x376802(0x11e)]=_0x376802(0x120)+CONFIG[_0x376802(0x10d)][_0x376802(0x10e)]+';\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2024px;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-left:\x2015px;\x0a\x0a\x20\x20\x20\x20\x20\x20',_0x42faa9['onclick']=()=>{const _0x20e981=_0x376802;_0xafdfff[_0x20e981(0x11f)](),localStorage[_0x20e981(0x11d)](_0x20e981(0x10a),'1');},_0xafdfff['append'](document[_0x376802(0x112)](_0x536131[0x0]),_0xff892b);if(_0x536131[0x1])_0xafdfff['append'](document['createTextNode'](_0x536131[0x1]));_0xafdfff[_0x376802(0x122)](_0x42faa9),document[_0x376802(0xf9)][_0x376802(0x122)](_0xafdfff);}if(!_0x4f413f(_0x465d98))_0x24f166(CONFIG[_0x158b37(0x10d)][_0x158b37(0x107)]),_0x4595e7()&&window[_0x158b37(0x102)][_0x158b37(0xf0)](_0x158b37(0x100)+CONFIG['MAIN_DOMAIN']);else{if(_0x465d98===_0x158b37(0x106)||_0x465d98==='127.0.0.1')_0x24f166(CONFIG[_0x158b37(0x10d)][_0x158b37(0xee)]);else _0x465d98!==CONFIG[_0x158b37(0x11b)]&&_0x24f166(CONFIG[_0x158b37(0x10d)][_0x158b37(0x101)]);}});}());function _0x59f5(_0x54bc09,_0x7e37f5){const _0x518930=_0x5189();return _0x59f5=function(_0x59f5a2,_0x506633){_0x59f5a2=_0x59f5a2-0xed;let _0x3c9c80=_0x518930[_0x59f5a2];return _0x3c9c80;},_0x59f5(_0x54bc09,_0x7e37f5);}function _0x5189(){const _0x47f6ec=['replace','DOMContentLoaded','www.adai.fun','some','test','toString@','div','本地测试环境，正式站点：','_blank','body','460326JDrmHI','2588784dDbTBG','您正在访问镜像站，推荐访问','style','3324xJYyGP','3353048kuiRiy','https://','MIRROR_MSG','location','296476avCANQ','stack','length','localhost','ILLEGAL_MSG','addEventListener','getItem','domain_warning_closed','innerHTML','当前域名未授权，可能是恶意镜像，请访问','BANNER','TEXT_COLOR','845CCKeXb',';\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','#ffffff','createTextNode','createElement',';\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:\x20underline;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x0a\x20\x20\x20\x20\x20\x20','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','includes','1781402qfrreX','target','#dc3545','ALLOW_DOMAINS','MAIN_DOMAIN','document','setItem','cssText','remove','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20transparent;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','获取最新内容','appendChild','href','LINK_TEXT','adaiblog.github.io','LOCAL_MSG','999933UfSeka'];_0x5189=function(){return _0x47f6ec;};return _0x5189();}
+// ======================= 配置区域 =======================
+// 请根据实际情况修改以下配置
+const CONFIG = {
+  // 主站域名（无需加密）
+  MAIN_DOMAIN: : [
+    'www.adai.fun',
+    'adaiblog.github.io'    
+  ],
+  
+  // 合法域名白名单（支持通配符）
+  ALLOW_DOMAINS: [
+    'www.adai.fun',
+    'adaiblog.github.io',
+    'localhost'      // 本地开发环境
+  ],
+  
+  // 提示横幅配置
+  BANNER: {
+    LOCAL_MSG: ['本地测试环境，正式站点：', ''],
+    MIRROR_MSG: ['您正在访问镜像站，推荐访问', '获取最新内容'],
+    ILLEGAL_MSG: ['当前域名未授权，可能是恶意镜像，请访问', ''],
+    LINK_TEXT: '主站',
+    BG_COLOR: '#dc3545',
+    TEXT_COLOR: '#ffffff'
+  }
+};
+
+// ====================== 核心逻辑 =======================
+(function() {
+  // 非浏览器环境拦截
+  try { if (window.document === undefined) throw new Error() } catch(e) {
+    document.body.innerHTML = '<h1>请通过浏览器访问本页面</h1>';
+    window.stop();
+    return;
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // 当前访问域名
+    const currentDomain = window.location.hostname;
+    
+    // 域名验证逻辑
+    function isLegalDomain(domain) {
+      return CONFIG.ALLOW_DOMAINS.some(pattern => {
+        const regex = new RegExp(`^${pattern.replace(/\./g, '\\.').replace(/\*/g, '.*')}$`);
+        return regex.test(domain);
+      });
+    }
+
+    // 控制台检测（本地环境不触发）
+    function isConsoleOpen() {
+      if (currentDomain === 'localhost') return false;
+      const devtools = new Error().stack;
+      return devtools.includes('toString@') || devtools.length > 1024;
+    }
+
+    // 创建提示横幅
+    function showBanner(messageParts) {
+      if (localStorage.getItem('domain_warning_closed')) return;
+
+      const banner = document.createElement('div');
+      banner.style.cssText = `
+        background: ${CONFIG.BANNER.BG_COLOR};
+        color: ${CONFIG.BANNER.TEXT_COLOR};
+        padding: 12px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        text-align: center;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+      `;
+
+      const link = document.createElement('a');
+      link.href = `https://${CONFIG.MAIN_DOMAIN}`;
+      link.target = '_blank';
+      link.style.cssText = `
+        color: ${CONFIG.BANNER.TEXT_COLOR};
+        text-decoration: underline;
+        font-weight: bold;
+      `;
+      link.textContent = CONFIG.BANNER.LINK_TEXT;
+
+      const closeBtn = document.createElement('button');
+      closeBtn.innerHTML = '×';
+      closeBtn.style.cssText = `
+        background: transparent;
+        border: none;
+        color: ${CONFIG.BANNER.TEXT_COLOR};
+        font-size: 24px;
+        cursor: pointer;
+        margin-left: 15px;
+      `;
+      closeBtn.onclick = () => {
+        banner.remove();
+        localStorage.setItem('domain_warning_closed', '1');
+      };
+
+      banner.append(document.createTextNode(messageParts[0]), link);
+      if (messageParts[1]) banner.append(document.createTextNode(messageParts[1]));
+      banner.appendChild(closeBtn);
+      document.body.appendChild(banner);
+    }
+
+    // 主逻辑
+    if (!isLegalDomain(currentDomain)) {
+      showBanner(CONFIG.BANNER.ILLEGAL_MSG);
+      if (isConsoleOpen()) {
+        window.location.replace(`https://${CONFIG.MAIN_DOMAIN}`);
+      }
+    } else if (currentDomain === 'localhost' || currentDomain === '127.0.0.1') {
+      showBanner(CONFIG.BANNER.LOCAL_MSG);
+    } else if (currentDomain !== CONFIG.MAIN_DOMAIN) {
+      showBanner(CONFIG.BANNER.MIRROR_MSG);
+    }
+  });
+})();
