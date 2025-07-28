@@ -2,7 +2,7 @@
 // 请根据实际情况修改以下配置
 const CONFIG = {
   // 主站域名（无需加密）
-  MAIN_DOMAIN: ['www.adai.fun','adaiblog.github.io'],
+  MAIN_DOMAIN: 'www.adai.fun','adaiblog.github.io'
   
   // 合法域名白名单（支持通配符）
   ALLOW_DOMAINS: [
