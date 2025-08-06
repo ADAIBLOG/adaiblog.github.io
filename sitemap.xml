@@ -2,97 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.adai.fun/posts/VSCode.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/mumble.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/microphone.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/blog.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/alist.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/windwos.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/vercel.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/usb.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/teamspeak.html</loc>
     
-    <lastmod>2025-07-26</lastmod>
+    <lastmod>2025-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/steam.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/rsshub.html</loc>
+    <loc>https://www.adai.fun/posts/adarkroom.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -101,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/obs.html</loc>
+    <loc>https://www.adai.fun/posts/adguardhome.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -110,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/NextCloud.html</loc>
+    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -119,7 +38,61 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/mincraft.html</loc>
+    <loc>https://www.adai.fun/posts/anzhiyutag.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/debian.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/docker.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/code.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/github.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/HyperOS.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -146,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/HyperOS.html</loc>
+    <loc>https://www.adai.fun/posts/mincraft.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -155,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/github.html</loc>
+    <loc>https://www.adai.fun/posts/NextCloud.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -164,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/code.html</loc>
+    <loc>https://www.adai.fun/posts/obs.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -173,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/docker.html</loc>
+    <loc>https://www.adai.fun/posts/steam.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -182,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/debian.html</loc>
+    <loc>https://www.adai.fun/posts/vercel.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -191,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/aseprite.html</loc>
+    <loc>https://www.adai.fun/posts/windwos.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -200,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/anzhiyutag.html</loc>
+    <loc>https://www.adai.fun/posts/rsshub.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -209,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/anzhiyu.html</loc>
+    <loc>https://www.adai.fun/posts/alist.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -218,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/adguardhome.html</loc>
+    <loc>https://www.adai.fun/posts/microphone.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -227,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/adarkroom.html</loc>
+    <loc>https://www.adai.fun/posts/blog.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -236,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/shiwushuxing.html</loc>
+    <loc>https://www.adai.fun/posts/usb.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -245,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/zhengma.html</loc>
+    <loc>https://www.adai.fun/posts/mumble.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -254,43 +227,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/email.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/logout.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/cmdn1q6f60063pjs68r92bfr4.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/web.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/pc.html</loc>
+    <loc>https://www.adai.fun/posts/VSCode.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -308,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/m.html</loc>
+    <loc>https://www.adai.fun/posts/pc.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -317,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/life.html</loc>
+    <loc>https://www.adai.fun/posts/web.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -326,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/ehuiban.html</loc>
+    <loc>https://www.adai.fun/posts/cmdzvr9n0005zb8vb2o516c9q.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -335,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/GameSetting.html</loc>
+    <loc>https://www.adai.fun/posts/logout.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -344,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/liuliangka.html</loc>
+    <loc>https://www.adai.fun/posts/email.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -353,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/project.html</loc>
+    <loc>https://www.adai.fun/posts/zhengma.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -362,169 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/findmymobile.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/fcp.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/fonts.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/Switchpanels.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/wallet.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/gongbaojiding.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/38.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/luyouqi.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/daxue.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/why.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/lively.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/jianji.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/lirchebianhao.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/xiangsuhua.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/jianeng.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/up.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/wuxianyijin.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/Streaming.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/zhongyong.html</loc>
+    <loc>https://www.adai.fun/posts/shiwushuxing.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -542,9 +317,225 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/tags/index.html</loc>
+    <loc>https://www.adai.fun/posts/zhongyong.html</loc>
     
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/Streaming.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/wuxianyijin.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/up.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/jianeng.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/xiangsuhua.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/lirchebianhao.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/jianji.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/lively.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/why.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/daxue.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/luyouqi.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/38.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/gongbaojiding.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/wallet.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/Switchpanels.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/fonts.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/fcp.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/findmymobile.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/project.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/liuliangka.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/GameSetting.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/ehuiban.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/life.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/m.html</loc>
+    
+    <lastmod>2025-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -560,25 +551,16 @@
   </url>
   
   <url>
+    <loc>https://www.adai.fun/tags/index.html</loc>
+    
+    <lastmod>2025-05-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/link/index.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/todo/index.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/equipment/index.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -597,6 +579,24 @@
   
   <url>
     <loc>https://www.adai.fun/categories/index.html</loc>
+    
+    <lastmod>2025-05-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/equipment/index.html</loc>
+    
+    <lastmod>2025-05-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/todo/index.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -625,7 +625,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-07-28</lastmod>
+    <lastmod>2025-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
