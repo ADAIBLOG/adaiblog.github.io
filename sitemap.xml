@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2025-08-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/teamspeak.html</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -209,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/aseprite.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/anzhiyutag.html</loc>
     
     <lastmod>2025-07-26</lastmod>
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/cmdn1q6f60063pjs68r92bfr4.html</loc>
+    <loc>https://www.adai.fun/posts/cme6zdd4o0060wxs6b33qhlwp.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -625,7 +625,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-08-09</lastmod>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
