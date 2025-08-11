@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/posts/aseprite.html</loc>
+    
+    <lastmod>2025-08-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/teamspeak.html</loc>
     
-    <lastmod>2025-07-30</lastmod>
+    <lastmod>2025-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/kongtiao.html</loc>
+    
+    <lastmod>2025-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/luyouqi.html</loc>
+    
+    <lastmod>2025-08-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,15 +66,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/anzhiyutag.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/aseprite.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -236,15 +254,6 @@
   </url>
   
   <url>
-    <loc>https://www.adai.fun/posts/kongtiao.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adai.fun/posts/pc.html</loc>
     
     <lastmod>2025-07-26</lastmod>
@@ -408,15 +417,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/daxue.html</loc>
-    
-    <lastmod>2025-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/luyouqi.html</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -625,7 +625,7 @@
 
   <url>
     <loc>https://www.adai.fun/</loc>
-    <lastmod>2025-08-06</lastmod>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
