@@ -1,0 +1,15 @@
+/* 针对 highlight.js 的注释样式 */
+#article-container figure.highlight .comment {
+  color: #6a9955 !important; /* 绿色（可替换为 #888888 灰色） */
+}
+
+/* 针对 prismjs 的注释样式 */
+#article-container pre[class*="language-"] .token.comment {
+  color: #6a9955 !important; /* 绿色（可替换为 #888888 灰色） */
+}
+
+/* 适配暗色模式（可选） */
+[data-theme="dark"] #article-container figure.highlight .comment,
+[data-theme="dark"] #article-container pre[class*="language-"] .token.comment {
+  color: #888888 !important; /* 暗色模式下的灰色 */
+}
