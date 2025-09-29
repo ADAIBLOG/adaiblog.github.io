@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adai.fun/posts/Plugin.html</loc>
+    
+    <lastmod>2025-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/web.html</loc>
+    
+    <lastmod>2025-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adai.fun/posts/blog.html</loc>
+    
+    <lastmod>2025-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adai.fun/posts/debian.html</loc>
     
     <lastmod>2025-09-26</lastmod>
@@ -48,15 +75,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/windwos.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/Plugin.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
@@ -174,15 +192,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/project.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/web.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
@@ -444,15 +453,6 @@
   
   <url>
     <loc>https://www.adai.fun/posts/steam.html</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adai.fun/posts/blog.html</loc>
     
     <lastmod>2025-09-14</lastmod>
     
