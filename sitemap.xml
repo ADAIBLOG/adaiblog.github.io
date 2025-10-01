@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/link/index.html</loc>
+    
+    <lastmod>2025-10-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/teamspeak.html</loc>
     
     <lastmod>2025-09-29</lastmod>
@@ -516,15 +525,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/tags/index.html</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/link/index.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
