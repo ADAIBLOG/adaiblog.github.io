@@ -1,0 +1,4 @@
+User-agent: *
+Allow: / 
+
+Sitemap: https://adaiblog.github.io/sitemap.xml
