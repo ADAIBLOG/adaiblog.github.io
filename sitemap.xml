@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/posts/cmgmkxstl005yscvb27g8fdxs.html</loc>
+    <loc>https://www.adaiblog.github.io/posts/cmgmlo2q5005rxovbeb8k5kah.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
@@ -560,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/collect/index.html</loc>
+    <loc>https://www.adaiblog.github.io/equipment/index.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/equipment/index.html</loc>
+    <loc>https://www.adaiblog.github.io/collect/index.html</loc>
     
     <lastmod>2025-05-21</lastmod>
     
@@ -605,27 +605,6 @@
 
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/tags/Linux/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/tags/%E7%90%86%E8%B4%A2/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -647,6 +626,20 @@
   </url>
   
   <url>
+    <loc>https://www.adaiblog.github.io/tags/Linux/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/tags/%E7%90%86%E8%B4%A2/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/tags/Docker/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -661,6 +654,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaiblog.github.io/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/tags/HyperOS/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -668,14 +668,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/MarkDown/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8/</loc>
+    <loc>https://www.adaiblog.github.io/tags/MarkDown/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -703,6 +703,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaiblog.github.io/tags/%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -717,20 +724,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/tags/Hexo/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/tags/%E6%8E%A5%E5%8F%A3/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -739,6 +732,13 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/tags/%E6%B8%B8%E6%88%8F%E4%B8%8B%E8%BD%BD/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/tags/Hexo/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -843,14 +843,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E6%9F%A5%E6%89%BE%E8%AE%BE%E5%A4%87/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E6%9F%A5%E6%89%BE%E8%AE%BE%E5%A4%87/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -885,14 +885,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E7%A9%BA%E8%B0%83/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E7%A9%BA%E8%B0%83/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -906,14 +906,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E5%A5%B6%E8%8C%B6/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E5%A5%B6%E8%8C%B6/</loc>
+    <loc>https://www.adaiblog.github.io/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -950,13 +950,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -971,6 +964,20 @@
   </url>
   
   <url>
+    <loc>https://www.adaiblog.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/categories/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -979,13 +986,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/categories/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/categories/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
