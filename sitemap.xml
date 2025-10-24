@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/anzhiyutag.html</loc>
+    
+    <lastmod>2025-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/web.html</loc>
     
     <lastmod>2025-10-24</lastmod>
@@ -417,15 +426,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/HyperOS.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/anzhiyutag.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
