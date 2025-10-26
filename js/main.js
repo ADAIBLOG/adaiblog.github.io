@@ -235,11 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!((isShowTool || highlightHeightLimit) && $figureHighlight.length)) return;
 
     const isPrismjs = plugin === "prismjs";
-    const highlightShrinkClass = isHighlightShrink === true ? "closed" : "";
-    const highlightShrinkEle =
-      isHighlightShrink !== undefined
-        ? '<i class="anzhiyufont anzhiyu-icon-angle-down expand ${highlightShrinkClass}"></i>'
-        : "";
+
     const highlightCopyEle = highlightCopy
       ? '<div class="copy-notice"></div><i class="anzhiyufont anzhiyu-icon-paste copy-button"></i>'
       : "";
@@ -268,28 +264,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // click events
     const highlightCopyFn = ele => {
-      const $buttonParent = ele.parentNode;
-      $buttonParent.classList.add("copy-true");
+      const $figure = ele.closest('figure.highlight');
+      if (!$figure) return;
+      
+      $figure.classList.add("copy-true");
       const selection = window.getSelection();
       const range = document.createRange();
       const preCodeSelector = isPrismjs ? "pre code" : "table .code pre";
-      range.selectNodeContents($buttonParent.querySelectorAll(`${preCodeSelector}`)[0]);
+      range.selectNodeContents($figure.querySelectorAll(`${preCodeSelector}`)[0]);
       selection.removeAllRanges();
       selection.addRange(range);
-      copy(ele.lastChild);
+      copy(ele);
       selection.removeAllRanges();
-      $buttonParent.classList.remove("copy-true");
+      $figure.classList.remove("copy-true");
     };
 
-    const highlightShrinkFn = ele => {
-      ele.classList.toggle("closed");
-    };
 
-    const highlightToolsFn = function (e) {
-      const $target = e.target.classList;
-      if ($target.contains("expand")) highlightShrinkFn(this);
-      else if ($target.contains("copy-button")) highlightCopyFn(this);
-    };
+
+
 
     const expandCode = function () {
       this.classList.toggle("expand-done");
@@ -298,12 +290,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const createEle = (lang, item, service) => {
       const fragment = document.createDocumentFragment();
 
-      if (isShowTool) {
-        const hlTools = document.createElement("div");
-        hlTools.className = `highlight-tools ${highlightShrinkClass}`;
-        hlTools.innerHTML = highlightShrinkEle + lang + highlightCopyEle;
-        anzhiyu.addEventListenerPjax(hlTools, "click", highlightToolsFn);
-        fragment.appendChild(hlTools);
+      // 只添加复制按钮到figure.highlight的右上角
+      if (highlightCopy) {
+        const copyButton = document.createElement("i");
+        copyButton.className = "anzhiyufont anzhiyu-icon-paste copy-button";
+        anzhiyu.addEventListenerPjax(copyButton, "click", () => highlightCopyFn(copyButton));
+        
+        const copyNotice = document.createElement("div");
+        copyNotice.className = "copy-notice";
+        
+        if (service === "hl") {
+          item.appendChild(copyNotice);
+          item.appendChild(copyButton);
+        } else {
+          item.parentNode.appendChild(copyNotice);
+          item.parentNode.appendChild(copyButton);
+        }
       }
 
       if (highlightHeightLimit && item.offsetHeight > highlightHeightLimit + 30) {

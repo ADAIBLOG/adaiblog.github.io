@@ -98,6 +98,52 @@ window.addEventListener("load", () => {
     return data;
   };
 
+  // 提取内容摘要函数
+  const extractContentSnippet = (content, keywords, maxLength = 150) => {
+    // 清理HTML标签
+    let cleanContent = content.replace(/<[^>]*>/g, '');
+    
+    // 查找第一个关键词的位置
+    let firstKeywordPos = -1;
+    for (let keyword of keywords) {
+      let pos = cleanContent.indexOf(keyword);
+      if (pos !== -1 && (firstKeywordPos === -1 || pos < firstKeywordPos)) {
+        firstKeywordPos = pos;
+      }
+    }
+    
+    if (firstKeywordPos === -1) {
+      // 如果没有找到关键词，返回开头部分
+      return cleanContent.substring(0, maxLength) + (cleanContent.length > maxLength ? '...' : '');
+    }
+    
+    // 计算摘要的起始位置，确保关键词在中间位置
+    let startPos = Math.max(0, firstKeywordPos - Math.floor(maxLength / 3));
+    let endPos = Math.min(cleanContent.length, startPos + maxLength);
+    
+    // 调整起始位置，确保不会截断单词
+    if (startPos > 0) {
+      let spacePos = cleanContent.lastIndexOf(' ', startPos);
+      if (spacePos !== -1 && spacePos > startPos - 20) {
+        startPos = spacePos + 1;
+      }
+    }
+    
+    let snippet = cleanContent.substring(startPos, endPos);
+    
+    // 高亮关键词
+    keywords.forEach(keyword => {
+      const regex = new RegExp(keyword, 'gi');
+      snippet = snippet.replace(regex, match => `<span class="search-keyword">${match}</span>`);
+    });
+    
+    // 添加省略号
+    if (startPos > 0) snippet = '...' + snippet;
+    if (endPos < cleanContent.length) snippet = snippet + '...';
+    
+    return snippet;
+  };
+
   const search = () => {
     if (!GLOBAL_CONFIG.localSearch.preload) {
       dataObj = fetchData(GLOBAL_CONFIG.localSearch.path);
@@ -105,6 +151,25 @@ window.addEventListener("load", () => {
     const $input = document.querySelector("#local-search-input input");
     const $resultContent = document.getElementById("local-search-results");
     const $loadingStatus = document.getElementById("loading-status");
+    let searchType = 'title'; // 默认搜索类型为标题
+
+    // 搜索选项切换
+    document.querySelectorAll('.search-option').forEach(button => {
+      button.addEventListener('click', function() {
+        // 移除所有按钮的active类
+        document.querySelectorAll('.search-option').forEach(btn => {
+          btn.classList.remove('active');
+        });
+        // 为当前按钮添加active类
+        this.classList.add('active');
+        // 更新搜索类型
+        searchType = this.getAttribute('data-search-type');
+        // 如果搜索框有内容，重新搜索
+        if ($input.value.trim() !== '') {
+          $input.dispatchEvent(new Event('input'));
+        }
+      });
+    });
   
     // 每次输入时触发
     $input.addEventListener("input", function () {
@@ -131,14 +196,25 @@ window.addEventListener("load", () => {
         data.forEach(data => {
           let isMatch = true;
           let dataTitle = data.title ? data.title.trim().toLowerCase() : "";
+          let dataContent = data.content ? data.content.trim().toLowerCase() : "";
           const dataUrl = data.url.startsWith("/") ? data.url : GLOBAL_CONFIG.root + data.url;
           
-          // 仅匹配标题
-          keywords.forEach((keyword, i) => {
-            if (dataTitle.indexOf(keyword) < 0) {
-              isMatch = false;
-            }
-          });
+          // 根据搜索类型进行匹配
+          if (searchType === 'title') {
+            // 仅匹配标题
+            keywords.forEach((keyword, i) => {
+              if (dataTitle.indexOf(keyword) < 0) {
+                isMatch = false;
+              }
+            });
+          } else if (searchType === 'content') {
+            // 匹配内容
+            keywords.forEach((keyword, i) => {
+              if (dataContent.indexOf(keyword) < 0) {
+                isMatch = false;
+              }
+            });
+          }
   
           // 显示搜索结果
           if (isMatch) {
@@ -149,6 +225,13 @@ window.addEventListener("load", () => {
               '" class="search-result-title">' +
               dataTitle +
               "</a>";
+            
+            // 如果是内容搜索，显示内容摘要
+            if (searchType === 'content' && dataContent) {
+              let contentSnippet = extractContentSnippet(data.content, keywords);
+              str += '<div class="search-result-content">' + contentSnippet + '</div>';
+            }
+            
             count += 1;
             str += "</div></div>";
           }
