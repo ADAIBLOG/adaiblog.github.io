@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/pvz.html</loc>
+    
+    <lastmod>2025-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/anzhiyutag.html</loc>
+    
+    <lastmod>2025-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/teamspeak.html</loc>
+    
+    <lastmod>2025-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/docker.html</loc>
     
     <lastmod>2025-10-26</lastmod>
@@ -38,27 +65,9 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/posts/anzhiyutag.html</loc>
-    
-    <lastmod>2025-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/posts/Plugin.html</loc>
     
     <lastmod>2025-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/pvz.html</loc>
-    
-    <lastmod>2025-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -102,15 +111,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/keepass.html</loc>
-    
-    <lastmod>2025-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/teamspeak.html</loc>
     
     <lastmod>2025-09-29</lastmod>
     
