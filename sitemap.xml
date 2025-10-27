@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/immich.html</loc>
+    
+    <lastmod>2025-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/project.html</loc>
+    
+    <lastmod>2025-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/anzhiyutag.html</loc>
     
     <lastmod>2025-10-27</lastmod>
@@ -83,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/posts/immich.html</loc>
-    
-    <lastmod>2025-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/posts/rsshub.html</loc>
     
     <lastmod>2025-10-27</lastmod>
@@ -131,15 +140,6 @@
     <loc>https://www.adaiblog.github.io/posts/pvz.html</loc>
     
     <lastmod>2025-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/project.html</loc>
-    
-    <lastmod>2025-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
