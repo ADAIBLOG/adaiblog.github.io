@@ -41,7 +41,7 @@ input{
 /* 浅色主题代码块背景色 */
 [data-theme='light'] #article-container pre,
 [data-theme='light'] #article-container figure.highlight {
-  background: #282c35 !important;
+  background: #000 !important;
 }
 
 /* 深色主题代码块背景色 */
@@ -62,7 +62,7 @@ input{
 }
 [data-theme='light'] #article-container pre,
 [data-theme="light"] #article-container pre > code {
-  background: #282c35 !important;
+  background: #000 !important;
 }
 
 /* 单独控制anzhiyufont图标旋转，避免整个按钮旋转 */
