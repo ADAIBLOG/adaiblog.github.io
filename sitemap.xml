@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/adguardhome.html</loc>
+    
+    <lastmod>2025-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/rsshub.html</loc>
+    
+    <lastmod>2025-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/NextCloud.html</loc>
     
     <lastmod>2025-10-31</lastmod>
@@ -13,7 +31,16 @@
   <url>
     <loc>https://www.adaiblog.github.io/posts/immich.html</loc>
     
-    <lastmod>2025-10-28</lastmod>
+    <lastmod>2025-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/ehuiban.html</loc>
+    
+    <lastmod>2025-10-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -84,24 +111,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/alist.html</loc>
-    
-    <lastmod>2025-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/adguardhome.html</loc>
-    
-    <lastmod>2025-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/rsshub.html</loc>
     
     <lastmod>2025-10-27</lastmod>
     
@@ -291,15 +300,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/wallet.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/ehuiban.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
@@ -876,13 +876,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E6%B3%A8%E9%94%80-%E5%B7%A5%E5%95%86/</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-10-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -926,6 +919,13 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/tags/%E6%B3%A8%E9%94%80/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/tags/%E5%B7%A5%E5%95%86/</loc>
     <lastmod>2025-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
