@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/debian.html</loc>
+    
+    <lastmod>2025-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/homeassistant.html</loc>
+    
+    <lastmod>2025-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaiblog.github.io/posts/project.html</loc>
     
     <lastmod>2025-11-02</lastmod>
     
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/alist.html</loc>
-    
-    <lastmod>2025-11-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/project.html</loc>
     
     <lastmod>2025-11-02</lastmod>
     
@@ -111,15 +120,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/blog.html</loc>
-    
-    <lastmod>2025-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/debian.html</loc>
     
     <lastmod>2025-10-27</lastmod>
     
