@@ -1,6 +1,11 @@
 User-agent: *
 Allow: /
-Disallow: /tags/
-Disallow: /categories/
-Disallow: /archives/
-Sitemap: https://www.adai.fun/sitemap.xml
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Sitemap: https://adaiblog.github.io/sitemap.xml

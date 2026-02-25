@@ -30,5 +30,52 @@ input{
   margin: 0px 0px 5px 0px;
 }
 
+#aside-content .card-widget {
+  padding: 0;
+}
+#article-container figure.highlight {
+  border-radius: 3px;
+}
 
+/* 代码块样式覆盖 */
+/* 浅色主题代码块背景色 */
+[data-theme='light'] #article-container pre,
+[data-theme='light'] #article-container figure.highlight {
+  background: #000 !important;
+}
 
+/* 深色主题代码块背景色 */
+[data-theme='dark'] #article-container pre,
+[data-theme='dark'] #article-container figure.highlight {
+  background: #000 !important;
+}
+
+/* 代码块圆角设置 */
+#article-container pre,
+#article-container figure.highlight {
+  border-radius: 7px !important;
+}
+
+[data-theme='dark'] #article-container pre,
+[data-theme="dark"] #article-container pre > code {
+  background: #000 !important;
+}
+[data-theme='light'] #article-container pre,
+[data-theme="light"] #article-container pre > code {
+  background: #000 !important;
+}
+
+/* 单独控制anzhiyufont图标旋转，避免整个按钮旋转 */
+#article-container .code-expand-btn.expand-done {
+  transform: none !important;
+}
+
+#article-container .code-expand-btn.expand-done .anzhiyufont.anzhiyu-icon-angle-double-down {
+  transform: rotate(180deg) !important;
+  transition: transform 0.3s ease !important;
+}
+
+#article-container .code-expand-btn:not(.expand-done) .anzhiyufont.anzhiyu-icon-angle-double-down {
+  transform: rotate(0deg) !important;
+  transition: transform 0.3s ease !important;
+}

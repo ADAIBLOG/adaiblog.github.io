@@ -1150,19 +1150,33 @@ const anzhiyu = {
   },
 
   // 创建二维码
-  qrcodeCreate: function () {
-    if (document.getElementById("qrcode")) {
-      document.getElementById("qrcode").innerHTML = "";
-      var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: window.location.href,
-        width: 250,
-        height: 250,
-        colorDark: "#000",
-        colorLight: "#ffffff",
-        correctLevel: QRCode.CorrectLevel.H,
-      });
+qrcodeCreate: function () {
+    // 检查 QRCode 库是否已加载
+    if (typeof QRCode === 'undefined') {
+        console.warn('QRCode library not loaded, will retry in 500ms...');
+        setTimeout(() => this.qrcodeCreate(), 500);
+        return;
     }
-  },
+    
+    // 检查 QRCode.CorrectLevel 是否存在
+    if (!QRCode.CorrectLevel) {
+        console.warn('QRCode CorrectLevel not available, will retry in 300ms...');
+        setTimeout(() => this.qrcodeCreate(), 300);
+        return;
+    }
+    
+    if (document.getElementById("qrcode")) {
+        document.getElementById("qrcode").innerHTML = "";
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: window.location.href,
+            width: 250,
+            height: 250,
+            colorDark: "#000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H,
+        });
+    }
+},
 
   // 判断是否在el内
   isInViewPortOfOne: function (el) {
