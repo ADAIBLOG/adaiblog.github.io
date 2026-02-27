@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.adaiblog.github.io/posts/blog.html</loc>
+    
+    <lastmod>2026-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaiblog.github.io/posts/Ryujinx.html</loc>
     
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-02-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -174,15 +183,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/keepass.html</loc>
-    
-    <lastmod>2026-02-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/blog.html</loc>
     
     <lastmod>2026-02-25</lastmod>
     
