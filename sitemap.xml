@@ -362,15 +362,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/posts/jiankangbaoxian.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/posts/pc.html</loc>
     
     <lastmod>2026-02-26</lastmod>
@@ -534,15 +525,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/posts/GameSetting.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/posts/wuxianyijin.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -777,13 +759,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaiblog.github.io/tags/%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaiblog.github.io/tags/Rss/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -792,13 +767,6 @@
   
   <url>
     <loc>https://www.adaiblog.github.io/tags/%E4%BD%B3%E8%83%BD%E6%89%93%E5%8D%B0%E6%9C%BA/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaiblog.github.io/tags/%E4%BF%9D%E9%99%A9/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
